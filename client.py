@@ -24,7 +24,7 @@ class Client:
         self.mone = self.one * -1
         self.batch_size = 50
 
-    def train_epoch(self):
+    def train_epoch(self, epoch, savefile_name):
         total_D_cost = 0  # 累计判别器的损失
         total_G_cost = 0  # 累计生成器的损失
         total_Wasserstein_D = 0  # 累计Wasserstein距离
@@ -105,6 +105,9 @@ class Client:
 
         # 打印平均损失和时间
         print(f"Client_id:{self.client_id}, Average D_cost: {avg_D_cost}, Average G_cost: {avg_G_cost}, Average Wasserstein_D: {avg_Wasserstein_D}, Average Time: {avg_time}s")
+        
+        with open(savefile_name, 'a') as file:  # 'a' mode appends data to the file
+            file.write(f"train**epoch:{epoch},client_id:{self.client_id},D_cost:{avg_D_cost},G_cost:{avg_G_cost},Wasserstein_D:{avg_Wasserstein_D},Average Time:{avg_time}\n")  # Add a newline for readability
         
         return avg_G_cost, avg_D_cost
                 

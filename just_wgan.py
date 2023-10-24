@@ -17,7 +17,7 @@ from scipy.linalg import sqrtm
 BATCH_SIZE = 50
 DIM = 64
 LAMBDA = 10
-N_EPOCH = 20000
+N_EPOCH = 100
 OUTPUT_DIM = 784
 
 use_cuda = torch.cuda.is_available()
@@ -192,7 +192,7 @@ for epoch in range(N_EPOCH):
     print(f"epoch {epoch}: D_cost: {D_cost.item()}, G_cost: {G_cost}, Wasserstein_D: {Wasserstein_D.item()}, Time: {elapsed_time}s")
     
     # 每1000次迭代，生成和保存图片
-    if epoch % 100 == 0:
+    if epoch % 10 == 0:
         generate_image(epoch)
     
     # Inside your training loop:

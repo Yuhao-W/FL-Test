@@ -4,6 +4,9 @@ from torch.utils.data import DataLoader, random_split
 # Assuming you have Client and Server classes properly defined
 from client import Client
 from server import Server
+import time
+
+start_time = time.time()
 
 def allocate_data(dataset, n_clients):
     # This function will handle the data allocation strategy
@@ -14,6 +17,8 @@ def allocate_data(dataset, n_clients):
 # 设置超参数
 n_epoch = 100
 n_client = 9 #number of clients
+save_filename = "fl_wgan_mnist_hybrid.txt"
+save_dir = "../hybrid_models"
 
 # 设置设备
 use_cuda = torch.cuda.is_available()
@@ -39,6 +44,8 @@ e_server1 = Server(test_loader = test_loader,device=device)
 e_server2 = Server(test_loader = test_loader,device=device)
 e_server3 = Server(test_loader = test_loader,device=device)
 
+print("*****************")
+
 for epoch in range(n_epoch):
     print(f"Epoch {epoch}:")
     client_models_and_losses1 = []
@@ -49,7 +56,7 @@ for epoch in range(n_epoch):
 
     # Cluster1
     for client in e_clients1:
-        losses = client.train_epoch()
+        losses = client.train_epoch(epoch, save_filename)
         models = client.get_model_params()
         client_models_and_losses1.append((models, losses))
 
@@ -60,7 +67,7 @@ for epoch in range(n_epoch):
 
     # Cluster2
     for client in e_clients2:
-        losses = client.train_epoch()
+        losses = client.train_epoch(epoch, save_filename)
         models = client.get_model_params()
         client_models_and_losses2.append((models, losses))
 
@@ -72,7 +79,7 @@ for epoch in range(n_epoch):
 
     # Cluster3
     for client in e_clients3:
-        losses = client.train_epoch()
+        losses = client.train_epoch(epoch, save_filename)
         models = client.get_model_params()
         client_models_and_losses3.append((models, losses))
 
@@ -85,11 +92,15 @@ for epoch in range(n_epoch):
     # Aggregate all the edge server
     # Server aggregates the models and losses
     server.aggregate_models_and_losses(e_server_models_and_losses)
-    server.test_model()  # Test the aggregated model
-    server.save_models(epoch)
+    server.test_model(epoch, save_filename)  # Test the aggregated model
+    server.save_models(epoch, save_dir)
 
 
     # (Optional) You can send the aggregated model back to the clients if needed
     aggregated_gen, aggregated_dis = server.get_model_params()
     for client in clients:
         client.load_model_params(aggregated_gen, aggregated_dis)
+
+end_time = time.time()
+running_time = end_time - start_time
+print(f"Running time: {running_time} seconds")

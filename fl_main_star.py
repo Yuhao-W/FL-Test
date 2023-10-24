@@ -19,7 +19,8 @@ n_epoch = 100
 n_client = 9 #number of clients
 
 # Directory to save trained models
-save_dir = "./star_models"
+save_filename = "fl_wgan_mnist_star.txt"
+save_dir = "../star_models"
 
 # 设置设备
 use_cuda = torch.cuda.is_available()
@@ -38,18 +39,20 @@ client_train_loaders = [DataLoader(dataset, batch_size=50, shuffle=True) for dat
 clients = [Client(client_id=i, train_loader=loader, epochs=n_epoch, device=device) for i, loader in enumerate(client_train_loaders)]
 server = Server(test_loader = test_loader,device=device)
 
+print("*****************")
+
 for epoch in range(n_epoch):
     print(f"Epoch {epoch}:")
     client_models_and_losses = []
 
     for client in clients:
-        losses = client.train_epoch()
+        losses = client.train_epoch(epoch, save_filename)
         models = client.get_model_params()
         client_models_and_losses.append((models, losses))
 
     # Server aggregates the models and losses
     server.aggregate_models_and_losses(client_models_and_losses)
-    server.test_model()  # Test the aggregated model
+    server.test_model(epoch, save_filename)  # Test the aggregated model
     server.save_models(epoch, save_dir)
 
     # (Optional) You can send the aggregated model back to the clients if needed

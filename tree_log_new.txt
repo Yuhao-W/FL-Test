@@ -1,0 +1,1517 @@
+nohup: ignoring input
+/home/op/hanliu/miniconda3/envs/FGStyle/lib/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/home/op/hanliu/miniconda3/envs/FGStyle/lib/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=Inception_V3_Weights.IMAGENET1K_V1`. You can also use `weights=Inception_V3_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+*****************
+Epoch 0:
+Client_id:0, Average D_cost: -1.6177681545416513, Average G_cost: 3.2621824567206206, Average Wasserstein_D: 3.7726270695216955, Average Time: 0.03114345669746399s
+Client_id:1, Average D_cost: -2.2500389660398166, Average G_cost: -0.5738480180492237, Average Wasserstein_D: 4.409797644863526, Average Time: 0.017409302790959678s
+Client_id:2, Average D_cost: -1.671032436688741, Average G_cost: -1.518463734855565, Average Wasserstein_D: 3.824690440436825, Average Time: 0.017735759417215984s
+Train G Loss: 0.38995690127194393, Train D Loss: -1.846279852423403
+Client_id:3, Average D_cost: -2.3510947624842324, Average G_cost: 1.9550806841851833, Average Wasserstein_D: 4.481530818591515, Average Time: 0.016163716713587444s
+Client_id:4, Average D_cost: -2.3393409649531045, Average G_cost: 1.6359582308214158, Average Wasserstein_D: 4.428631971795888, Average Time: 0.012367695569992065s
+Client_id:5, Average D_cost: -2.0773657550414404, Average G_cost: 0.0783374251332134, Average Wasserstein_D: 4.172723510597522, Average Time: 0.011449875434239705s
+Train G Loss: 1.2231254467132708, Train D Loss: -2.255933827492926
+Client_id:6, Average D_cost: -4.694609158237776, Average G_cost: 0.2424458432632188, Average Wasserstein_D: 7.07126240140448, Average Time: 0.016689389944076538s
+Client_id:7, Average D_cost: -1.723662182688713, Average G_cost: -0.6508248173476507, Average Wasserstein_D: 3.9993036930643333, Average Time: 0.017400139570236207s
+Client_id:8, Average D_cost: -2.529511650154988, Average G_cost: 1.5959070931149957, Average Wasserstein_D: 4.594415049875776, Average Time: 0.01755480170249939s
+Train G Loss: 0.39584270634352126, Train D Loss: -2.982594330360492
+Train G Loss: 0.6696416847762453, Train D Loss: -2.361602670092273
+Test G_cost: -0.41647841955224674, Test D_cost: -0.23000226616859437, Test Wasserstein_D: 0.23000226616859437
+Epoch 0, FID: 419.7825217723347
+Epoch 1:
+Client_id:0, Average D_cost: -1.0187912409504254, Average G_cost: -0.08111544822653134, Average Wasserstein_D: 2.5101056347290673, Average Time: 0.017872369289398192s
+Client_id:1, Average D_cost: -2.907921154052019, Average G_cost: 5.44267166107893, Average Wasserstein_D: 5.3038982120653, Average Time: 0.018068212270736694s
+Client_id:2, Average D_cost: -0.3565740130841732, Average G_cost: -4.109203848366936, Average Wasserstein_D: 2.3593229132394, Average Time: 0.017077499628067018s
+Train G Loss: 0.4174507881618211, Train D Loss: -1.4277621360288724
+Client_id:3, Average D_cost: -1.240831734240055, Average G_cost: 0.8439404275268316, Average Wasserstein_D: 2.694565072655678, Average Time: 0.017544263601303102s
+Client_id:4, Average D_cost: -0.3856333586697777, Average G_cost: -3.783815028766791, Average Wasserstein_D: 1.8778921889762084, Average Time: 0.012161503235499064s
+Client_id:5, Average D_cost: 0.8097495963176091, Average G_cost: -3.9840012818574904, Average Wasserstein_D: 1.3353882342576981, Average Time: 0.013151023785273235s
+Train G Loss: -2.30795862769915, Train D Loss: -0.27223849886407453
+Client_id:6, Average D_cost: -0.16318190818031628, Average G_cost: -3.629026069119573, Average Wasserstein_D: 2.3682734588781993, Average Time: 0.01739704410235087s
+Client_id:7, Average D_cost: 0.9489726067831119, Average G_cost: -3.929342198682328, Average Wasserstein_D: 0.5598319783806801, Average Time: 0.017550073067347207s
+Client_id:8, Average D_cost: -0.6712020538747311, Average G_cost: 1.507455645253261, Average Wasserstein_D: 2.489203071842591, Average Time: 0.017676035563151043s
+Train G Loss: -2.01697087418288, Train D Loss: 0.03819621490935484
+Train G Loss: -1.302492904573403, Train D Loss: -0.5539348066611973
+Test G_cost: -4.72618211110433, Test D_cost: -0.43344778617223106, Test Wasserstein_D: 0.43344778617223106
+Epoch 2:
+Client_id:0, Average D_cost: -7.83821949660778, Average G_cost: -0.7032313214925429, Average Wasserstein_D: 9.542453626791636, Average Time: 0.017855578660964967s
+Client_id:1, Average D_cost: -6.933088764548302, Average G_cost: -3.4663999861533132, Average Wasserstein_D: 8.37656751871109, Average Time: 0.01718217134475708s
+Client_id:2, Average D_cost: -7.145571081837018, Average G_cost: -4.0406299623621935, Average Wasserstein_D: 8.648527371883393, Average Time: 0.0166169544061025s
+Train G Loss: -2.73675375666935, Train D Loss: -7.305626447664367
+Client_id:3, Average D_cost: -7.258820317188898, Average G_cost: -0.2324928730726242, Average Wasserstein_D: 8.766660356521607, Average Time: 0.017274526755015056s
+Client_id:4, Average D_cost: -6.7473537364353735, Average G_cost: -4.626920248133441, Average Wasserstein_D: 8.043970588843028, Average Time: 0.017818309863408408s
+Client_id:5, Average D_cost: -7.267944723367691, Average G_cost: -4.9780781244083, Average Wasserstein_D: 8.696369830767313, Average Time: 0.018009905020395914s
+Train G Loss: -3.279163748538122, Train D Loss: -7.091372925663987
+Client_id:6, Average D_cost: -7.062532427410285, Average G_cost: -3.124605033049981, Average Wasserstein_D: 8.472647702693939, Average Time: 0.014626200993855793s
+Client_id:7, Average D_cost: -7.239992242058118, Average G_cost: -3.7842353749399384, Average Wasserstein_D: 8.655477758248647, Average Time: 0.012269461154937744s
+Client_id:8, Average D_cost: -6.577207418779532, Average G_cost: -1.7713032061234117, Average Wasserstein_D: 7.956240912278493, Average Time: 0.013215980927149455s
+Train G Loss: -2.8933812047044434, Train D Loss: -6.959910696082646
+Train G Loss: -2.969766236637305, Train D Loss: -7.118970023137
+Test G_cost: -8.988146662712097, Test D_cost: -10.876823083559673, Test Wasserstein_D: 10.876823083559673
+Epoch 3:
+Client_id:0, Average D_cost: -8.589427324136098, Average G_cost: -9.496724629402161, Average Wasserstein_D: 10.019652581214904, Average Time: 0.017523076136906943s
+Client_id:1, Average D_cost: -8.596940557161966, Average G_cost: -9.218958640098572, Average Wasserstein_D: 10.029854011535644, Average Time: 0.017800935109456382s
+Client_id:2, Average D_cost: -8.53721624215444, Average G_cost: -9.416130204995474, Average Wasserstein_D: 9.953371262550354, Average Time: 0.017822418610254923s
+Train G Loss: -9.377271158165401, Train D Loss: -8.574528041150835
+Client_id:3, Average D_cost: -8.680548973878224, Average G_cost: -9.150131205717722, Average Wasserstein_D: 10.119025468826294, Average Time: 0.017850786447525024s
+Client_id:4, Average D_cost: -8.447399644056956, Average G_cost: -10.032752736409504, Average Wasserstein_D: 9.823248688379923, Average Time: 0.017217636108398438s
+Client_id:5, Average D_cost: -8.502451078097026, Average G_cost: -9.948530022303263, Average Wasserstein_D: 9.897144881884257, Average Time: 0.017073921362559s
+Train G Loss: -9.71047132147683, Train D Loss: -8.543466565344069
+Client_id:6, Average D_cost: -8.464818334579467, Average G_cost: -9.892958323160807, Average Wasserstein_D: 9.861626982688904, Average Time: 0.017071851094563804s
+Client_id:7, Average D_cost: -8.491170513629914, Average G_cost: -9.828005305926006, Average Wasserstein_D: 9.884335772196453, Average Time: 0.01764969031016032s
+Client_id:8, Average D_cost: -8.676940182844797, Average G_cost: -9.516453703244528, Average Wasserstein_D: 10.113261262575785, Average Time: 0.01797433296839396s
+Train G Loss: -9.74580577744378, Train D Loss: -8.544309677018058
+Train G Loss: -9.611182752362003, Train D Loss: -8.554101427837653
+Test G_cost: -9.551727263132731, Test D_cost: -9.60470962524414, Test Wasserstein_D: 9.60470962524414
+Epoch 4:
+Client_id:0, Average D_cost: -9.084747938315074, Average G_cost: -9.498682574431102, Average Wasserstein_D: 10.669575095176697, Average Time: 0.012420562903086345s
+Client_id:1, Average D_cost: -9.113120512167614, Average G_cost: -9.771061221758524, Average Wasserstein_D: 10.778752851486207, Average Time: 0.012776917219161988s
+Client_id:2, Average D_cost: -8.811864654223124, Average G_cost: -9.424862988789876, Average Wasserstein_D: 10.296399641036988, Average Time: 0.0167471448580424s
+Train G Loss: -9.5648689283265, Train D Loss: -9.00324436823527
+Client_id:3, Average D_cost: -9.113751967748007, Average G_cost: -9.47902493874232, Average Wasserstein_D: 10.71763215859731, Average Time: 0.017532781759897868s
+Client_id:4, Average D_cost: -8.783912726243337, Average G_cost: -9.464979346593221, Average Wasserstein_D: 10.251617622375488, Average Time: 0.01766900420188904s
+Client_id:5, Average D_cost: -8.781025433540345, Average G_cost: -9.558388829231262, Average Wasserstein_D: 10.280045549074808, Average Time: 0.017301026980082193s
+Train G Loss: -9.500797704855602, Train D Loss: -8.89289670917723
+Client_id:6, Average D_cost: -8.755787722269694, Average G_cost: -9.24264760017395, Average Wasserstein_D: 10.229357449213664, Average Time: 0.017549771070480346s
+Client_id:7, Average D_cost: -8.838981143633525, Average G_cost: -9.312840819358826, Average Wasserstein_D: 10.338738942146302, Average Time: 0.017775275309880576s
+Client_id:8, Average D_cost: -9.006208058198293, Average G_cost: -9.709562953313192, Average Wasserstein_D: 10.597570292154948, Average Time: 0.018111761411031088s
+Train G Loss: -9.421683790948656, Train D Loss: -8.866992308033838
+Train G Loss: -9.495783474710253, Train D Loss: -8.921044461815447
+Test G_cost: -8.678606748580933, Test D_cost: -10.796472088495891, Test Wasserstein_D: 10.796472088495891
+Epoch 5:
+Client_id:0, Average D_cost: -9.700867048899333, Average G_cost: -7.605220703283946, Average Wasserstein_D: 11.55632438659668, Average Time: 0.01747612953186035s
+Client_id:1, Average D_cost: -9.76733694076538, Average G_cost: -7.814053916931153, Average Wasserstein_D: 11.666345580418904, Average Time: 0.017808308204015095s
+Client_id:2, Average D_cost: -9.698761494954427, Average G_cost: -8.288282251358032, Average Wasserstein_D: 11.563222249348959, Average Time: 0.01432435711224874s
+Train G Loss: -7.902518957191044, Train D Loss: -9.72232182820638
+Client_id:3, Average D_cost: -9.774911562601725, Average G_cost: -7.479604832331339, Average Wasserstein_D: 11.623966471354167, Average Time: 0.011340127388636271s
+Client_id:4, Average D_cost: -9.240786218643189, Average G_cost: -7.474765872955322, Average Wasserstein_D: 10.865026021003723, Average Time: 0.012903940677642823s
+Client_id:5, Average D_cost: -9.293995531400045, Average G_cost: -7.6778599659601845, Average Wasserstein_D: 10.964624698956808, Average Time: 0.017871926228205364s
+Train G Loss: -7.544076890415615, Train D Loss: -9.43656443754832
+Client_id:6, Average D_cost: -9.252190899848937, Average G_cost: -7.729178460439046, Average Wasserstein_D: 10.909723265965779, Average Time: 0.018006143967310588s
+Client_id:7, Average D_cost: -9.26998115380605, Average G_cost: -7.392461681365967, Average Wasserstein_D: 10.914193026224773, Average Time: 0.017575297753016153s
+Client_id:8, Average D_cost: -9.788998866081238, Average G_cost: -7.578384002049764, Average Wasserstein_D: 11.626609086990356, Average Time: 0.017439526319503785s
+Train G Loss: -7.566674714618259, Train D Loss: -9.43705697324541
+Train G Loss: -7.671090187408306, Train D Loss: -9.531981079666705
+Test G_cost: -7.469767391681671, Test D_cost: -10.57346404393514, Test Wasserstein_D: 10.57346404393514
+Epoch 6:
+Client_id:0, Average D_cost: -9.592037002245585, Average G_cost: -5.7370401382446286, Average Wasserstein_D: 11.244543202718098, Average Time: 0.017425179481506348s
+Client_id:1, Average D_cost: -9.47994668483734, Average G_cost: -5.718497737248739, Average Wasserstein_D: 11.150943756103516, Average Time: 0.0172331710656484s
+Client_id:2, Average D_cost: -9.352999965349833, Average G_cost: -6.519765959183375, Average Wasserstein_D: 11.026474324862162, Average Time: 0.017669957876205445s
+Train G Loss: -5.9917679448922465, Train D Loss: -9.47499455081092
+Client_id:3, Average D_cost: -9.559994355837505, Average G_cost: -5.702320663134257, Average Wasserstein_D: 11.221632194519042, Average Time: 0.01778444250424703s
+Client_id:4, Average D_cost: -9.306496095657348, Average G_cost: -6.764318712552389, Average Wasserstein_D: 10.973681004842122, Average Time: 0.01836176117261251s
+Client_id:5, Average D_cost: -9.479679838816326, Average G_cost: -6.103839838504792, Average Wasserstein_D: 11.170132144292195, Average Time: 0.013146567344665527s
+Train G Loss: -6.190159738063812, Train D Loss: -9.448723430103726
+Client_id:6, Average D_cost: -9.683156847953796, Average G_cost: -6.772221465905507, Average Wasserstein_D: 11.467408363024393, Average Time: 0.012395270665486654s
+Client_id:7, Average D_cost: -9.449446964263917, Average G_cost: -7.004817605018616, Average Wasserstein_D: 11.165368994077047, Average Time: 0.01726430853207906s
+Client_id:8, Average D_cost: -9.393128077189127, Average G_cost: -5.679271956284841, Average Wasserstein_D: 11.024772461255392, Average Time: 0.01754900018374125s
+Train G Loss: -6.485437009069654, Train D Loss: -9.508577296468948
+Train G Loss: -6.222454897341904, Train D Loss: -9.477431759127866
+Test G_cost: -5.249186750253042, Test D_cost: -10.752739421526591, Test Wasserstein_D: 10.752739421526591
+Epoch 7:
+Client_id:0, Average D_cost: -9.42786693572998, Average G_cost: -5.794742329915365, Average Wasserstein_D: 11.102125644683838, Average Time: 0.017982651789983112s
+Client_id:1, Average D_cost: -9.46364097595215, Average G_cost: -5.920745831727982, Average Wasserstein_D: 11.154263019561768, Average Time: 0.018020570278167725s
+Client_id:2, Average D_cost: -9.446310440699259, Average G_cost: -6.066717604796092, Average Wasserstein_D: 11.133375438054403, Average Time: 0.017857277393341066s
+Train G Loss: -5.92740192214648, Train D Loss: -9.445939450793796
+Client_id:3, Average D_cost: -9.499559354782104, Average G_cost: -5.836684127648671, Average Wasserstein_D: 11.197003134091695, Average Time: 0.01731361746788025s
+Client_id:4, Average D_cost: -9.39421079158783, Average G_cost: -6.040094135204951, Average Wasserstein_D: 11.05852033297221, Average Time: 0.01811356544494629s
+Client_id:5, Average D_cost: -9.395702187220255, Average G_cost: -5.988815212249756, Average Wasserstein_D: 11.05301194190979, Average Time: 0.017472543319066367s
+Train G Loss: -5.95519782503446, Train D Loss: -9.429824111196728
+Client_id:6, Average D_cost: -9.572671707471212, Average G_cost: -6.1386469523111975, Average Wasserstein_D: 11.291913024584453, Average Time: 0.017127205928166706s
+Client_id:7, Average D_cost: -9.493555967013041, Average G_cost: -5.811555747191111, Average Wasserstein_D: 11.192171311378479, Average Time: 0.015249490737915039s
+Client_id:8, Average D_cost: -9.62199671268463, Average G_cost: -5.9417040904363, Average Wasserstein_D: 11.386669452985128, Average Time: 0.01258755922317505s
+Train G Loss: -5.963968929979536, Train D Loss: -9.562741462389628
+Train G Loss: -5.948856225720159, Train D Loss: -9.479501674793385
+Test G_cost: -4.74111545085907, Test D_cost: -10.773649072647094, Test Wasserstein_D: 10.773649072647094
+Epoch 8:
+Client_id:0, Average D_cost: -9.63325944741567, Average G_cost: -4.780270491043726, Average Wasserstein_D: 11.348191825548808, Average Time: 0.016589313745498657s
+Client_id:1, Average D_cost: -9.650252803166707, Average G_cost: -4.916571901241938, Average Wasserstein_D: 11.386876765886942, Average Time: 0.01732397675514221s
+Client_id:2, Average D_cost: -9.707729395230611, Average G_cost: -4.39535773396492, Average Wasserstein_D: 11.439586289723714, Average Time: 0.017032301425933837s
+Train G Loss: -4.697400042083528, Train D Loss: -9.663747215270996
+Client_id:3, Average D_cost: -9.67649306456248, Average G_cost: -4.7094450732072195, Average Wasserstein_D: 11.413901217778523, Average Time: 0.01773026982943217s
+Client_id:4, Average D_cost: -9.655751339594524, Average G_cost: -4.432418189446131, Average Wasserstein_D: 11.377292490005493, Average Time: 0.0177998145421346s
+Client_id:5, Average D_cost: -9.662188665072124, Average G_cost: -4.356389697392782, Average Wasserstein_D: 11.376007008552552, Average Time: 0.01808217167854309s
+Train G Loss: -4.4994176533487105, Train D Loss: -9.664811023076375
+Client_id:6, Average D_cost: -9.655314342180889, Average G_cost: -4.293143804868063, Average Wasserstein_D: 11.376969989140829, Average Time: 0.01767576535542806s
+Client_id:7, Average D_cost: -9.68304583231608, Average G_cost: -4.2922994514306385, Average Wasserstein_D: 11.412992898623148, Average Time: 0.01725583871205648s
+Client_id:8, Average D_cost: -9.663967974980672, Average G_cost: -4.304057757059733, Average Wasserstein_D: 11.38803943792979, Average Time: 0.017528164386749267s
+Train G Loss: -4.296500337786145, Train D Loss: -9.667442716492546
+Train G Loss: -4.497772677739461, Train D Loss: -9.665333651613304
+Test G_cost: -5.66961122751236, Test D_cost: -11.399088215827941, Test Wasserstein_D: 11.399088215827941
+Epoch 9:
+Client_id:0, Average D_cost: -9.753409894307454, Average G_cost: -3.1981300642093022, Average Wasserstein_D: 11.452564271291097, Average Time: 0.01603237589200338s
+Client_id:1, Average D_cost: -9.750504318873087, Average G_cost: -3.2358120272556943, Average Wasserstein_D: 11.438252862294515, Average Time: 0.012258346875508625s
+Client_id:2, Average D_cost: -9.73470721244812, Average G_cost: -3.285453087091446, Average Wasserstein_D: 11.41709082921346, Average Time: 0.012164972225824992s
+Train G Loss: -3.2397983928521477, Train D Loss: -9.746207141876221
+Client_id:3, Average D_cost: -9.752284121513366, Average G_cost: -3.2710618575414023, Average Wasserstein_D: 11.446415170033772, Average Time: 0.017660220464070637s
+Client_id:4, Average D_cost: -9.697287956873575, Average G_cost: -3.292990007996559, Average Wasserstein_D: 11.370635334650675, Average Time: 0.0178611159324646s
+Client_id:5, Average D_cost: -9.729851818084716, Average G_cost: -3.4013450781504315, Average Wasserstein_D: 11.41554696559906, Average Time: 0.017639384667078654s
+Train G Loss: -3.3217989812294646, Train D Loss: -9.72647463215722
+Client_id:6, Average D_cost: -9.733801325162252, Average G_cost: -3.3572638889153796, Average Wasserstein_D: 11.421139129002889, Average Time: 0.017350820700327556s
+Client_id:7, Average D_cost: -9.733379077911376, Average G_cost: -3.517051895459493, Average Wasserstein_D: 11.423572945594788, Average Time: 0.01808176636695862s
+Client_id:8, Average D_cost: -9.720569547017416, Average G_cost: -3.333520010113716, Average Wasserstein_D: 11.398837518692016, Average Time: 0.017125040292739868s
+Train G Loss: -3.402611931496196, Train D Loss: -9.729249983363681
+Train G Loss: -3.3214031018592696, Train D Loss: -9.733977252465706
+Test G_cost: -3.4141909301280977, Test D_cost: -11.418852456410725, Test Wasserstein_D: 11.418852456410725
+Epoch 10:
+Client_id:0, Average D_cost: -9.707896860440572, Average G_cost: -4.79149453441302, Average Wasserstein_D: 11.444827461242676, Average Time: 0.017326094706853232s
+Client_id:1, Average D_cost: -9.799420817693074, Average G_cost: -4.76817831993103, Average Wasserstein_D: 11.583469541867574, Average Time: 0.017854501803716023s
+Client_id:2, Average D_cost: -9.724336163202922, Average G_cost: -4.800355631113052, Average Wasserstein_D: 11.461019889513652, Average Time: 0.01759981115659078s
+Train G Loss: -4.7866761618190345, Train D Loss: -9.743884613778855
+Client_id:3, Average D_cost: -9.712453913688659, Average G_cost: -4.807812317212423, Average Wasserstein_D: 11.4350261926651, Average Time: 0.013618139425913493s
+Client_id:4, Average D_cost: -9.679628602663676, Average G_cost: -4.773104170958201, Average Wasserstein_D: 11.410895832379659, Average Time: 0.01169057289759318s
+Client_id:5, Average D_cost: -9.744501876831055, Average G_cost: -4.776525827248891, Average Wasserstein_D: 11.493709834416707, Average Time: 0.014022002617518107s
+Train G Loss: -4.785814105139838, Train D Loss: -9.712194797727797
+Client_id:6, Average D_cost: -9.763926029205322, Average G_cost: -4.7356480121612545, Average Wasserstein_D: 11.516908089319864, Average Time: 0.017693487803141277s
+Client_id:7, Average D_cost: -9.750384465853374, Average G_cost: -4.724945636590322, Average Wasserstein_D: 11.507654349009195, Average Time: 0.01742987036705017s
+Client_id:8, Average D_cost: -9.673643867174784, Average G_cost: -4.78988818526268, Average Wasserstein_D: 11.3969069480896, Average Time: 0.017507833242416383s
+Train G Loss: -4.750160611338085, Train D Loss: -9.729318120744493
+Train G Loss: -4.774216959432319, Train D Loss: -9.728465844083715
+Test G_cost: -4.637160813808441, Test D_cost: -11.265004730224609, Test Wasserstein_D: 11.265004730224609
+Epoch 10, FID: 548.9205746750854
+Epoch 11:
+Client_id:0, Average D_cost: -9.939204168319701, Average G_cost: -2.3378681421279905, Average Wasserstein_D: 11.667881226539611, Average Time: 0.017340713739395143s
+Client_id:1, Average D_cost: -9.852164316177369, Average G_cost: -2.2536164755622545, Average Wasserstein_D: 11.55662362575531, Average Time: 0.01743191878000895s
+Client_id:2, Average D_cost: -9.930464625358582, Average G_cost: -2.3353774776061376, Average Wasserstein_D: 11.651787789662679, Average Time: 0.01730447808901469s
+Train G Loss: -2.308954031765461, Train D Loss: -9.907277703285217
+Client_id:3, Average D_cost: -9.910789132118225, Average G_cost: -2.1295780301094056, Average Wasserstein_D: 11.629176195462545, Average Time: 0.015237373113632203s
+Client_id:4, Average D_cost: -9.890832098325093, Average G_cost: -2.2870104387402534, Average Wasserstein_D: 11.602118849754333, Average Time: 0.012228341897328694s
+Client_id:5, Average D_cost: -9.850775321324667, Average G_cost: -2.4800016919771832, Average Wasserstein_D: 11.54630069732666, Average Time: 0.012420187393824259s
+Train G Loss: -2.2988633869422803, Train D Loss: -9.884132183922661
+Client_id:6, Average D_cost: -9.894872983296713, Average G_cost: -2.4658065577348074, Average Wasserstein_D: 11.61850094795227, Average Time: 0.01743136246999105s
+Client_id:7, Average D_cost: -9.86689932346344, Average G_cost: -2.1059099222222963, Average Wasserstein_D: 11.575981410344442, Average Time: 0.017753746112187704s
+Client_id:8, Average D_cost: -9.838086787859599, Average G_cost: -2.546699512004852, Average Wasserstein_D: 11.544836107889811, Average Time: 0.017923428614934286s
+Train G Loss: -2.372805330653985, Train D Loss: -9.866619698206582
+Train G Loss: -2.326874249787242, Train D Loss: -9.88600986180482
+Test G_cost: -2.8048724234104156, Test D_cost: -11.534779135386149, Test Wasserstein_D: 11.534779135386149
+Epoch 12:
+Client_id:0, Average D_cost: -9.769505381584167, Average G_cost: -3.8906039158503214, Average Wasserstein_D: 11.4868373076121, Average Time: 0.01812329093615214s
+Client_id:1, Average D_cost: -9.793166907628377, Average G_cost: -3.8962559600671134, Average Wasserstein_D: 11.520246354738871, Average Time: 0.01761234203974406s
+Client_id:2, Average D_cost: -9.751331273714701, Average G_cost: -3.8604712426662444, Average Wasserstein_D: 11.465526270866395, Average Time: 0.01768536369005839s
+Train G Loss: -3.8824437061945596, Train D Loss: -9.771334520975747
+Client_id:3, Average D_cost: -9.83083373705546, Average G_cost: -3.949779812494914, Average Wasserstein_D: 11.577100602785746, Average Time: 0.01770910422007243s
+Client_id:4, Average D_cost: -9.733922624588013, Average G_cost: -3.9289018551508588, Average Wasserstein_D: 11.443316539128622, Average Time: 0.017680116494496665s
+Client_id:5, Average D_cost: -9.726822924613952, Average G_cost: -3.9371420125166576, Average Wasserstein_D: 11.431245525678, Average Time: 0.018041519323984782s
+Train G Loss: -3.938607893387477, Train D Loss: -9.76385976208581
+Client_id:6, Average D_cost: -9.818355973561605, Average G_cost: -3.7674159169197083, Average Wasserstein_D: 11.535235834121703, Average Time: 0.013334695498148601s
+Client_id:7, Average D_cost: -9.805673305193583, Average G_cost: -3.96981813510259, Average Wasserstein_D: 11.542674573262532, Average Time: 0.01174152692159017s
+Client_id:8, Average D_cost: -9.76967420578003, Average G_cost: -3.7981580952803293, Average Wasserstein_D: 11.487565930684408, Average Time: 0.014137957493464153s
+Train G Loss: -3.8451307157675423, Train D Loss: -9.797901161511739
+Train G Loss: -3.8887274384498594, Train D Loss: -9.777698481524432
+Test G_cost: -3.2022459665934244, Test D_cost: -11.470221241315206, Test Wasserstein_D: 11.470221241315206
+Epoch 13:
+Client_id:0, Average D_cost: -9.897633107503255, Average G_cost: -2.01774829129378, Average Wasserstein_D: 11.62023495833079, Average Time: 0.017731688419977822s
+Client_id:1, Average D_cost: -9.871648828188578, Average G_cost: -2.120727401971817, Average Wasserstein_D: 11.586841344833374, Average Time: 0.017787577708562215s
+Client_id:2, Average D_cost: -9.889895979563395, Average G_cost: -2.0022148648897806, Average Wasserstein_D: 11.59410096804301, Average Time: 0.017480061451594035s
+Train G Loss: -2.0468968527184592, Train D Loss: -9.886392638418409
+Client_id:3, Average D_cost: -9.951624123255412, Average G_cost: -1.5864011997977892, Average Wasserstein_D: 11.66556625366211, Average Time: 0.017752377192179362s
+Client_id:4, Average D_cost: -9.829594198862711, Average G_cost: -2.145457851886749, Average Wasserstein_D: 11.52520694732666, Average Time: 0.017761659622192384s
+Client_id:5, Average D_cost: -9.878279876708984, Average G_cost: -2.1130104094743727, Average Wasserstein_D: 11.588902258872986, Average Time: 0.01758245627085368s
+Train G Loss: -1.9482898203863037, Train D Loss: -9.886499399609034
+Client_id:6, Average D_cost: -9.94961404800415, Average G_cost: -1.678697834412257, Average Wasserstein_D: 11.662891205151876, Average Time: 0.018038962284723917s
+Client_id:7, Average D_cost: -9.86606965859731, Average G_cost: -1.9922034601370493, Average Wasserstein_D: 11.569583622614543, Average Time: 0.017984006802241007s
+Client_id:8, Average D_cost: -9.883382829030355, Average G_cost: -2.1174251794815064, Average Wasserstein_D: 11.598164868354797, Average Time: 0.01745148698488871s
+Train G Loss: -1.9294421580102707, Train D Loss: -9.899688845210605
+Train G Loss: -1.9748762770383446, Train D Loss: -9.890860294412683
+Test G_cost: -2.4454254309336343, Test D_cost: -11.50810882250468, Test Wasserstein_D: 11.50810882250468
+Epoch 14:
+Client_id:0, Average D_cost: -9.928480354944865, Average G_cost: -2.56528590520223, Average Wasserstein_D: 11.679071529706318, Average Time: 0.012549759944279988s
+Client_id:1, Average D_cost: -9.94627188841502, Average G_cost: -2.5105784912904103, Average Wasserstein_D: 11.697570323944092, Average Time: 0.014484471082687378s
+Client_id:2, Average D_cost: -9.904638489087423, Average G_cost: -2.3643261551856996, Average Wasserstein_D: 11.640864181518555, Average Time: 0.01777249574661255s
+Train G Loss: -2.4800635172261134, Train D Loss: -9.926463577482437
+Client_id:3, Average D_cost: -9.930672629674275, Average G_cost: -2.5635943094889324, Average Wasserstein_D: 11.6744202931722, Average Time: 0.017863406737645467s
+Client_id:4, Average D_cost: -9.89831215540568, Average G_cost: -2.526350567738215, Average Wasserstein_D: 11.634266289075216, Average Time: 0.017655183871587116s
+Client_id:5, Average D_cost: -9.898616894086201, Average G_cost: -2.5852690319220226, Average Wasserstein_D: 11.640445264180501, Average Time: 0.01794183055559794s
+Train G Loss: -2.5584046363830564, Train D Loss: -9.909200559722052
+Client_id:6, Average D_cost: -9.929757785797118, Average G_cost: -2.594727090994517, Average Wasserstein_D: 11.678070457776387, Average Time: 0.017696189880371093s
+Client_id:7, Average D_cost: -9.92572218577067, Average G_cost: -2.4681668003400166, Average Wasserstein_D: 11.662863159179688, Average Time: 0.017868077754974364s
+Client_id:8, Average D_cost: -9.944376341501872, Average G_cost: -2.571899624665578, Average Wasserstein_D: 11.706327899297078, Average Time: 0.01716381311416626s
+Train G Loss: -2.5449311720000374, Train D Loss: -9.933285437689888
+Train G Loss: -2.527799775203069, Train D Loss: -9.92298319163146
+Test G_cost: -2.6239608426888785, Test D_cost: -11.6281880458196, Test Wasserstein_D: 11.6281880458196
+Epoch 15:
+Client_id:0, Average D_cost: -9.862318563461304, Average G_cost: -1.9319528301556905, Average Wasserstein_D: 11.565858419736227, Average Time: 0.0170707106590271s
+Client_id:1, Average D_cost: -9.93534012635549, Average G_cost: -2.297842646638552, Average Wasserstein_D: 11.66045286655426, Average Time: 0.0179193119208018s
+Client_id:2, Average D_cost: -9.819693644841513, Average G_cost: -1.7029900521039962, Average Wasserstein_D: 11.498881022135416, Average Time: 0.012551987171173095s
+Train G Loss: -1.977595176299413, Train D Loss: -9.872450778219436
+Client_id:3, Average D_cost: -9.889134589831034, Average G_cost: -1.7852936094005902, Average Wasserstein_D: 11.591572221120199, Average Time: 0.011431652307510375s
+Client_id:4, Average D_cost: -9.889663577079773, Average G_cost: -2.345372849702835, Average Wasserstein_D: 11.595699087778728, Average Time: 0.014756673574447631s
+Client_id:5, Average D_cost: -9.90630776087443, Average G_cost: -2.52686665058136, Average Wasserstein_D: 11.617806760470073, Average Time: 0.01769553025563558s
+Train G Loss: -2.2191777032282616, Train D Loss: -9.895035309261745
+Client_id:6, Average D_cost: -9.845391456286112, Average G_cost: -1.6576846758524577, Average Wasserstein_D: 11.536384383837381, Average Time: 0.01728379527727763s
+Client_id:7, Average D_cost: -9.80933899084727, Average G_cost: -1.6902547031641006, Average Wasserstein_D: 11.493693900108337, Average Time: 0.017053423325220744s
+Client_id:8, Average D_cost: -9.938908608754476, Average G_cost: -2.205126482248306, Average Wasserstein_D: 11.656734951337178, Average Time: 0.01744388739267985s
+Train G Loss: -1.8510219537549546, Train D Loss: -9.864546351962618
+Train G Loss: -2.0159316110942096, Train D Loss: -9.877344146481265
+Test G_cost: -2.328650176525116, Test D_cost: -11.072021706899006, Test Wasserstein_D: 11.072021706899006
+Epoch 16:
+Client_id:0, Average D_cost: -9.76129694779714, Average G_cost: -2.1388862878084183, Average Wasserstein_D: 11.40417963663737, Average Time: 0.017156916856765746s
+Client_id:1, Average D_cost: -9.770259507497151, Average G_cost: -2.0416543980439505, Average Wasserstein_D: 11.423397048314412, Average Time: 0.017524667580922446s
+Client_id:2, Average D_cost: -9.773376377423604, Average G_cost: -2.1094794422388077, Average Wasserstein_D: 11.434171493848165, Average Time: 0.01784414847691854s
+Train G Loss: -2.096673376030392, Train D Loss: -9.768310944239298
+Client_id:3, Average D_cost: -9.798296316464741, Average G_cost: -2.09126876493295, Average Wasserstein_D: 11.467277916272481, Average Time: 0.018247330188751222s
+Client_id:4, Average D_cost: -9.70209617614746, Average G_cost: -2.0559267083803814, Average Wasserstein_D: 11.332706141471864, Average Time: 0.017522416512171426s
+Client_id:5, Average D_cost: -9.746806025505066, Average G_cost: -2.0068017661571504, Average Wasserstein_D: 11.396365054448445, Average Time: 0.011930616696675618s
+Train G Loss: -2.0513324131568274, Train D Loss: -9.749066172705755
+Client_id:6, Average D_cost: -9.76659795443217, Average G_cost: -2.106378307938576, Average Wasserstein_D: 11.418979986508687, Average Time: 0.01131529410680135s
+Client_id:7, Average D_cost: -9.764975015322367, Average G_cost: -2.0884287188450497, Average Wasserstein_D: 11.421079889933269, Average Time: 0.016121168931325276s
+Client_id:8, Average D_cost: -9.76475106080373, Average G_cost: -2.0471408009529113, Average Wasserstein_D: 11.420901004473368, Average Time: 0.0181092898050944s
+Train G Loss: -2.080649275912179, Train D Loss: -9.765441343519422
+Train G Loss: -2.076218355033133, Train D Loss: -9.760939486821492
+Test G_cost: -1.9945851296186448, Test D_cost: -11.337834286689759, Test Wasserstein_D: 11.337834286689759
+Epoch 17:
+Client_id:0, Average D_cost: -9.755313364664714, Average G_cost: -1.6377273827791214, Average Wasserstein_D: 11.421880006790161, Average Time: 0.01771497925122579s
+Client_id:1, Average D_cost: -9.768913658459981, Average G_cost: -1.7186924864848454, Average Wasserstein_D: 11.429155309995016, Average Time: 0.017940553029378255s
+Client_id:2, Average D_cost: -9.752278351783753, Average G_cost: -1.7127041985591254, Average Wasserstein_D: 11.413428616523742, Average Time: 0.01755225459734599s
+Train G Loss: -1.6897080226076975, Train D Loss: -9.758835124969481
+Client_id:3, Average D_cost: -9.775152603785196, Average G_cost: -1.8920915832122167, Average Wasserstein_D: 11.439975253740947, Average Time: 0.017632631460825603s
+Client_id:4, Average D_cost: -9.704962412516275, Average G_cost: -1.802707130710284, Average Wasserstein_D: 11.360498102506002, Average Time: 0.017922520637512207s
+Client_id:5, Average D_cost: -9.720897698402405, Average G_cost: -1.7361731439828874, Average Wasserstein_D: 11.37066867351532, Average Time: 0.017606772979100547s
+Train G Loss: -1.8103239526351294, Train D Loss: -9.733670904901293
+Client_id:6, Average D_cost: -9.744835726420085, Average G_cost: -1.788657275835673, Average Wasserstein_D: 11.40394610563914, Average Time: 0.0180030087629954s
+Client_id:7, Average D_cost: -9.777922081947327, Average G_cost: -1.916068105896314, Average Wasserstein_D: 11.450783030192058, Average Time: 0.01612246036529541s
+Client_id:8, Average D_cost: -9.748635896046956, Average G_cost: -1.754549930493037, Average Wasserstein_D: 11.409611225128174, Average Time: 0.012814490000406902s
+Train G Loss: -1.8197584374083415, Train D Loss: -9.75713123480479
+Train G Loss: -1.773263470883723, Train D Loss: -9.749879088225187
+Test G_cost: -1.8944018830855687, Test D_cost: -11.345675110816956, Test Wasserstein_D: 11.345675110816956
+Epoch 18:
+Client_id:0, Average D_cost: -9.757537523905436, Average G_cost: -1.6921317130327225, Average Wasserstein_D: 11.417159064610798, Average Time: 0.014922449986139933s
+Client_id:1, Average D_cost: -9.779758516947428, Average G_cost: -1.7251459300518035, Average Wasserstein_D: 11.459452780087789, Average Time: 0.017871872584025065s
+Client_id:2, Average D_cost: -9.762423419952393, Average G_cost: -1.6396843910217285, Average Wasserstein_D: 11.424420261383057, Average Time: 0.01739883025487264s
+Train G Loss: -1.6856540113687515, Train D Loss: -9.766573153601753
+Client_id:3, Average D_cost: -9.79310691356659, Average G_cost: -1.6370883901913962, Average Wasserstein_D: 11.466304381688436, Average Time: 0.017356695731480916s
+Client_id:4, Average D_cost: -9.712525391578675, Average G_cost: -1.7202445397774377, Average Wasserstein_D: 11.365957967440288, Average Time: 0.017445852359135944s
+Client_id:5, Average D_cost: -9.739908862113953, Average G_cost: -1.6319773068030676, Average Wasserstein_D: 11.40170243581136, Average Time: 0.017692190408706666s
+Train G Loss: -1.6631034122573005, Train D Loss: -9.74851372241974
+Client_id:6, Average D_cost: -9.755824454625447, Average G_cost: -1.7218893100817998, Average Wasserstein_D: 11.42338121732076, Average Time: 0.017208423217137656s
+Client_id:7, Average D_cost: -9.761163886388143, Average G_cost: -1.6087786783774694, Average Wasserstein_D: 11.421339670817057, Average Time: 0.016999709606170654s
+Client_id:8, Average D_cost: -9.75416592756907, Average G_cost: -1.6238961706558863, Average Wasserstein_D: 11.412385272979737, Average Time: 0.01759343147277832s
+Train G Loss: -1.6515213863717184, Train D Loss: -9.757051422860888
+Train G Loss: -1.66675960333259, Train D Loss: -9.757379432960795
+Test G_cost: -1.6991279691457748, Test D_cost: -11.43526992003123, Test Wasserstein_D: 11.43526992003123
+Epoch 19:
+Client_id:0, Average D_cost: -9.783932669957478, Average G_cost: -1.530557170510292, Average Wasserstein_D: 11.443615380922953, Average Time: 0.01722212235132853s
+Client_id:1, Average D_cost: -9.792224876085918, Average G_cost: -1.404155463973681, Average Wasserstein_D: 11.444294381141663, Average Time: 0.012018958727518717s
+Client_id:2, Average D_cost: -9.75833752155304, Average G_cost: -1.5256058086951574, Average Wasserstein_D: 11.413577683766682, Average Time: 0.01230358084042867s
+Train G Loss: -1.4867728143930437, Train D Loss: -9.778165022532145
+Client_id:3, Average D_cost: -9.817469906806945, Average G_cost: -1.5567549387613933, Average Wasserstein_D: 11.480290603637695, Average Time: 0.016968796650568645s
+Client_id:4, Average D_cost: -9.743082467714945, Average G_cost: -1.5110791911681494, Average Wasserstein_D: 11.388570030530294, Average Time: 0.01798287828763326s
+Client_id:5, Average D_cost: -9.756208284695942, Average G_cost: -1.4582865506410598, Average Wasserstein_D: 11.397928110758464, Average Time: 0.017959807316462198s
+Train G Loss: -1.5087068935235342, Train D Loss: -9.772253553072611
+Client_id:6, Average D_cost: -9.636208812395731, Average G_cost: -1.4576042434821526, Average Wasserstein_D: 11.25741793314616, Average Time: 0.01741602420806885s
+Client_id:7, Average D_cost: -9.776686024665832, Average G_cost: -1.5157410740852355, Average Wasserstein_D: 11.432226673762004, Average Time: 0.01772213578224182s
+Client_id:8, Average D_cost: -9.794591530164082, Average G_cost: -1.4983535995086035, Average Wasserstein_D: 11.454157241185506, Average Time: 0.018055514494578043s
+Train G Loss: -1.4905663056919973, Train D Loss: -9.735828789075216
+Train G Loss: -1.4953486712028585, Train D Loss: -9.762082454893324
+Test G_cost: -1.1476601630449295, Test D_cost: -11.09390533765157, Test Wasserstein_D: 11.09390533765157
+Epoch 20:
+Client_id:0, Average D_cost: -8.464222760995229, Average G_cost: -0.8483373100248476, Average Wasserstein_D: 9.830344820022583, Average Time: 0.01743990182876587s
+Client_id:1, Average D_cost: -8.512793060143789, Average G_cost: -0.8327045988291502, Average Wasserstein_D: 9.89302274386088, Average Time: 0.01699327031771342s
+Client_id:2, Average D_cost: -8.432643640041352, Average G_cost: -0.5831936079232644, Average Wasserstein_D: 9.781922650337219, Average Time: 0.017649736007054648s
+Train G Loss: -0.7547451722590873, Train D Loss: -8.469886487060124
+Client_id:3, Average D_cost: -8.481329385439555, Average G_cost: -0.8006684113914768, Average Wasserstein_D: 9.846796584129333, Average Time: 0.015105028947194418s
+Client_id:4, Average D_cost: -8.403001177310944, Average G_cost: -0.5442740865672628, Average Wasserstein_D: 9.749350849787394, Average Time: 0.012802118062973022s
+Client_id:5, Average D_cost: -8.423529080549876, Average G_cost: -0.46909706911149746, Average Wasserstein_D: 9.776300263404845, Average Time: 0.012473611036936443s
+Train G Loss: -0.6046798556900791, Train D Loss: -8.435953214433459
+Client_id:6, Average D_cost: -8.284611968199412, Average G_cost: -0.6593442135645697, Average Wasserstein_D: 9.601750961939494, Average Time: 0.017635643482208252s
+Client_id:7, Average D_cost: -8.379775373140971, Average G_cost: -0.7318441870932778, Average Wasserstein_D: 9.725450770060222, Average Time: 0.017216889063517253s
+Client_id:8, Average D_cost: -8.494324107964834, Average G_cost: -0.8570066218574842, Average Wasserstein_D: 9.869762007395426, Average Time: 0.018022628625233968s
+Train G Loss: -0.7493983408384439, Train D Loss: -8.386237149768405
+Train G Loss: -0.7029411229292034, Train D Loss: -8.430692283753997
+Test G_cost: -2.3318051834901175, Test D_cost: -9.407316692670186, Test Wasserstein_D: 9.407316692670186
+Epoch 20, FID: 297.2729806384299
+Epoch 21:
+Client_id:0, Average D_cost: -8.744708196322124, Average G_cost: -1.7475230271617572, Average Wasserstein_D: 10.133544715245565, Average Time: 0.017454292376836142s
+Client_id:1, Average D_cost: -8.799420940876008, Average G_cost: -1.6062548465716342, Average Wasserstein_D: 10.214980880419413, Average Time: 0.017443732420603434s
+Client_id:2, Average D_cost: -8.741097450256348, Average G_cost: -1.797710121423006, Average Wasserstein_D: 10.146554136276245, Average Time: 0.017998015880584715s
+Train G Loss: -1.7171626650521326, Train D Loss: -8.76174219581816
+Client_id:3, Average D_cost: -8.826945257186889, Average G_cost: -1.3720884920097887, Average Wasserstein_D: 10.234906951586405, Average Time: 0.016849432388941446s
+Client_id:4, Average D_cost: -8.727050161361694, Average G_cost: -1.6608098984482542, Average Wasserstein_D: 10.120068136850993, Average Time: 0.012161670128504436s
+Client_id:5, Average D_cost: -8.755812966823578, Average G_cost: -1.4633553576335543, Average Wasserstein_D: 10.151512066523233, Average Time: 0.01147003173828125s
+Train G Loss: -1.4987512493638657, Train D Loss: -8.769936128457386
+Client_id:6, Average D_cost: -8.706821326414744, Average G_cost: -1.9118975987037024, Average Wasserstein_D: 10.085772713025412, Average Time: 0.017309675614039104s
+Client_id:7, Average D_cost: -8.721582174301147, Average G_cost: -1.750226760158936, Average Wasserstein_D: 10.120027375221252, Average Time: 0.018393468856811524s
+Client_id:8, Average D_cost: -8.756732841332754, Average G_cost: -1.8989186430970828, Average Wasserstein_D: 10.157339366277059, Average Time: 0.018494460980097452s
+Train G Loss: -1.8536810006532403, Train D Loss: -8.728378780682881
+Train G Loss: -1.6898649716897463, Train D Loss: -8.753352368319476
+Test G_cost: -1.67136616508166, Test D_cost: -10.287651046117146, Test Wasserstein_D: 10.287651046117146
+Epoch 22:
+Client_id:0, Average D_cost: -8.534263010819753, Average G_cost: -1.0250658410290876, Average Wasserstein_D: 9.89241413672765, Average Time: 0.01753141681353251s
+Client_id:1, Average D_cost: -8.45428722302119, Average G_cost: -0.18502429264287154, Average Wasserstein_D: 9.841703983147939, Average Time: 0.017665648460388185s
+Client_id:2, Average D_cost: -8.59338310956955, Average G_cost: -0.09963730648159981, Average Wasserstein_D: 9.975213102499644, Average Time: 0.0179214874903361s
+Train G Loss: -0.4365758133845197, Train D Loss: -8.527311114470164
+Client_id:3, Average D_cost: -8.467813873291016, Average G_cost: -0.038594660038749375, Average Wasserstein_D: 9.831106734275817, Average Time: 0.01866144935290019s
+Client_id:4, Average D_cost: -8.40905140240987, Average G_cost: 0.0220234149058039, Average Wasserstein_D: 9.718546386559805, Average Time: 0.017264286677042644s
+Client_id:5, Average D_cost: -8.519563325246175, Average G_cost: -0.19919937568095822, Average Wasserstein_D: 9.89327932993571, Average Time: 0.017948867877324422s
+Train G Loss: -0.07192354027130123, Train D Loss: -8.465476200315686
+Client_id:6, Average D_cost: -8.307111573219299, Average G_cost: 0.4600352503359318, Average Wasserstein_D: 9.627730667591095, Average Time: 0.015432097514470418s
+Client_id:7, Average D_cost: -8.170377445220947, Average G_cost: 0.0705967386563619, Average Wasserstein_D: 9.490977609157563, Average Time: 0.012141609191894531s
+Client_id:8, Average D_cost: -8.840042805671692, Average G_cost: -1.5797257599420846, Average Wasserstein_D: 10.271487200260163, Average Time: 0.012447929382324219s
+Train G Loss: -0.3496979236499303, Train D Loss: -8.43917727470398
+Train G Loss: -0.28606575910191706, Train D Loss: -8.477321529829943
+Test G_cost: 1.1739922324816385, Test D_cost: -7.059734225273132, Test Wasserstein_D: 7.059734225273132
+Epoch 23:
+Client_id:0, Average D_cost: -7.082472761472066, Average G_cost: 0.9356571541478237, Average Wasserstein_D: 8.165515037377675, Average Time: 0.017590226729710896s
+Client_id:1, Average D_cost: -6.5849724292755125, Average G_cost: 1.9437076238915325, Average Wasserstein_D: 7.594211145242055, Average Time: 0.017835978666941324s
+Client_id:2, Average D_cost: -7.043095644315084, Average G_cost: 1.0424581225942045, Average Wasserstein_D: 8.141381883621216, Average Time: 0.017749178409576415s
+Train G Loss: 1.3072743002111868, Train D Loss: -6.903513611687554
+Client_id:3, Average D_cost: -6.6986327846844995, Average G_cost: 1.1563259497420708, Average Wasserstein_D: 7.7209065675735475, Average Time: 0.017489377657572427s
+Client_id:4, Average D_cost: -7.087709144751231, Average G_cost: 0.986403273488395, Average Wasserstein_D: 8.192303772767385, Average Time: 0.017980162302652994s
+Client_id:5, Average D_cost: -6.985280899206797, Average G_cost: 1.0826794806557396, Average Wasserstein_D: 8.089202245076498, Average Time: 0.0177823007106781s
+Train G Loss: 1.075136234628735, Train D Loss: -6.923874276214176
+Client_id:6, Average D_cost: -6.639170066515605, Average G_cost: 0.9416723559920986, Average Wasserstein_D: 7.661309162775676, Average Time: 0.017934141556421916s
+Client_id:7, Average D_cost: -6.730442055066427, Average G_cost: 2.1229189057756837, Average Wasserstein_D: 7.740899463494618, Average Time: 0.01748152176539103s
+Client_id:8, Average D_cost: -6.880171322822571, Average G_cost: 2.581059822331493, Average Wasserstein_D: 7.950040904680888, Average Time: 0.01772627035776774s
+Train G Loss: 1.8818836946997584, Train D Loss: -6.749927814801534
+Train G Loss: 1.4214314098465601, Train D Loss: -6.859105234234421
+Test G_cost: 0.12613911065272987, Test D_cost: -6.811040898164113, Test Wasserstein_D: 6.811040898164113
+Epoch 24:
+Client_id:0, Average D_cost: -6.940015049775441, Average G_cost: 0.43350620814599095, Average Wasserstein_D: 7.991920018196106, Average Time: 0.011981515089670818s
+Client_id:1, Average D_cost: -6.917899803320567, Average G_cost: 0.8322607932767521, Average Wasserstein_D: 7.9912426193555195, Average Time: 0.012065698703130087s
+Client_id:2, Average D_cost: -6.753606069087982, Average G_cost: 0.9290588932693936, Average Wasserstein_D: 7.767672264575959, Average Time: 0.015912546714146932s
+Train G Loss: 0.7316086315640455, Train D Loss: -6.870506974061331
+Client_id:3, Average D_cost: -7.087909046808878, Average G_cost: 0.9877051191792513, Average Wasserstein_D: 8.173246665795643, Average Time: 0.017390330632527668s
+Client_id:4, Average D_cost: -6.736326626936594, Average G_cost: 1.1773571505832174, Average Wasserstein_D: 7.748798922697703, Average Time: 0.01747483213742574s
+Client_id:5, Average D_cost: -7.234998925526937, Average G_cost: -0.17743798904897023, Average Wasserstein_D: 8.331214328606924, Average Time: 0.017485012610753376s
+Train G Loss: 0.6625414269044995, Train D Loss: -7.019744866424137
+Client_id:6, Average D_cost: -6.930998436609904, Average G_cost: 1.0336846772581338, Average Wasserstein_D: 7.977702792485555, Average Time: 0.017800929148991902s
+Client_id:7, Average D_cost: -7.208151280879974, Average G_cost: 0.6936981546032863, Average Wasserstein_D: 8.370655202865601, Average Time: 0.01756301522254944s
+Client_id:8, Average D_cost: -7.022488888104757, Average G_cost: 1.015608591384565, Average Wasserstein_D: 8.077716886997223, Average Time: 0.01773019035657247s
+Train G Loss: 0.9143304744153283, Train D Loss: -7.053879535198212
+Train G Loss: 0.7694935109612911, Train D Loss: -6.981377125227894
+Test G_cost: 0.4528031134977937, Test D_cost: -6.466607944170634, Test Wasserstein_D: 6.466607944170634
+Epoch 25:
+Client_id:0, Average D_cost: -6.116932221253713, Average G_cost: 1.6711414396762847, Average Wasserstein_D: 6.925597608089447, Average Time: 0.017656652132670085s
+Client_id:1, Average D_cost: -7.012722643216451, Average G_cost: 0.3708508107306746, Average Wasserstein_D: 8.068308770656586, Average Time: 0.01792075832684835s
+Client_id:2, Average D_cost: -6.058866898218791, Average G_cost: 1.4444162869360297, Average Wasserstein_D: 6.85667374531428, Average Time: 0.014782665173212688s
+Train G Loss: 1.1621361791143296, Train D Loss: -6.396173920896319
+Client_id:3, Average D_cost: -6.1417456348737085, Average G_cost: 1.1873466242230886, Average Wasserstein_D: 6.955811226367951, Average Time: 0.012769124905268351s
+Client_id:4, Average D_cost: -6.064505004882813, Average G_cost: 1.4563103298967084, Average Wasserstein_D: 6.873146935304006, Average Time: 0.012220770120620728s
+Client_id:5, Average D_cost: -5.98391006787618, Average G_cost: 1.4603061775366466, Average Wasserstein_D: 6.774569793542226, Average Time: 0.017471520105997722s
+Train G Loss: 1.3679877105521479, Train D Loss: -6.063386902544234
+Client_id:6, Average D_cost: -6.868834273020426, Average G_cost: 0.21729483933086158, Average Wasserstein_D: 7.888242069880167, Average Time: 0.017872949441274006s
+Client_id:7, Average D_cost: -6.879308994611105, Average G_cost: 0.4372849585022777, Average Wasserstein_D: 7.892133029301961, Average Time: 0.01662374536196391s
+Client_id:8, Average D_cost: -6.975679345925649, Average G_cost: 0.548579792973275, Average Wasserstein_D: 8.00572099685669, Average Time: 0.017751447359720864s
+Train G Loss: 0.4010531969354714, Train D Loss: -6.907940871185726
+Train G Loss: 0.9770590288673163, Train D Loss: -6.45583389820876
+Test G_cost: 0.39046418314489223, Test D_cost: -5.999800749619802, Test Wasserstein_D: 5.999800749619802
+Epoch 26:
+Client_id:0, Average D_cost: -5.170004483064016, Average G_cost: 1.6438348659760473, Average Wasserstein_D: 5.7890793244043985, Average Time: 0.017489107449849446s
+Client_id:1, Average D_cost: -5.1264294942220054, Average G_cost: 1.5382478933626165, Average Wasserstein_D: 5.73319673538208, Average Time: 0.01749078432718913s
+Client_id:2, Average D_cost: -5.1663445671399435, Average G_cost: 1.603201613544176, Average Wasserstein_D: 5.763381453355153, Average Time: 0.017396859327952065s
+Train G Loss: 1.5950947909609468, Train D Loss: -5.154259514808655
+Client_id:3, Average D_cost: -5.282703200976054, Average G_cost: 1.701135413593147, Average Wasserstein_D: 5.927181724707285, Average Time: 0.01731195251146952s
+Client_id:4, Average D_cost: -5.198538057009379, Average G_cost: 1.6174920024272674, Average Wasserstein_D: 5.8266335248947145, Average Time: 0.01782618761062622s
+Client_id:5, Average D_cost: -5.146295301119486, Average G_cost: 1.5184550005942583, Average Wasserstein_D: 5.760052561759949, Average Time: 0.013326360781987508s
+Train G Loss: 1.6123608055382241, Train D Loss: -5.209178853034973
+Client_id:6, Average D_cost: -5.131862473487854, Average G_cost: 1.465461411253394, Average Wasserstein_D: 5.745911812782287, Average Time: 0.012143041690190632s
+Client_id:7, Average D_cost: -5.133565064271291, Average G_cost: 1.3810525768746933, Average Wasserstein_D: 5.742356888453165, Average Time: 0.013378330071767171s
+Client_id:8, Average D_cost: -5.176105693976084, Average G_cost: 1.6205104540412625, Average Wasserstein_D: 5.788849933942159, Average Time: 0.017387725909550986s
+Train G Loss: 1.4890081473897832, Train D Loss: -5.147177743911743
+Train G Loss: 1.5654879146296512, Train D Loss: -5.170205370585124
+Test G_cost: 0.7131363948186239, Test D_cost: -5.1669360280036924, Test Wasserstein_D: 5.1669360280036924
+Epoch 27:
+Client_id:0, Average D_cost: -4.7938683271408085, Average G_cost: 0.5962682437694942, Average Wasserstein_D: 5.379150152206421, Average Time: 0.017318705717722576s
+Client_id:1, Average D_cost: -4.850063888231913, Average G_cost: 0.6839374805490176, Average Wasserstein_D: 5.458415826161702, Average Time: 0.017516392469406127s
+Client_id:2, Average D_cost: -4.8102583964665735, Average G_cost: 0.4618882061292728, Average Wasserstein_D: 5.436788004636765, Average Time: 0.016874057054519654s
+Train G Loss: 0.5806979768159283, Train D Loss: -4.818063537279765
+Client_id:3, Average D_cost: -4.945895365873972, Average G_cost: 0.7643431377441933, Average Wasserstein_D: 5.595971095561981, Average Time: 0.018334585428237914s
+Client_id:4, Average D_cost: -4.794785306851069, Average G_cost: 0.5681967239516477, Average Wasserstein_D: 5.396268526713054, Average Time: 0.01776232719421387s
+Client_id:5, Average D_cost: -4.757413623730342, Average G_cost: 0.7278494651118914, Average Wasserstein_D: 5.351120134194692, Average Time: 0.01758776108423869s
+Train G Loss: 0.6867964422692442, Train D Loss: -4.832698098818461
+Client_id:6, Average D_cost: -4.852952941258748, Average G_cost: 0.588381738991787, Average Wasserstein_D: 5.484754355748494, Average Time: 0.017698832352956138s
+Client_id:7, Average D_cost: -4.72569349805514, Average G_cost: 0.5421204467692102, Average Wasserstein_D: 5.334076410531997, Average Time: 0.018515620628992716s
+Client_id:8, Average D_cost: -4.858088316520055, Average G_cost: 0.5898805629151563, Average Wasserstein_D: 5.473237570126852, Average Time: 0.013477458556493124s
+Train G Loss: 0.5734609162253844, Train D Loss: -4.812244918611315
+Train G Loss: 0.6136517784368523, Train D Loss: -4.82100218490318
+Test G_cost: 0.9520604441563288, Test D_cost: -4.5303246021270756, Test Wasserstein_D: 4.5303246021270756
+Epoch 28:
+Client_id:0, Average D_cost: -4.564105041821798, Average G_cost: 0.5675393670176466, Average Wasserstein_D: 5.110910928249359, Average Time: 0.013677151997884114s
+Client_id:1, Average D_cost: -4.601654464006424, Average G_cost: 0.945496026147157, Average Wasserstein_D: 5.16485101779302, Average Time: 0.01796822945276896s
+Client_id:2, Average D_cost: -4.640940169493358, Average G_cost: 0.9568753875792027, Average Wasserstein_D: 5.202605410416921, Average Time: 0.018050724267959596s
+Train G Loss: 0.8233035935813354, Train D Loss: -4.602233225107194
+Client_id:3, Average D_cost: -4.639711431662241, Average G_cost: 1.0311465817503631, Average Wasserstein_D: 5.199225926399231, Average Time: 0.018190576632817586s
+Client_id:4, Average D_cost: -4.633782502015432, Average G_cost: 0.9028440368672211, Average Wasserstein_D: 5.204162615537643, Average Time: 0.017451767126719156s
+Client_id:5, Average D_cost: -4.599740747610728, Average G_cost: 0.6934245928035428, Average Wasserstein_D: 5.166620397567749, Average Time: 0.01777323285738627s
+Train G Loss: 0.8758050704737091, Train D Loss: -4.6244115604294675
+Client_id:6, Average D_cost: -4.6322428464889525, Average G_cost: 0.5467549075372518, Average Wasserstein_D: 5.192816821734111, Average Time: 0.017222092549006144s
+Client_id:7, Average D_cost: -4.618212133646011, Average G_cost: 0.9909281244579081, Average Wasserstein_D: 5.192110645771026, Average Time: 0.017500144243240357s
+Client_id:8, Average D_cost: -4.561684117714564, Average G_cost: 0.6335350112019417, Average Wasserstein_D: 5.1214870850245156, Average Time: 0.016776108741760255s
+Train G Loss: 0.7237393477323671, Train D Loss: -4.604046365949842
+Train G Loss: 0.8076160039291372, Train D Loss: -4.610230383828835
+Test G_cost: -1.537761143843333, Test D_cost: -4.967915566762288, Test Wasserstein_D: 4.967915566762288
+Epoch 29:
+Client_id:0, Average D_cost: -4.4252975960572565, Average G_cost: 1.0170404672001798, Average Wasserstein_D: 4.986193784077963, Average Time: 0.01766310930252075s
+Client_id:1, Average D_cost: -4.454540491104126, Average G_cost: 1.0312766530861457, Average Wasserstein_D: 4.987842818101247, Average Time: 0.013106705745061238s
+Client_id:2, Average D_cost: -4.370869010686874, Average G_cost: 1.4191605921524266, Average Wasserstein_D: 4.933984126647314, Average Time: 0.011808449029922485s
+Train G Loss: 1.1558259041462506, Train D Loss: -4.416902365949419
+Client_id:3, Average D_cost: -4.526054718097051, Average G_cost: 1.4230971350024144, Average Wasserstein_D: 5.093313125769297, Average Time: 0.016624645392100016s
+Client_id:4, Average D_cost: -4.4215527673562365, Average G_cost: 1.101877311617136, Average Wasserstein_D: 4.949425673484802, Average Time: 0.01760835846265157s
+Client_id:5, Average D_cost: -4.445633602142334, Average G_cost: 1.4276407819862167, Average Wasserstein_D: 4.994328908125559, Average Time: 0.018126604954401652s
+Train G Loss: 1.3175384095352556, Train D Loss: -4.464413695865208
+Client_id:6, Average D_cost: -4.4804019153118135, Average G_cost: 1.341438691628476, Average Wasserstein_D: 5.0226559937000275, Average Time: 0.017518238226572672s
+Client_id:7, Average D_cost: -4.41876869002978, Average G_cost: 1.3114813302333157, Average Wasserstein_D: 4.9759642879168196, Average Time: 0.017387870947519937s
+Client_id:8, Average D_cost: -4.511477597554525, Average G_cost: 0.9240298269161333, Average Wasserstein_D: 5.077977200349172, Average Time: 0.017388431231180827s
+Train G Loss: 1.1923166162593082, Train D Loss: -4.47021606763204
+Train G Loss: 1.2218936433136047, Train D Loss: -4.450510709815556
+Test G_cost: 0.8815905332565308, Test D_cost: -5.50681171019872, Test Wasserstein_D: 5.50681171019872
+Epoch 30:
+Client_id:0, Average D_cost: -4.801900094747543, Average G_cost: 0.6583785197076698, Average Wasserstein_D: 5.426958640416463, Average Time: 0.017542461554209392s
+Client_id:1, Average D_cost: -4.813192788759867, Average G_cost: 1.155636426107958, Average Wasserstein_D: 5.477209049463272, Average Time: 0.017525949080785117s
+Client_id:2, Average D_cost: -4.949109878142675, Average G_cost: 0.677561731232951, Average Wasserstein_D: 5.642971698443095, Average Time: 0.01745621959368388s
+Train G Loss: 0.830525559016193, Train D Loss: -4.854734253883362
+Client_id:3, Average D_cost: -4.635034594933192, Average G_cost: 0.7934384778821065, Average Wasserstein_D: 5.182275009155274, Average Time: 0.015937028328577678s
+Client_id:4, Average D_cost: -4.793848794698715, Average G_cost: 0.40502484898315744, Average Wasserstein_D: 5.438524597883225, Average Time: 0.013409173488616944s
+Client_id:5, Average D_cost: -4.662708034118016, Average G_cost: 0.7345550650691924, Average Wasserstein_D: 5.26003246307373, Average Time: 0.012235653400421143s
+Train G Loss: 0.6443394639781522, Train D Loss: -4.697197141249974
+Client_id:6, Average D_cost: -4.795110672712326, Average G_cost: 0.6182331070265111, Average Wasserstein_D: 5.415634461243948, Average Time: 0.01591265797615051s
+Client_id:7, Average D_cost: -4.816035964091619, Average G_cost: 1.0167919586412608, Average Wasserstein_D: 5.456708306074143, Average Time: 0.016620214780171713s
+Client_id:8, Average D_cost: -4.592570245265961, Average G_cost: 0.9530544506623604, Average Wasserstein_D: 5.128001612424851, Average Time: 0.01734321117401123s
+Train G Loss: 0.862693172110044, Train D Loss: -4.734572294023302
+Train G Loss: 0.7791860650347964, Train D Loss: -4.762167896385546
+Test G_cost: -1.9037631551424663, Test D_cost: -4.823385659853617, Test Wasserstein_D: 4.823385659853617
+Epoch 30, FID: 220.0057579733154
+Epoch 31:
+Client_id:0, Average D_cost: -4.099549655119578, Average G_cost: 1.0789630432923636, Average Wasserstein_D: 4.547832045952479, Average Time: 0.017271927992502847s
+Client_id:1, Average D_cost: -4.127487496534983, Average G_cost: 0.8970985780159633, Average Wasserstein_D: 4.558343054850896, Average Time: 0.016741106907526653s
+Client_id:2, Average D_cost: -4.071410246690115, Average G_cost: 0.7534878784790635, Average Wasserstein_D: 4.507653723160426, Average Time: 0.01734732985496521s
+Train G Loss: 0.9098498332624635, Train D Loss: -4.099482466114892
+Client_id:3, Average D_cost: -4.122093055645625, Average G_cost: 0.6006713461751739, Average Wasserstein_D: 4.59501047929128, Average Time: 0.017553162574768067s
+Client_id:4, Average D_cost: -4.083344721794129, Average G_cost: 0.6919219805393368, Average Wasserstein_D: 4.515788634618123, Average Time: 0.01268509825070699s
+Client_id:5, Average D_cost: -4.074879787365595, Average G_cost: 0.8593560184041659, Average Wasserstein_D: 4.50867480635643, Average Time: 0.012372336784998576s
+Train G Loss: 0.7173164483728921, Train D Loss: -4.093439188268449
+Client_id:6, Average D_cost: -4.1566227634747825, Average G_cost: 0.6766759884388497, Average Wasserstein_D: 4.683228584130605, Average Time: 0.01717986265818278s
+Client_id:7, Average D_cost: -4.0479943950970965, Average G_cost: 0.9396405862566705, Average Wasserstein_D: 4.485383282105128, Average Time: 0.017958577473958334s
+Client_id:8, Average D_cost: -4.116500824689865, Average G_cost: 0.5558997517141203, Average Wasserstein_D: 4.557120118538538, Average Time: 0.01800880432128906s
+Train G Loss: 0.7240721088032135, Train D Loss: -4.107039327753914
+Train G Loss: 0.7837461301461897, Train D Loss: -4.099986994045751
+Test G_cost: 2.075395930806796, Test D_cost: -4.382708861430486, Test Wasserstein_D: 4.382708861430486
+Epoch 32:
+Client_id:0, Average D_cost: -4.225694566965103, Average G_cost: 1.6325137564834828, Average Wasserstein_D: 4.689100243647894, Average Time: 0.017566780249277752s
+Client_id:1, Average D_cost: -4.261623811721802, Average G_cost: 1.4105504272913094, Average Wasserstein_D: 4.7276617983977, Average Time: 0.017564388116200765s
+Client_id:2, Average D_cost: -4.256220485766729, Average G_cost: 1.3083605437229078, Average Wasserstein_D: 4.7366097331047055, Average Time: 0.017833664019902547s
+Train G Loss: 1.4504749091659, Train D Loss: -4.247846288151211
+Client_id:3, Average D_cost: -4.31323567032814, Average G_cost: 1.6647722935614486, Average Wasserstein_D: 4.77739179333051, Average Time: 0.01769399642944336s
+Client_id:4, Average D_cost: -4.227597437302271, Average G_cost: 1.1803783064397673, Average Wasserstein_D: 4.6925132711728414, Average Time: 0.017638872067133587s
+Client_id:5, Average D_cost: -4.247612979014715, Average G_cost: 1.349847514955036, Average Wasserstein_D: 4.699973873297373, Average Time: 0.01745792031288147s
+Train G Loss: 1.3983327049854175, Train D Loss: -4.262815362215043
+Client_id:6, Average D_cost: -4.290891818205515, Average G_cost: 1.5337811631693816, Average Wasserstein_D: 4.763538020849228, Average Time: 0.014394146203994752s
+Client_id:7, Average D_cost: -4.231315529346466, Average G_cost: 1.5105573629184315, Average Wasserstein_D: 4.702655188242594, Average Time: 0.013475567102432251s
+Client_id:8, Average D_cost: -4.277448864777883, Average G_cost: 1.312127868210276, Average Wasserstein_D: 4.756784923871359, Average Time: 0.015124281247456869s
+Train G Loss: 1.4521554647660295, Train D Loss: -4.266552070776621
+Train G Loss: 1.4336543596391156, Train D Loss: -4.259071240380958
+Test G_cost: 0.17643723359105934, Test D_cost: -4.36449316740036, Test Wasserstein_D: 4.36449316740036
+Epoch 33:
+Client_id:0, Average D_cost: -4.0938716173172, Average G_cost: 1.6222934355027974, Average Wasserstein_D: 4.557416802644729, Average Time: 0.017570336659749348s
+Client_id:1, Average D_cost: -4.123443748553594, Average G_cost: 1.7281395816826262, Average Wasserstein_D: 4.597942843039831, Average Time: 0.017836380004882812s
+Client_id:2, Average D_cost: -4.1537691672643025, Average G_cost: 2.0487643495512504, Average Wasserstein_D: 4.623971422513326, Average Time: 0.01761751969655355s
+Train G Loss: 1.7997324555788914, Train D Loss: -4.123694844378366
+Client_id:3, Average D_cost: -4.233425631125768, Average G_cost: 1.4826600963870684, Average Wasserstein_D: 4.738007469971975, Average Time: 0.018113040924072267s
+Client_id:4, Average D_cost: -4.10155957142512, Average G_cost: 1.7538640768422435, Average Wasserstein_D: 4.5628964324792225, Average Time: 0.01804513136545817s
+Client_id:5, Average D_cost: -4.14109134276708, Average G_cost: 1.348448056122288, Average Wasserstein_D: 4.628273602326711, Average Time: 0.017456281185150146s
+Train G Loss: 1.5283240764505333, Train D Loss: -4.158692181772656
+Client_id:6, Average D_cost: -4.188933245340983, Average G_cost: 1.3089904317011436, Average Wasserstein_D: 4.650043199459712, Average Time: 0.017776429653167725s
+Client_id:7, Average D_cost: -4.122579256693522, Average G_cost: 1.8932005711520712, Average Wasserstein_D: 4.592996241648992, Average Time: 0.01746083696683248s
+Client_id:8, Average D_cost: -4.121098393201828, Average G_cost: 1.4013955253797272, Average Wasserstein_D: 4.598382705450058, Average Time: 0.01689639687538147s
+Train G Loss: 1.534528842744314, Train D Loss: -4.1442036317454445
+Train G Loss: 1.6208617915912462, Train D Loss: -4.142196885965489
+Test G_cost: 0.22074700418161228, Test D_cost: -4.024223335584005, Test Wasserstein_D: 4.024223335584005
+Epoch 34:
+Client_id:0, Average D_cost: -3.9198553840319317, Average G_cost: 1.294470973778516, Average Wasserstein_D: 4.386108169953029, Average Time: 0.01239711840947469s
+Client_id:1, Average D_cost: -3.8872779389222463, Average G_cost: 0.5463241698530813, Average Wasserstein_D: 4.338569078842799, Average Time: 0.016778481006622315s
+Client_id:2, Average D_cost: -3.9172263224919637, Average G_cost: 0.9755165879963897, Average Wasserstein_D: 4.371561980247497, Average Time: 0.01747970978418986s
+Train G Loss: 0.938770577209329, Train D Loss: -3.9081198818153804
+Client_id:3, Average D_cost: -4.0013179123401645, Average G_cost: 0.8851302249357105, Average Wasserstein_D: 4.459780138731003, Average Time: 0.017226489384969075s
+Client_id:4, Average D_cost: -3.9122853219509124, Average G_cost: 1.3703515196141476, Average Wasserstein_D: 4.3630791465441385, Average Time: 0.01816297769546509s
+Client_id:5, Average D_cost: -3.894025927782059, Average G_cost: 1.3977870470300937, Average Wasserstein_D: 4.3310799360275265, Average Time: 0.0182381808757782s
+Train G Loss: 1.217756263859984, Train D Loss: -3.935876387357712
+Client_id:6, Average D_cost: -3.918275676170985, Average G_cost: 1.4210360361263157, Average Wasserstein_D: 4.378447834650675, Average Time: 0.017545737822850547s
+Client_id:7, Average D_cost: -3.9583596607049305, Average G_cost: 1.1509904977380454, Average Wasserstein_D: 4.424380419651667, Average Time: 0.017796770731608073s
+Client_id:8, Average D_cost: -3.958197553952535, Average G_cost: 1.2150936732379098, Average Wasserstein_D: 4.399105155467987, Average Time: 0.018029999732971192s
+Train G Loss: 1.2623734023674236, Train D Loss: -3.944944296942817
+Train G Loss: 1.1396334144789122, Train D Loss: -3.92964685537197
+Test G_cost: 2.611350442965825, Test D_cost: -3.841357094049454, Test Wasserstein_D: 3.841357094049454
+Epoch 35:
+Client_id:0, Average D_cost: -3.8225523134072623, Average G_cost: -0.49860173001264535, Average Wasserstein_D: 4.270175164937973, Average Time: 0.017537746826807657s
+Client_id:1, Average D_cost: -3.787115391095479, Average G_cost: 0.8730669692313919, Average Wasserstein_D: 4.239366227388382, Average Time: 0.017257676521937052s
+Client_id:2, Average D_cost: -3.8227676232655843, Average G_cost: -0.219758107032006, Average Wasserstein_D: 4.277827908595403, Average Time: 0.01189969778060913s
+Train G Loss: 0.05156904406224686, Train D Loss: -3.8108117759227755
+Client_id:3, Average D_cost: -3.8509892523288727, Average G_cost: -0.1782131732131044, Average Wasserstein_D: 4.321567904949188, Average Time: 0.011439667145411173s
+Client_id:4, Average D_cost: -3.763371503353119, Average G_cost: 0.12498417322834333, Average Wasserstein_D: 4.226954207817713, Average Time: 0.01653246283531189s
+Client_id:5, Average D_cost: -3.7279433091481526, Average G_cost: 1.0953764097920309, Average Wasserstein_D: 4.185893710454305, Average Time: 0.017700376113255818s
+Train G Loss: 0.3473824699357566, Train D Loss: -3.7807680216100477
+Client_id:6, Average D_cost: -3.836735059817632, Average G_cost: 0.32765681638071936, Average Wasserstein_D: 4.3131670753161115, Average Time: 0.01752084692319234s
+Client_id:7, Average D_cost: -3.8937672277291617, Average G_cost: -0.21790577145293355, Average Wasserstein_D: 4.362498406569163, Average Time: 0.01757034659385681s
+Client_id:8, Average D_cost: -3.9136563777923583, Average G_cost: 0.842021226399326, Average Wasserstein_D: 4.401626668373743, Average Time: 0.016762497027715047s
+Train G Loss: 0.31725742377570393, Train D Loss: -3.8813862217797173
+Train G Loss: 0.23873631259123582, Train D Loss: -3.8243220064375136
+Test G_cost: 4.873202204704285, Test D_cost: -3.6549092133839927, Test Wasserstein_D: 3.6549092133839927
+Epoch 36:
+Client_id:0, Average D_cost: -3.5994392573833465, Average G_cost: 2.0304923077424366, Average Wasserstein_D: 4.022539913654327, Average Time: 0.01709882418314616s
+Client_id:1, Average D_cost: -3.7000840743382772, Average G_cost: 1.3532058665528894, Average Wasserstein_D: 4.196957878271738, Average Time: 0.017213356494903565s
+Client_id:2, Average D_cost: -3.531171464920044, Average G_cost: 1.2404128096997737, Average Wasserstein_D: 3.9231643239657084, Average Time: 0.017663723230361937s
+Train G Loss: 1.5413703279983666, Train D Loss: -3.610231598880556
+Client_id:3, Average D_cost: -3.6303986966609956, Average G_cost: 2.989779816304023, Average Wasserstein_D: 4.090132574240367, Average Time: 0.017942100763320923s
+Client_id:4, Average D_cost: -3.6163786073525745, Average G_cost: 2.119107164442539, Average Wasserstein_D: 4.0491855045159655, Average Time: 0.015769714117050172s
+Client_id:5, Average D_cost: -3.554154686133067, Average G_cost: 0.5565494251127044, Average Wasserstein_D: 3.970682994524638, Average Time: 0.011333100001017253s
+Train G Loss: 1.888478801953089, Train D Loss: -3.600310663382212
+Client_id:6, Average D_cost: -3.628206264972687, Average G_cost: 1.86610589834551, Average Wasserstein_D: 4.098448834816614, Average Time: 0.012131728728612264s
+Client_id:7, Average D_cost: -3.620526212453842, Average G_cost: 2.3539119526433447, Average Wasserstein_D: 4.1173401514689125, Average Time: 0.016612116495768228s
+Client_id:8, Average D_cost: -3.555890808502833, Average G_cost: 0.6540463892432551, Average Wasserstein_D: 3.9711055119832355, Average Time: 0.017261705795923867s
+Train G Loss: 1.6246880800773702, Train D Loss: -3.6015410953097873
+Train G Loss: 1.6848457366762755, Train D Loss: -3.6040277858575185
+Test G_cost: -4.833928720156352, Test D_cost: -3.94306321144104, Test Wasserstein_D: 3.94306321144104
+Epoch 37:
+Client_id:0, Average D_cost: -3.2748007575670877, Average G_cost: -0.6724505922446649, Average Wasserstein_D: 3.644957282145818, Average Time: 0.017413413524627684s
+Client_id:1, Average D_cost: -3.314816702405612, Average G_cost: 1.3867142245173454, Average Wasserstein_D: 3.6622904459635417, Average Time: 0.01783998211224874s
+Client_id:2, Average D_cost: -3.2495200753211977, Average G_cost: 0.8439234108974536, Average Wasserstein_D: 3.6029978811740877, Average Time: 0.01762455900510152s
+Train G Loss: 0.5193956810567114, Train D Loss: -3.2797125117646324
+Client_id:3, Average D_cost: -3.1664678076903026, Average G_cost: -0.18032816142464678, Average Wasserstein_D: 3.5165231237808863, Average Time: 0.017988534768422444s
+Client_id:4, Average D_cost: -3.2350647459427515, Average G_cost: 1.1193737088081737, Average Wasserstein_D: 3.6120659987131756, Average Time: 0.01792128086090088s
+Client_id:5, Average D_cost: -3.277321943640709, Average G_cost: 1.6047042466389636, Average Wasserstein_D: 3.6209396600723265, Average Time: 0.018328158060709636s
+Train G Loss: 0.8479165980074969, Train D Loss: -3.2262848324245876
+Client_id:6, Average D_cost: -3.2784237593412398, Average G_cost: 1.6372408609216411, Average Wasserstein_D: 3.613313420613607, Average Time: 0.017948110898335774s
+Client_id:7, Average D_cost: -3.2666473984718323, Average G_cost: 1.0968514932319522, Average Wasserstein_D: 3.6097280224164328, Average Time: 0.013925602038701376s
+Client_id:8, Average D_cost: -3.464571855465571, Average G_cost: 1.6321810229565017, Average Wasserstein_D: 3.874060779809952, Average Time: 0.01187357505162557s
+Train G Loss: 1.4554244590366983, Train D Loss: -3.3365476710928808
+Train G Loss: 0.9409122460336355, Train D Loss: -3.280848338427367
+Test G_cost: 6.4216923673947655, Test D_cost: -3.579283426205317, Test Wasserstein_D: 3.579283426205317
+Epoch 38:
+Client_id:0, Average D_cost: -3.3673617780208587, Average G_cost: 3.5274905153860647, Average Wasserstein_D: 3.7191660702228546, Average Time: 0.01703039805094401s
+Client_id:1, Average D_cost: -3.3751058757305143, Average G_cost: 1.895747933505724, Average Wasserstein_D: 3.7465041875839233, Average Time: 0.017826682329177855s
+Client_id:2, Average D_cost: -3.2666473627090453, Average G_cost: 2.316074076977869, Average Wasserstein_D: 3.621780699491501, Average Time: 0.017842729886372883s
+Train G Loss: 2.579770841956553, Train D Loss: -3.3363716721534726
+Client_id:3, Average D_cost: -3.3861753225326536, Average G_cost: 2.8286631379276512, Average Wasserstein_D: 3.754611583550771, Average Time: 0.017517654101053874s
+Client_id:4, Average D_cost: -3.3646028498808542, Average G_cost: 1.8344662771870692, Average Wasserstein_D: 3.7136462608973186, Average Time: 0.017221703131993612s
+Client_id:5, Average D_cost: -3.2792462786038716, Average G_cost: 1.765640770457685, Average Wasserstein_D: 3.6180176297823587, Average Time: 0.017591975132624307s
+Train G Loss: 2.142923395190802, Train D Loss: -3.3433414836724595
+Client_id:6, Average D_cost: -3.328754609823227, Average G_cost: 1.760598037042655, Average Wasserstein_D: 3.6694847563902537, Average Time: 0.01752487023671468s
+Client_id:7, Average D_cost: -3.3644083480040234, Average G_cost: 2.1728202934066454, Average Wasserstein_D: 3.7313421765963235, Average Time: 0.017805622021357218s
+Client_id:8, Average D_cost: -3.355828328927358, Average G_cost: 1.9645972813945263, Average Wasserstein_D: 3.7198896924654643, Average Time: 0.018035670121510822s
+Train G Loss: 1.966005203947942, Train D Loss: -3.349663762251536
+Train G Loss: 2.229566480365099, Train D Loss: -3.343125639359156
+Test G_cost: -1.1106140300631524, Test D_cost: -3.7442135870456696, Test Wasserstein_D: 3.7442135870456696
+Epoch 39:
+Client_id:0, Average D_cost: -3.0641403992970786, Average G_cost: -0.7190132617484778, Average Wasserstein_D: 3.3924289882183074, Average Time: 0.014054578542709351s
+Client_id:1, Average D_cost: -3.0841741333405177, Average G_cost: -0.32177161432337015, Average Wasserstein_D: 3.4152313580115634, Average Time: 0.012294838825861612s
+Client_id:2, Average D_cost: -2.9899965872367225, Average G_cost: -0.5902923974829416, Average Wasserstein_D: 3.311572302381198, Average Time: 0.015262035528818767s
+Train G Loss: -0.5436924245182632, Train D Loss: -3.046103706624773
+Client_id:3, Average D_cost: -3.085183243950208, Average G_cost: -0.3592259643599391, Average Wasserstein_D: 3.429156694809596, Average Time: 0.017234615484873452s
+Client_id:4, Average D_cost: -3.039712103207906, Average G_cost: -0.10781557849453141, Average Wasserstein_D: 3.3858379910389584, Average Time: 0.017977164189020792s
+Client_id:5, Average D_cost: -3.083008634050687, Average G_cost: 0.2556040508362154, Average Wasserstein_D: 3.4146068970362347, Average Time: 0.017513362566630046s
+Train G Loss: -0.07047916400608505, Train D Loss: -3.0693013270696006
+Client_id:6, Average D_cost: -3.0946983168522517, Average G_cost: 0.011596994396920005, Average Wasserstein_D: 3.4341855029265087, Average Time: 0.016778783003489176s
+Client_id:7, Average D_cost: -3.0825261175632477, Average G_cost: 0.2549905889298922, Average Wasserstein_D: 3.4110644847154616, Average Time: 0.017852705717086793s
+Client_id:8, Average D_cost: -3.0757028341293333, Average G_cost: 0.3444941236327092, Average Wasserstein_D: 3.4109672963619233, Average Time: 0.017328713337580362s
+Train G Loss: 0.20369390231984044, Train D Loss: -3.0843090895149445
+Train G Loss: -0.13682589540150258, Train D Loss: -3.066571374403106
+Test G_cost: 2.193237316608429, Test D_cost: -2.5989024301369983, Test Wasserstein_D: 2.5989024301369983
+Epoch 40:
+Client_id:0, Average D_cost: -2.8353184799353284, Average G_cost: 1.5491131690330804, Average Wasserstein_D: 3.13036105632782, Average Time: 0.01768567164738973s
+Client_id:1, Average D_cost: -2.859884982307752, Average G_cost: 1.6602520323436087, Average Wasserstein_D: 3.1714383135239284, Average Time: 0.01728048324584961s
+Client_id:2, Average D_cost: -2.810141416390737, Average G_cost: 1.9237576448048155, Average Wasserstein_D: 3.1097108632326127, Average Time: 0.01777977744738261s
+Train G Loss: 1.7110409487271683, Train D Loss: -2.835114959544606
+Client_id:3, Average D_cost: -2.840955087542534, Average G_cost: 1.5393550336438542, Average Wasserstein_D: 3.143511086702347, Average Time: 0.01226082444190979s
+Client_id:4, Average D_cost: -2.828441260258357, Average G_cost: 1.4246694626907508, Average Wasserstein_D: 3.133187860250473, Average Time: 0.01248166561126709s
+Client_id:5, Average D_cost: -2.8354024012883503, Average G_cost: 1.3060477033955977, Average Wasserstein_D: 3.1453762630621593, Average Time: 0.015516467889149984s
+Train G Loss: 1.4233573999100677, Train D Loss: -2.8349329163630803
+Client_id:6, Average D_cost: -2.8844776074091594, Average G_cost: 1.1464669767223918, Average Wasserstein_D: 3.2045979102452598, Average Time: 0.017904631296793618s
+Client_id:7, Average D_cost: -2.860191580653191, Average G_cost: 1.1914185839394729, Average Wasserstein_D: 3.1608445167541506, Average Time: 0.017974108457565308s
+Client_id:8, Average D_cost: -2.936305777231852, Average G_cost: 0.5058287381504972, Average Wasserstein_D: 3.2684498598178227, Average Time: 0.01783395806948344s
+Train G Loss: 0.9479047662707872, Train D Loss: -2.893658321764734
+Train G Loss: 1.360767704969341, Train D Loss: -2.8545687325574733
+Test G_cost: -4.3594256718953455, Test D_cost: -3.238898015022278, Test Wasserstein_D: 3.238898015022278
+Epoch 40, FID: 183.32353129748822
+Epoch 41:
+Client_id:0, Average D_cost: -2.614019168416659, Average G_cost: -1.124578186000387, Average Wasserstein_D: 2.93366416990757, Average Time: 0.017834593852361042s
+Client_id:1, Average D_cost: -2.6583224654197695, Average G_cost: -0.804241230043893, Average Wasserstein_D: 2.9703377922375997, Average Time: 0.017955748240152995s
+Client_id:2, Average D_cost: -2.66491828362147, Average G_cost: -0.47104334328323605, Average Wasserstein_D: 2.9991393953561785, Average Time: 0.017882243792215983s
+Train G Loss: -0.799954253109172, Train D Loss: -2.6457533058192997
+Client_id:3, Average D_cost: -2.6767853746811547, Average G_cost: -1.2001805547935267, Average Wasserstein_D: 2.993976202607155, Average Time: 0.012852468093236287s
+Client_id:4, Average D_cost: -2.6670914560556414, Average G_cost: -0.6970082870374124, Average Wasserstein_D: 2.9779321561257044, Average Time: 0.011637093623479207s
+Client_id:5, Average D_cost: -2.647505113482475, Average G_cost: -0.8573195683537052, Average Wasserstein_D: 2.9621512830257415, Average Time: 0.014265302817026775s
+Train G Loss: -0.918169470061548, Train D Loss: -2.663793981406424
+Client_id:6, Average D_cost: -2.718520796298981, Average G_cost: 0.13287203560272853, Average Wasserstein_D: 3.014433177312215, Average Time: 0.017444856961568198s
+Client_id:7, Average D_cost: -2.607588298122088, Average G_cost: -0.3468166831259926, Average Wasserstein_D: 2.9086032142241796, Average Time: 0.01773235003153483s
+Client_id:8, Average D_cost: -2.747114296754201, Average G_cost: 0.6332302471001943, Average Wasserstein_D: 3.0364893277486167, Average Time: 0.01729693611462911s
+Train G Loss: 0.1397618665256434, Train D Loss: -2.6910744637250903
+Train G Loss: -0.5261206188816921, Train D Loss: -2.666873916983605
+Test G_cost: 9.949335193634033, Test D_cost: -3.581166756153107, Test Wasserstein_D: 3.581166756153107
+Epoch 42:
+Client_id:0, Average D_cost: -2.8505580658713976, Average G_cost: 5.582343422900886, Average Wasserstein_D: 3.2785398960113525, Average Time: 0.018172295888264973s
+Client_id:1, Average D_cost: -3.0441022728880247, Average G_cost: 6.239080118512114, Average Wasserstein_D: 3.5184265558918315, Average Time: 0.01802051266034444s
+Client_id:2, Average D_cost: -2.9228781551122665, Average G_cost: 5.651434163066248, Average Wasserstein_D: 3.3404586444298427, Average Time: 0.017700008551279702s
+Train G Loss: 5.8242859014930835, Train D Loss: -2.93917949795723
+Client_id:3, Average D_cost: -3.032267731924852, Average G_cost: 6.227060578259018, Average Wasserstein_D: 3.5255946204066277, Average Time: 0.018112627665201823s
+Client_id:4, Average D_cost: -2.980350086589654, Average G_cost: 5.494573696043032, Average Wasserstein_D: 3.4444112400213878, Average Time: 0.018139179547627768s
+Client_id:5, Average D_cost: -2.982152798771858, Average G_cost: 6.090269299961316, Average Wasserstein_D: 3.448873381813367, Average Time: 0.017495123545328777s
+Train G Loss: 5.937301191421123, Train D Loss: -2.9982568724287884
+Client_id:6, Average D_cost: -3.0473368421196936, Average G_cost: 5.357733881737416, Average Wasserstein_D: 3.481500337521235, Average Time: 0.012096110979715984s
+Client_id:7, Average D_cost: -3.0069103519121807, Average G_cost: 5.7280509610349934, Average Wasserstein_D: 3.502507916589578, Average Time: 0.012204947074254353s
+Client_id:8, Average D_cost: -2.990308827161789, Average G_cost: 4.771700513052443, Average Wasserstein_D: 3.4126618872086207, Average Time: 0.016351687908172607s
+Train G Loss: 5.285828451941618, Train D Loss: -3.0148520070645546
+Train G Loss: 5.6824718482852745, Train D Loss: -2.984096125816858
+Test G_cost: 1.3666791061560313, Test D_cost: -3.108027386665344, Test Wasserstein_D: 3.108027386665344
+Epoch 43:
+Client_id:0, Average D_cost: -2.691907663146655, Average G_cost: -1.0174085636700814, Average Wasserstein_D: 2.9859670460224152, Average Time: 0.016503920157750446s
+Client_id:1, Average D_cost: -2.7114037851492565, Average G_cost: -0.9294625757882993, Average Wasserstein_D: 3.0020922044912974, Average Time: 0.01766314705212911s
+Client_id:2, Average D_cost: -2.6882040868202846, Average G_cost: -0.8133000270153086, Average Wasserstein_D: 2.977241622408231, Average Time: 0.018041942516962686s
+Train G Loss: -0.9200570554912297, Train D Loss: -2.697171845038732
+Client_id:3, Average D_cost: -2.7868728856245677, Average G_cost: -1.2985521929338575, Average Wasserstein_D: 3.0934279451767606, Average Time: 0.01791067918141683s
+Client_id:4, Average D_cost: -2.7725661943356195, Average G_cost: -1.1125334075341622, Average Wasserstein_D: 3.0857730408509574, Average Time: 0.01762730081876119s
+Client_id:5, Average D_cost: -2.692806416749954, Average G_cost: -1.5065811303754648, Average Wasserstein_D: 2.979489354292552, Average Time: 0.01759919325510661s
+Train G Loss: -1.3058889102811615, Train D Loss: -2.7507484989033806
+Client_id:6, Average D_cost: -2.7590010205904645, Average G_cost: -0.7892037394146124, Average Wasserstein_D: 3.053876824180285, Average Time: 0.017273165782292686s
+Client_id:7, Average D_cost: -2.7341322739919027, Average G_cost: -1.2665663379089287, Average Wasserstein_D: 3.0381614645322164, Average Time: 0.01776047150293986s
+Client_id:8, Average D_cost: -2.7121125956376395, Average G_cost: 0.061821058532223104, Average Wasserstein_D: 3.003453888495763, Average Time: 0.016040352980295818s
+Train G Loss: -0.6646496729304393, Train D Loss: -2.735081963406669
+Train G Loss: -0.9635318795676101, Train D Loss: -2.727667435782927
+Test G_cost: -3.1835609038670856, Test D_cost: -2.6052223483721417, Test Wasserstein_D: 2.6052223483721417
+Epoch 44:
+Client_id:0, Average D_cost: -2.5665876160065335, Average G_cost: 3.5496645736508072, Average Wasserstein_D: 2.8242267181475955, Average Time: 0.012811289230982462s
+Client_id:1, Average D_cost: -2.5369477957487105, Average G_cost: 3.889495644842585, Average Wasserstein_D: 2.816010253628095, Average Time: 0.013878023624420166s
+Client_id:2, Average D_cost: -2.5152656684319177, Average G_cost: 3.7830700922136504, Average Wasserstein_D: 2.779123388727506, Average Time: 0.017446422576904298s
+Train G Loss: 3.7407434369023473, Train D Loss: -2.539600360062387
+Client_id:3, Average D_cost: -2.4806829899549485, Average G_cost: 3.9595921176175275, Average Wasserstein_D: 2.7258927881717683, Average Time: 0.017714943488438925s
+Client_id:4, Average D_cost: -2.5054433087507886, Average G_cost: 3.5545918948948385, Average Wasserstein_D: 2.739738889535268, Average Time: 0.01781949996948242s
+Client_id:5, Average D_cost: -2.5176801890134812, Average G_cost: 4.570269281366685, Average Wasserstein_D: 2.7899261583884556, Average Time: 0.017839868863423664s
+Train G Loss: 4.028151097959683, Train D Loss: -2.5012688292397396
+Client_id:6, Average D_cost: -2.5388077358404795, Average G_cost: 3.443874116614461, Average Wasserstein_D: 2.794884612162908, Average Time: 0.01801134943962097s
+Client_id:7, Average D_cost: -2.4504500279823938, Average G_cost: 3.760319424731036, Average Wasserstein_D: 2.6776807397603988, Average Time: 0.018090782562891643s
+Client_id:8, Average D_cost: -2.5374279220898948, Average G_cost: 3.9663854515703862, Average Wasserstein_D: 2.8110756864150366, Average Time: 0.017841891447703043s
+Train G Loss: 3.7235263309719606, Train D Loss: -2.5088952286375896
+Train G Loss: 3.8308069552779975, Train D Loss: -2.5165881393132388
+Test G_cost: 11.205224577585856, Test D_cost: -4.150539445877075, Test Wasserstein_D: 4.150539445877075
+Epoch 45:
+Client_id:0, Average D_cost: -2.3671309972802796, Average G_cost: 1.2981544292221467, Average Wasserstein_D: 2.6504375179608664, Average Time: 0.01820407509803772s
+Client_id:1, Average D_cost: -2.3698062429825466, Average G_cost: 2.1261021929482617, Average Wasserstein_D: 2.6532470007737476, Average Time: 0.01782293915748596s
+Client_id:2, Average D_cost: -2.3291230723261833, Average G_cost: 1.9880625577643514, Average Wasserstein_D: 2.600886458158493, Average Time: 0.012684295574824015s
+Train G Loss: 1.8041063933115866, Train D Loss: -2.35535343752967
+Client_id:3, Average D_cost: -2.4305321743090946, Average G_cost: 1.940130339935422, Average Wasserstein_D: 2.7126428872346877, Average Time: 0.013510616620381673s
+Client_id:4, Average D_cost: -2.3042490015427273, Average G_cost: 1.3467427260552844, Average Wasserstein_D: 2.6163405517737073, Average Time: 0.016729082663853964s
+Client_id:5, Average D_cost: -2.3555376321077346, Average G_cost: 2.221500483279427, Average Wasserstein_D: 2.6234475473562875, Average Time: 0.018065661191940308s
+Train G Loss: 1.8361245164233777, Train D Loss: -2.3634396026531856
+Client_id:6, Average D_cost: -2.31468782077233, Average G_cost: 1.61834688570234, Average Wasserstein_D: 2.619877900679906, Average Time: 0.017404303948084513s
+Client_id:7, Average D_cost: -2.3531238570809365, Average G_cost: 2.065674764725069, Average Wasserstein_D: 2.6708131819963454, Average Time: 0.01736005345980326s
+Client_id:8, Average D_cost: -2.4106694370508195, Average G_cost: 4.347750553760367, Average Wasserstein_D: 2.6768058041731515, Average Time: 0.017681439717610676s
+Train G Loss: 2.6772574013959254, Train D Loss: -2.359493704968029
+Train G Loss: 2.10582943704363, Train D Loss: -2.359428915050295
+Test G_cost: 5.8293110171953835, Test D_cost: -2.003284666935603, Test Wasserstein_D: 2.003284666935603
+Epoch 46:
+Client_id:0, Average D_cost: -2.3623845398426058, Average G_cost: 3.5957011968440686, Average Wasserstein_D: 2.6009731074174245, Average Time: 0.01716774304707845s
+Client_id:1, Average D_cost: -2.318554013967514, Average G_cost: 2.273774792874853, Average Wasserstein_D: 2.5480863591035208, Average Time: 0.017217979828516642s
+Client_id:2, Average D_cost: -2.366945833961169, Average G_cost: 3.108238414550821, Average Wasserstein_D: 2.620849606394768, Average Time: 0.017442232370376586s
+Train G Loss: 2.992571468089914, Train D Loss: -2.349294795923763
+Client_id:3, Average D_cost: -2.345688400665919, Average G_cost: 2.9791885218583047, Average Wasserstein_D: 2.5816952844460803, Average Time: 0.017419270674387612s
+Client_id:4, Average D_cost: -2.3626288056373594, Average G_cost: 3.2978840987818936, Average Wasserstein_D: 2.6230448534091315, Average Time: 0.014582890272140502s
+Client_id:5, Average D_cost: -2.375360852479935, Average G_cost: 2.379658988614877, Average Wasserstein_D: 2.6327226171890894, Average Time: 0.011778960625330607s
+Train G Loss: 2.8855772030850253, Train D Loss: -2.3612260195944046
+Client_id:6, Average D_cost: -2.3921656042337416, Average G_cost: 2.826390144849817, Average Wasserstein_D: 2.6506598393122354, Average Time: 0.014635306596755982s
+Client_id:7, Average D_cost: -2.302616696556409, Average G_cost: 3.0813332207345714, Average Wasserstein_D: 2.5475455850362776, Average Time: 0.01740643580754598s
+Client_id:8, Average D_cost: -2.4267155761520067, Average G_cost: 1.5794095364321643, Average Wasserstein_D: 2.7008915513753893, Average Time: 0.017845563093821206s
+Train G Loss: 2.495710967338851, Train D Loss: -2.3738326256473856
+Train G Loss: 2.7912865461712637, Train D Loss: -2.361451147055184
+Test G_cost: -7.018845756848653, Test D_cost: -2.5607668081919353, Test Wasserstein_D: 2.5607668081919353
+Epoch 47:
+Client_id:0, Average D_cost: -2.167183249195417, Average G_cost: 0.5010184370524561, Average Wasserstein_D: 2.358654915293058, Average Time: 0.017478988567988078s
+Client_id:1, Average D_cost: -2.20258614718914, Average G_cost: -0.0634669698231543, Average Wasserstein_D: 2.3996669322252275, Average Time: 0.017741890748341878s
+Client_id:2, Average D_cost: -2.217190777262052, Average G_cost: 1.3193596560508012, Average Wasserstein_D: 2.420267022649447, Average Time: 0.017896602551142376s
+Train G Loss: 0.5856370410933677, Train D Loss: -2.1956533912155365
+Client_id:3, Average D_cost: -2.15825798312823, Average G_cost: 0.7443147012343009, Average Wasserstein_D: 2.3447070608536404, Average Time: 0.017195584376653035s
+Client_id:4, Average D_cost: -2.1756902664899824, Average G_cost: 0.3599521193963786, Average Wasserstein_D: 2.378396631280581, Average Time: 0.01766392191251119s
+Client_id:5, Average D_cost: -2.1858477503061295, Average G_cost: 0.49935157264893254, Average Wasserstein_D: 2.3857607980569204, Average Time: 0.017218236128489176s
+Train G Loss: 0.5345394644265373, Train D Loss: -2.173265333308114
+Client_id:6, Average D_cost: -2.2353685160477954, Average G_cost: 0.07577172983437777, Average Wasserstein_D: 2.463241971532504, Average Time: 0.017522249619166055s
+Client_id:7, Average D_cost: -2.181493212779363, Average G_cost: 1.2939580034076548, Average Wasserstein_D: 2.371179983019829, Average Time: 0.012348473072052002s
+Client_id:8, Average D_cost: -2.207281877100468, Average G_cost: 1.3611739142177006, Average Wasserstein_D: 2.4089530726273853, Average Time: 0.01197426716486613s
+Train G Loss: 0.9103012158199112, Train D Loss: -2.208047868642542
+Train G Loss: 0.6768259071132721, Train D Loss: -2.192322197722064
+Test G_cost: 5.866151475906372, Test D_cost: -2.0298300127188367, Test Wasserstein_D: 2.0298300127188367
+Epoch 48:
+Client_id:0, Average D_cost: -2.1340147535006206, Average G_cost: 0.8562789500574581, Average Wasserstein_D: 2.346094783147176, Average Time: 0.016957525412241617s
+Client_id:1, Average D_cost: -2.1359294176101686, Average G_cost: 1.5863723533848921, Average Wasserstein_D: 2.3520980606476467, Average Time: 0.017823306719462077s
+Client_id:2, Average D_cost: -2.0943640977144242, Average G_cost: 0.8250921426573768, Average Wasserstein_D: 2.309768063823382, Average Time: 0.01741453806559245s
+Train G Loss: 1.0892478153665757, Train D Loss: -2.121436089608405
+Client_id:3, Average D_cost: -2.0910668700933455, Average G_cost: 1.5775392206696173, Average Wasserstein_D: 2.296735825141271, Average Time: 0.017375401655832925s
+Client_id:4, Average D_cost: -2.076798015832901, Average G_cost: 2.1339414387747335, Average Wasserstein_D: 2.2819480776786802, Average Time: 0.018119436502456666s
+Client_id:5, Average D_cost: -2.1674627741177876, Average G_cost: 0.8912697475248327, Average Wasserstein_D: 2.3861015935738883, Average Time: 0.018064965804417927s
+Train G Loss: 1.5342501356563945, Train D Loss: -2.1117758866813445
+Client_id:6, Average D_cost: -2.123075296978156, Average G_cost: 1.8587060026281204, Average Wasserstein_D: 2.333711802959442, Average Time: 0.01800504724184672s
+Client_id:7, Average D_cost: -2.163724273443222, Average G_cost: 0.991634853828388, Average Wasserstein_D: 2.383822152018547, Average Time: 0.016992102066675823s
+Client_id:8, Average D_cost: -2.1251116037368774, Average G_cost: 0.7040398638074596, Average Wasserstein_D: 2.337758689125379, Average Time: 0.017181156078974406s
+Train G Loss: 1.1847935734213226, Train D Loss: -2.1373037247194184
+Train G Loss: 1.2694305081480977, Train D Loss: -2.123505233669723
+Test G_cost: -4.958165645599365, Test D_cost: -2.1364940881729124, Test Wasserstein_D: 2.1364940881729124
+Epoch 49:
+Client_id:0, Average D_cost: -1.9932858109474183, Average G_cost: 0.2815314820657174, Average Wasserstein_D: 2.1756416926781337, Average Time: 0.014478049675623576s
+Client_id:1, Average D_cost: -2.082166532675425, Average G_cost: 0.9619222221275171, Average Wasserstein_D: 2.297469178835551, Average Time: 0.01258113185564677s
+Client_id:2, Average D_cost: -1.9680276105801264, Average G_cost: -0.016398471407592298, Average Wasserstein_D: 2.147441410024961, Average Time: 0.01242106556892395s
+Train G Loss: 0.40901841092854746, Train D Loss: -2.0144933180676565
+Client_id:3, Average D_cost: -2.0210116346677145, Average G_cost: 0.20247563471396765, Average Wasserstein_D: 2.2175392816464106, Average Time: 0.01702654957771301s
+Client_id:4, Average D_cost: -2.059729018807411, Average G_cost: -0.11956502192964157, Average Wasserstein_D: 2.2579318642616273, Average Time: 0.016872026522954307s
+Client_id:5, Average D_cost: -1.988664871454239, Average G_cost: 0.269050561155503, Average Wasserstein_D: 2.171325820684433, Average Time: 0.017648369073867798s
+Train G Loss: 0.11732039131327637, Train D Loss: -2.0231351749764546
+Client_id:6, Average D_cost: -2.041879439353943, Average G_cost: 1.1457822905038484, Average Wasserstein_D: 2.240857990582784, Average Time: 0.01746323108673096s
+Client_id:7, Average D_cost: -1.9701296577850977, Average G_cost: 0.14638646629949412, Average Wasserstein_D: 2.1501766900221506, Average Time: 0.017874630292256673s
+Client_id:8, Average D_cost: -1.9662839089830717, Average G_cost: -0.602756076559308, Average Wasserstein_D: 2.1384294807910917, Average Time: 0.01801817019780477s
+Train G Loss: 0.2298042267480115, Train D Loss: -1.9927643353740374
+Train G Loss: 0.2520476763299451, Train D Loss: -2.0101309428060494
+Test G_cost: -2.024603712558746, Test D_cost: -1.8033969203631084, Test Wasserstein_D: 1.8033969203631084
+Epoch 50:
+Client_id:0, Average D_cost: -2.0009532908598584, Average G_cost: 0.40282198078930376, Average Wasserstein_D: 2.253160594900449, Average Time: 0.01754931410153707s
+Client_id:1, Average D_cost: -2.0123594890038174, Average G_cost: -1.0238648131489754, Average Wasserstein_D: 2.2382108787695567, Average Time: 0.01805521845817566s
+Client_id:2, Average D_cost: -1.990029480556647, Average G_cost: -0.27146128048188983, Average Wasserstein_D: 2.200233092904091, Average Time: 0.01732372244199117s
+Train G Loss: -0.29750137094718715, Train D Loss: -2.001114086806774
+Client_id:3, Average D_cost: -1.9691527421275774, Average G_cost: -0.36110236272215845, Average Wasserstein_D: 2.185369673371315, Average Time: 0.01401015321413676s
+Client_id:4, Average D_cost: -1.9388495579361915, Average G_cost: -0.06901290953780213, Average Wasserstein_D: 2.1594561000665027, Average Time: 0.012109563748041789s
+Client_id:5, Average D_cost: -2.007305841644605, Average G_cost: -0.1791508808111151, Average Wasserstein_D: 2.238847530881564, Average Time: 0.013177967071533203s
+Train G Loss: -0.20308871769035855, Train D Loss: -1.971769380569458
+Client_id:6, Average D_cost: -1.977371614674727, Average G_cost: -0.5310208230589827, Average Wasserstein_D: 2.185438933968544, Average Time: 0.017436138788859048s
+Client_id:7, Average D_cost: -2.001292484998703, Average G_cost: 0.08476300469289223, Average Wasserstein_D: 2.2129951526721316, Average Time: 0.017679800589879353s
+Client_id:8, Average D_cost: -1.9520355264345806, Average G_cost: 1.2031340587573747, Average Wasserstein_D: 2.1646655360857645, Average Time: 0.01740943193435669s
+Train G Loss: 0.2522920801304281, Train D Loss: -1.9768998753693368
+Train G Loss: -0.08276600283570588, Train D Loss: -1.983261114248523
+Test G_cost: 10.948638113339742, Test D_cost: -2.0789629220962524, Test Wasserstein_D: 2.0789629220962524
+Epoch 50, FID: 164.33916563711466
+Epoch 51:
+Client_id:0, Average D_cost: -2.034100982546806, Average G_cost: 6.951073389252027, Average Wasserstein_D: 2.2182662218809126, Average Time: 0.01789761781692505s
+Client_id:1, Average D_cost: -2.0128245115280152, Average G_cost: 7.519728035728137, Average Wasserstein_D: 2.1919769644737244, Average Time: 0.01699084440867106s
+Client_id:2, Average D_cost: -1.945194767912229, Average G_cost: 7.144511288652818, Average Wasserstein_D: 2.113651497165362, Average Time: 0.018207883834838866s
+Train G Loss: 7.20510423787766, Train D Loss: -1.9973734206623501
+Client_id:3, Average D_cost: -1.9852785055836042, Average G_cost: 7.385769851257404, Average Wasserstein_D: 2.1627743184566497, Average Time: 0.014793203274408976s
+Client_id:4, Average D_cost: -1.9159112577637036, Average G_cost: 7.546561433871587, Average Wasserstein_D: 2.0852911124626794, Average Time: 0.012790010372797648s
+Client_id:5, Average D_cost: -1.9709103922049205, Average G_cost: 7.284838100274404, Average Wasserstein_D: 2.149308509627978, Average Time: 0.015059828758239746s
+Train G Loss: 7.405723128467798, Train D Loss: -1.9573667185174095
+Client_id:6, Average D_cost: -1.9797983462611835, Average G_cost: 7.356727795302868, Average Wasserstein_D: 2.1539082686106363, Average Time: 0.01731333335240682s
+Client_id:7, Average D_cost: -1.9120318740606308, Average G_cost: 7.1491695930249985, Average Wasserstein_D: 2.078879057367643, Average Time: 0.01783489386240641s
+Client_id:8, Average D_cost: -2.009790060420831, Average G_cost: 7.026147312670946, Average Wasserstein_D: 2.1897343774636586, Average Time: 0.01710710922876994s
+Train G Loss: 7.1773482336662715, Train D Loss: -1.9672067602475485
+Train G Loss: 7.26272520000391, Train D Loss: -1.9739822998091026
+Test G_cost: 0.07517567192165492, Test D_cost: -1.9656574368476867, Test Wasserstein_D: 1.9656574368476867
+Epoch 52:
+Client_id:0, Average D_cost: -1.9863931665817895, Average G_cost: -0.5594690343365073, Average Wasserstein_D: 2.19249712228775, Average Time: 0.018050638834635417s
+Client_id:1, Average D_cost: -1.9163243343432745, Average G_cost: -0.31315938296417395, Average Wasserstein_D: 2.105722466111183, Average Time: 0.017816468079884847s
+Client_id:2, Average D_cost: -1.9533578087886174, Average G_cost: 0.1666070551921924, Average Wasserstein_D: 2.1521907101074853, Average Time: 0.018078579505284628s
+Train G Loss: -0.23534045403616297, Train D Loss: -1.9520251032378937
+Client_id:3, Average D_cost: -1.944825036327044, Average G_cost: 0.5546946338067452, Average Wasserstein_D: 2.1409227470556895, Average Time: 0.017636895179748535s
+Client_id:4, Average D_cost: -1.997983449200789, Average G_cost: -0.20364699501854677, Average Wasserstein_D: 2.209273435672124, Average Time: 0.017926086982091267s
+Client_id:5, Average D_cost: -1.9788651963075001, Average G_cost: -0.32082860932374996, Average Wasserstein_D: 2.1809876183668773, Average Time: 0.01754045287768046s
+Train G Loss: 0.010073009821482829, Train D Loss: -1.9738912272784443
+Client_id:6, Average D_cost: -1.9602876390020052, Average G_cost: 0.061377866317828496, Average Wasserstein_D: 2.1622493237257006, Average Time: 0.01220757762591044s
+Client_id:7, Average D_cost: -1.92818427781264, Average G_cost: 0.28004825602596006, Average Wasserstein_D: 2.1128240138292314, Average Time: 0.012280670801798503s
+Client_id:8, Average D_cost: -1.9473414967457454, Average G_cost: -0.14182913775245348, Average Wasserstein_D: 2.143440609176954, Average Time: 0.015740062793095908s
+Train G Loss: 0.06653232819711169, Train D Loss: -1.9452711378534635
+Train G Loss: -0.052911705339189485, Train D Loss: -1.9570624894566004
+Test G_cost: 1.816940079132716, Test D_cost: -2.004190868139267, Test Wasserstein_D: 2.004190868139267
+Epoch 53:
+Client_id:0, Average D_cost: -1.9655136148134866, Average G_cost: 0.8999678944547971, Average Wasserstein_D: 2.163982603947322, Average Time: 0.017413113514582315s
+Client_id:1, Average D_cost: -2.1080667783816653, Average G_cost: 1.8647982524707913, Average Wasserstein_D: 2.3540390292803446, Average Time: 0.017200368642807006s
+Client_id:2, Average D_cost: -1.9589671363433203, Average G_cost: 0.6223943937220611, Average Wasserstein_D: 2.15183695157369, Average Time: 0.01680492560068766s
+Train G Loss: 1.1290535135492166, Train D Loss: -2.010849176512824
+Client_id:3, Average D_cost: -1.9322589407364528, Average G_cost: 0.5881088969608148, Average Wasserstein_D: 2.1224837392568587, Average Time: 0.017248489459355674s
+Client_id:4, Average D_cost: -1.9705715864896773, Average G_cost: 0.7398293137550354, Average Wasserstein_D: 2.1707219034433365, Average Time: 0.017798221111297606s
+Client_id:5, Average D_cost: -1.9417864670356115, Average G_cost: 1.0149766213881473, Average Wasserstein_D: 2.1394893397887547, Average Time: 0.017824971675872804s
+Train G Loss: 0.7809716107013326, Train D Loss: -1.9482056647539139
+Client_id:6, Average D_cost: -1.9544106846054394, Average G_cost: 0.41161832126478354, Average Wasserstein_D: 2.151291545232137, Average Time: 0.017753352721532185s
+Client_id:7, Average D_cost: -1.967902460694313, Average G_cost: 0.20247591345881422, Average Wasserstein_D: 2.1738751500844957, Average Time: 0.01688762108484904s
+Client_id:8, Average D_cost: -2.0558671444654464, Average G_cost: 0.42150705701981983, Average Wasserstein_D: 2.270125648379326, Average Time: 0.01596079667409261s
+Train G Loss: 0.3452004305811392, Train D Loss: -1.9927267632550663
+Train G Loss: 0.7517418516105628, Train D Loss: -1.983927201507268
+Test G_cost: 2.7884167174498242, Test D_cost: -2.426722351710002, Test Wasserstein_D: 2.426722351710002
+Epoch 54:
+Client_id:0, Average D_cost: -1.8357329259316126, Average G_cost: 2.057577334487966, Average Wasserstein_D: 1.9851740638415019, Average Time: 0.011918906370798748s
+Client_id:1, Average D_cost: -1.842711012562116, Average G_cost: 1.7542322718538343, Average Wasserstein_D: 1.9901563783486684, Average Time: 0.016403528054555257s
+Client_id:2, Average D_cost: -1.8834287737806639, Average G_cost: 2.2842866013913103, Average Wasserstein_D: 2.064259808262189, Average Time: 0.017801596721013387s
+Train G Loss: 2.03203206924437, Train D Loss: -1.8539575707581308
+Client_id:3, Average D_cost: -1.8764506235718728, Average G_cost: 2.4123722022399305, Average Wasserstein_D: 2.053804302215576, Average Time: 0.01771308978398641s
+Client_id:4, Average D_cost: -1.860692912340164, Average G_cost: 2.2433033590205014, Average Wasserstein_D: 2.032445361216863, Average Time: 0.017815220355987548s
+Client_id:5, Average D_cost: -1.9257065678636234, Average G_cost: 1.9829829610263308, Average Wasserstein_D: 2.110521669189135, Average Time: 0.0180660347143809s
+Train G Loss: 2.2128861740955874, Train D Loss: -1.8876167012585536
+Client_id:6, Average D_cost: -1.8427714029947917, Average G_cost: 1.6227902318661411, Average Wasserstein_D: 2.004009734590848, Average Time: 0.01809905767440796s
+Client_id:7, Average D_cost: -1.8724974334239959, Average G_cost: 2.099917396965126, Average Wasserstein_D: 2.045298285285632, Average Time: 0.01773965358734131s
+Client_id:8, Average D_cost: -1.8714177469412485, Average G_cost: 2.1326409778247277, Average Wasserstein_D: 2.0291337182124454, Average Time: 0.017698148886362713s
+Train G Loss: 1.9517828688853316, Train D Loss: -1.862228861120012
+Train G Loss: 2.0655670374084294, Train D Loss: -1.8679343777122321
+Test G_cost: 8.095959536234538, Test D_cost: -1.6647466142972311, Test Wasserstein_D: 1.6647466142972311
+Epoch 55:
+Client_id:0, Average D_cost: -1.8516814385851224, Average G_cost: 3.3484727911651135, Average Wasserstein_D: 2.0195698340733848, Average Time: 0.017818671464920045s
+Client_id:1, Average D_cost: -1.8098371316989263, Average G_cost: 2.648569017710785, Average Wasserstein_D: 1.9835636605819067, Average Time: 0.016046835978825887s
+Client_id:2, Average D_cost: -1.8118077213565509, Average G_cost: 2.5748491807530325, Average Wasserstein_D: 1.9868055055538814, Average Time: 0.0117999533812205s
+Train G Loss: 2.8572969965429773, Train D Loss: -1.8244420972135333
+Client_id:3, Average D_cost: -1.7865995585918426, Average G_cost: 3.0304476342784863, Average Wasserstein_D: 1.9385097116231917, Average Time: 0.014027448495229085s
+Client_id:4, Average D_cost: -1.8663340871532759, Average G_cost: 3.369934081658721, Average Wasserstein_D: 2.0429224689801533, Average Time: 0.017817089955012005s
+Client_id:5, Average D_cost: -1.8542696684598923, Average G_cost: 3.0600497515872123, Average Wasserstein_D: 2.0278926273187, Average Time: 0.017035895586013795s
+Train G Loss: 3.153477155841473, Train D Loss: -1.835734438068337
+Client_id:6, Average D_cost: -1.8166746596495311, Average G_cost: 2.9931887738406657, Average Wasserstein_D: 1.9843142653505008, Average Time: 0.017549401521682738s
+Client_id:7, Average D_cost: -1.81295106112957, Average G_cost: 2.7428094764860966, Average Wasserstein_D: 1.9856869806845983, Average Time: 0.017307227849960326s
+Client_id:8, Average D_cost: -1.8512354080875715, Average G_cost: 3.359142956882715, Average Wasserstein_D: 2.0174927935004234, Average Time: 0.01750775376955668s
+Train G Loss: 3.0317137357364925, Train D Loss: -1.8269537096222244
+Train G Loss: 3.0141626293736477, Train D Loss: -1.8290434149680317
+Test G_cost: 2.064946840206782, Test D_cost: -1.7335703502098718, Test Wasserstein_D: 1.7335703502098718
+Epoch 56:
+Client_id:0, Average D_cost: -1.991034705688556, Average G_cost: -0.6676541305147111, Average Wasserstein_D: 2.2164269814888637, Average Time: 0.01771665612856547s
+Client_id:1, Average D_cost: -1.9475694090127944, Average G_cost: -0.11214292856554191, Average Wasserstein_D: 2.139380480845769, Average Time: 0.017818816502889s
+Client_id:2, Average D_cost: -1.952257253229618, Average G_cost: -0.3741345480084419, Average Wasserstein_D: 2.167356930176417, Average Time: 0.017821548382441203s
+Train G Loss: -0.384643869029565, Train D Loss: -1.9636204559769894
+Client_id:3, Average D_cost: -1.9155533174673716, Average G_cost: 0.019499737342509132, Average Wasserstein_D: 2.1020344138145446, Average Time: 0.017971372604370116s
+Client_id:4, Average D_cost: -1.95157786856095, Average G_cost: -0.25860893819481134, Average Wasserstein_D: 2.156016171971957, Average Time: 0.013306168715159099s
+Client_id:5, Average D_cost: -1.9997465685009956, Average G_cost: -1.5297775144999226, Average Wasserstein_D: 2.246030317743619, Average Time: 0.012116811672846476s
+Train G Loss: -0.5896289051174083, Train D Loss: -1.955625918176439
+Client_id:6, Average D_cost: -1.914233461022377, Average G_cost: -0.4550580566128095, Average Wasserstein_D: 2.1105947494506836, Average Time: 0.014560240507125854s
+Client_id:7, Average D_cost: -1.9005419035752615, Average G_cost: -0.02248427881859243, Average Wasserstein_D: 2.0926865726709365, Average Time: 0.01773221492767334s
+Client_id:8, Average D_cost: -2.0292059898376467, Average G_cost: -0.3434342437578986, Average Wasserstein_D: 2.2648062656323114, Average Time: 0.01740312377611796s
+Train G Loss: -0.27365885972976683, Train D Loss: -1.9479937848117617
+Train G Loss: -0.4159772112922467, Train D Loss: -1.9557467196550633
+Test G_cost: -4.869397195180257, Test D_cost: -2.908960203329722, Test Wasserstein_D: 2.908960203329722
+Epoch 57:
+Client_id:0, Average D_cost: -1.8533970574537912, Average G_cost: 2.884602378929655, Average Wasserstein_D: 2.0357492536306383, Average Time: 0.01673213839530945s
+Client_id:1, Average D_cost: -1.9148349076509477, Average G_cost: 2.75324149026225, Average Wasserstein_D: 2.1140186568101247, Average Time: 0.017745383580525718s
+Client_id:2, Average D_cost: -1.8664030546943347, Average G_cost: 2.301433934643865, Average Wasserstein_D: 2.055387932062149, Average Time: 0.01775459051132202s
+Train G Loss: 2.646425934611923, Train D Loss: -1.8782116732663579
+Client_id:3, Average D_cost: -1.894095810254415, Average G_cost: 2.193869969372948, Average Wasserstein_D: 2.0861062000195187, Average Time: 0.01642664074897766s
+Client_id:4, Average D_cost: -1.8817616745829582, Average G_cost: 2.300390171632171, Average Wasserstein_D: 2.073450097441673, Average Time: 0.017345134417215982s
+Client_id:5, Average D_cost: -1.9274981424212456, Average G_cost: 2.4150774187097945, Average Wasserstein_D: 2.112992289662361, Average Time: 0.017529696226119995s
+Train G Loss: 2.303112519904971, Train D Loss: -1.9011185424195396
+Client_id:6, Average D_cost: -1.8159168183803558, Average G_cost: 2.4034321326141557, Average Wasserstein_D: 2.0001021961371106, Average Time: 0.016790846983591717s
+Client_id:7, Average D_cost: -1.902465141316255, Average G_cost: 2.400791934070488, Average Wasserstein_D: 2.1061379492282866, Average Time: 0.012197679281234742s
+Client_id:8, Average D_cost: -1.8492473463217418, Average G_cost: 2.523121627686002, Average Wasserstein_D: 2.022317498922348, Average Time: 0.01272100607554118s
+Train G Loss: 2.442448564790215, Train D Loss: -1.855876435339451
+Train G Loss: 2.4639956731023696, Train D Loss: -1.8784022170084496
+Test G_cost: -3.010882063706716, Test D_cost: -1.790222352743149, Test Wasserstein_D: 1.790222352743149
+Epoch 58:
+Client_id:0, Average D_cost: -1.7251627385616302, Average G_cost: -1.5362422140936056, Average Wasserstein_D: 1.888430082798004, Average Time: 0.0179531196753184s
+Client_id:1, Average D_cost: -1.6881081938743592, Average G_cost: -1.6773490078747273, Average Wasserstein_D: 1.8533300588528314, Average Time: 0.01765177647272746s
+Client_id:2, Average D_cost: -1.7053548897306123, Average G_cost: -1.833060964088266, Average Wasserstein_D: 1.8804681127270062, Average Time: 0.018128629525502524s
+Train G Loss: -1.6822173953521995, Train D Loss: -1.7062086073888674
+Client_id:3, Average D_cost: -1.6933084691564242, Average G_cost: -1.381836152356118, Average Wasserstein_D: 1.860589816669623, Average Time: 0.0174477219581604s
+Client_id:4, Average D_cost: -1.6771381124854088, Average G_cost: -1.760919578417088, Average Wasserstein_D: 1.8426151141524314, Average Time: 0.01797457734743754s
+Client_id:5, Average D_cost: -1.7278352836767832, Average G_cost: -1.2257390069464842, Average Wasserstein_D: 1.8970008532206217, Average Time: 0.017180506388346353s
+Train G Loss: -1.4561649125732299, Train D Loss: -1.6994272884395387
+Client_id:6, Average D_cost: -1.666822465757529, Average G_cost: -2.0817541665087145, Average Wasserstein_D: 1.826651664574941, Average Time: 0.016923054059346517s
+Client_id:7, Average D_cost: -1.6807415117820104, Average G_cost: -1.6623901366566618, Average Wasserstein_D: 1.838726006448269, Average Time: 0.01749972899754842s
+Client_id:8, Average D_cost: -1.7040988365809122, Average G_cost: -1.4097566884942352, Average Wasserstein_D: 1.8683793147404988, Average Time: 0.017514530817667642s
+Train G Loss: -1.7179669972198706, Train D Loss: -1.6838876047068172
+Train G Loss: -1.6187831017151, Train D Loss: -1.6965078335117412
+Test G_cost: -4.603852287928263, Test D_cost: -1.66852601369222, Test Wasserstein_D: 1.66852601369222
+Epoch 59:
+Client_id:0, Average D_cost: -1.650216173628966, Average G_cost: 0.6071523754391819, Average Wasserstein_D: 1.8154347250858942, Average Time: 0.01194973587989807s
+Client_id:1, Average D_cost: -1.7139135549465816, Average G_cost: 0.8292025888028244, Average Wasserstein_D: 1.887213025490443, Average Time: 0.011114579439163209s
+Client_id:2, Average D_cost: -1.6609528760115306, Average G_cost: 0.9146562910483529, Average Wasserstein_D: 1.8311948756376901, Average Time: 0.016344342629114786s
+Train G Loss: 0.7836704184301198, Train D Loss: -1.6750275348623596
+Client_id:3, Average D_cost: -1.6617916082342465, Average G_cost: 0.39132303188865386, Average Wasserstein_D: 1.821020304163297, Average Time: 0.018052995204925537s
+Client_id:4, Average D_cost: -1.6453329091270765, Average G_cost: 0.8769002561379845, Average Wasserstein_D: 1.8127715061108272, Average Time: 0.017290335893630982s
+Client_id:5, Average D_cost: -1.6998025963703791, Average G_cost: 0.11452193369962818, Average Wasserstein_D: 1.872268574933211, Average Time: 0.01759048899014791s
+Train G Loss: 0.4609150739087555, Train D Loss: -1.6689757045772342
+Client_id:6, Average D_cost: -1.700112416346868, Average G_cost: 0.9829922303557396, Average Wasserstein_D: 1.8760151584943137, Average Time: 0.01764665643374125s
+Client_id:7, Average D_cost: -1.65990399569273, Average G_cost: 0.4919201208200927, Average Wasserstein_D: 1.8216200227538744, Average Time: 0.017857452233632404s
+Client_id:8, Average D_cost: -1.6728025133411089, Average G_cost: 1.4038973964595547, Average Wasserstein_D: 1.8410047849019369, Average Time: 0.01804244120915731s
+Train G Loss: 0.9596032492117956, Train D Loss: -1.6776063084602357
+Train G Loss: 0.7347295805168903, Train D Loss: -1.673869849299943
+Test G_cost: 6.778783675034841, Test D_cost: -1.6710282683372497, Test Wasserstein_D: 1.6710282683372497
+Epoch 60:
+Client_id:0, Average D_cost: -1.629171826938788, Average G_cost: -0.04346323966359099, Average Wasserstein_D: 1.7860127111275992, Average Time: 0.01775115728378296s
+Client_id:1, Average D_cost: -1.6141944363713265, Average G_cost: -0.07902926617922883, Average Wasserstein_D: 1.7612803131341934, Average Time: 0.017135868469874065s
+Client_id:2, Average D_cost: -1.6784006133054694, Average G_cost: -0.4507018836370359, Average Wasserstein_D: 1.839652802546819, Average Time: 0.016710007190704347s
+Train G Loss: -0.19106479649328523, Train D Loss: -1.6405889588718612
+Client_id:3, Average D_cost: -1.6325581975281238, Average G_cost: -0.47114836727268994, Average Wasserstein_D: 1.7947481195131938, Average Time: 0.012560985485712687s
+Client_id:4, Average D_cost: -1.589603300889333, Average G_cost: -0.47708305194973943, Average Wasserstein_D: 1.742816467086474, Average Time: 0.012233863274256388s
+Client_id:5, Average D_cost: -1.636046389490366, Average G_cost: 0.026678728436430297, Average Wasserstein_D: 1.7906221946080525, Average Time: 0.017348498106002808s
+Train G Loss: -0.3071842302619997, Train D Loss: -1.6194026293026076
+Client_id:6, Average D_cost: -1.6003071144223213, Average G_cost: -0.40004570639381803, Average Wasserstein_D: 1.7549344688653945, Average Time: 0.0176815668741862s
+Client_id:7, Average D_cost: -1.5943608445425828, Average G_cost: -0.683270817125837, Average Wasserstein_D: 1.7536292264858881, Average Time: 0.017596606413523355s
+Client_id:8, Average D_cost: -1.6395120238264402, Average G_cost: -0.6194464566695388, Average Wasserstein_D: 1.7988542437553405, Average Time: 0.017738296588261922s
+Train G Loss: -0.5675876600630646, Train D Loss: -1.6113933275971146
+Train G Loss: -0.35527889560611653, Train D Loss: -1.623794971923861
+Test G_cost: 0.43907167194411156, Test D_cost: -1.8831940333048502, Test Wasserstein_D: 1.8831940333048502
+Epoch 60, FID: 176.77473045494625
+Epoch 61:
+Client_id:0, Average D_cost: -1.6630728443463643, Average G_cost: 1.8282401099413013, Average Wasserstein_D: 1.834502026438713, Average Time: 0.01717560887336731s
+Client_id:1, Average D_cost: -1.585921442260345, Average G_cost: 2.223950732825324, Average Wasserstein_D: 1.74174156387647, Average Time: 0.017173622051874796s
+Client_id:2, Average D_cost: -1.6300296721359093, Average G_cost: 1.9041858848184348, Average Wasserstein_D: 1.7955666641394297, Average Time: 0.01697572469711304s
+Train G Loss: 1.9854589091950199, Train D Loss: -1.626341319580873
+Client_id:3, Average D_cost: -1.5967656847089529, Average G_cost: 2.336270556071152, Average Wasserstein_D: 1.7562339847286543, Average Time: 0.012839682896931966s
+Client_id:4, Average D_cost: -1.557110824684302, Average G_cost: 1.956788675300777, Average Wasserstein_D: 1.7138046503067017, Average Time: 0.012441899379094441s
+Client_id:5, Average D_cost: -1.6247053762276968, Average G_cost: 1.8884205092365542, Average Wasserstein_D: 1.7793851455052694, Average Time: 0.01673444906870524s
+Train G Loss: 2.0604932468694943, Train D Loss: -1.5928606285403173
+Client_id:6, Average D_cost: -1.621834455927213, Average G_cost: 2.0901818297803403, Average Wasserstein_D: 1.773913599550724, Average Time: 0.01756259799003601s
+Client_id:7, Average D_cost: -1.5438428605596224, Average G_cost: 2.2324367395912605, Average Wasserstein_D: 1.6995741878946622, Average Time: 0.017265528440475464s
+Client_id:8, Average D_cost: -1.5913759236534437, Average G_cost: 2.5542795578638713, Average Wasserstein_D: 1.7452657709519068, Average Time: 0.01822176973025004s
+Train G Loss: 2.2922993757451575, Train D Loss: -1.5856844133800931
+Train G Loss: 2.112750510603224, Train D Loss: -1.6016287871670947
+Test G_cost: 7.645511257648468, Test D_cost: -1.1986298561096191, Test Wasserstein_D: 1.1986298561096191
+Epoch 62:
+Client_id:0, Average D_cost: -1.5950490767757097, Average G_cost: -0.6214749292160074, Average Wasserstein_D: 1.7239658782879512, Average Time: 0.017806702852249147s
+Client_id:1, Average D_cost: -1.6045789569616318, Average G_cost: -0.48252151358756235, Average Wasserstein_D: 1.7298816084861754, Average Time: 0.017074360450108846s
+Client_id:2, Average D_cost: -1.5993709872166315, Average G_cost: -1.2280864206142723, Average Wasserstein_D: 1.728867178161939, Average Time: 0.01761847734451294s
+Train G Loss: -0.777360954472614, Train D Loss: -1.599666340317991
+Client_id:3, Average D_cost: -1.606719426314036, Average G_cost: -1.0839462698282054, Average Wasserstein_D: 1.739011060198148, Average Time: 0.017284234364827473s
+Client_id:4, Average D_cost: -1.5367462808887165, Average G_cost: -1.2816310468440255, Average Wasserstein_D: 1.6597926596800485, Average Time: 0.01769076387087504s
+Client_id:5, Average D_cost: -1.5550046955545744, Average G_cost: -0.5785484100381534, Average Wasserstein_D: 1.6773839553197225, Average Time: 0.015328381458918254s
+Train G Loss: -0.9813752422367946, Train D Loss: -1.566156800919109
+Client_id:6, Average D_cost: -1.5866124843557676, Average G_cost: -1.0845282825951774, Average Wasserstein_D: 1.7134886215130487, Average Time: 0.01203138033548991s
+Client_id:7, Average D_cost: -1.5869169682264328, Average G_cost: -1.5809756216593087, Average Wasserstein_D: 1.7150604943434398, Average Time: 0.014240399996439616s
+Client_id:8, Average D_cost: -1.5850836863120397, Average G_cost: -1.0079021649435163, Average Wasserstein_D: 1.7133256147305171, Average Time: 0.017879297335942585s
+Train G Loss: -1.2244686897326675, Train D Loss: -1.5862043796314136
+Train G Loss: -0.9944016288140253, Train D Loss: -1.5840091736228379
+Test G_cost: -14.358117381731669, Test D_cost: -1.210371939341227, Test Wasserstein_D: 1.210371939341227
+Epoch 63:
+Client_id:0, Average D_cost: -1.637140661974748, Average G_cost: -1.5332473531365394, Average Wasserstein_D: 1.7729456449548404, Average Time: 0.018238979578018188s
+Client_id:1, Average D_cost: -1.5597217525045077, Average G_cost: -1.1350681288788715, Average Wasserstein_D: 1.6827700600028037, Average Time: 0.017226656277974445s
+Client_id:2, Average D_cost: -1.5831080784400304, Average G_cost: -0.9593158590917786, Average Wasserstein_D: 1.7157366583744684, Average Time: 0.017131368319193523s
+Train G Loss: -1.2092104470357299, Train D Loss: -1.593323497639762
+Client_id:3, Average D_cost: -1.5989989722768465, Average G_cost: -1.5002967158293663, Average Wasserstein_D: 1.7376216381788254, Average Time: 0.018101294835408527s
+Client_id:4, Average D_cost: -1.548716925084591, Average G_cost: -1.3327809078929325, Average Wasserstein_D: 1.6756408179799716, Average Time: 0.01777736743291219s
+Client_id:5, Average D_cost: -1.5613321363925934, Average G_cost: -1.1305315051227809, Average Wasserstein_D: 1.6868095884720484, Average Time: 0.018064278364181518s
+Train G Loss: -1.3212030429483599, Train D Loss: -1.5696826779180102
+Client_id:6, Average D_cost: -1.537607461710771, Average G_cost: -0.9900471905867259, Average Wasserstein_D: 1.6583643620212873, Average Time: 0.017923474311828613s
+Client_id:7, Average D_cost: -1.6015134568015734, Average G_cost: -0.7710433022119105, Average Wasserstein_D: 1.7287562598784765, Average Time: 0.018404253323872886s
+Client_id:8, Average D_cost: -1.6140166342258453, Average G_cost: -0.7611162318382412, Average Wasserstein_D: 1.76107467263937, Average Time: 0.01350942055384318s
+Train G Loss: -0.8407355748789591, Train D Loss: -1.5843791842460633
+Train G Loss: -1.1237163549543496, Train D Loss: -1.5824617866012785
+Test G_cost: 3.9081038018067678, Test D_cost: -1.2283677200476328, Test Wasserstein_D: 1.2283677200476328
+Epoch 64:
+Client_id:0, Average D_cost: -1.5207199369867643, Average G_cost: 2.43293347566699, Average Wasserstein_D: 1.663928141693274, Average Time: 0.012740107377370198s
+Client_id:1, Average D_cost: -1.5329493721326193, Average G_cost: 2.7162084898600978, Average Wasserstein_D: 1.6685811171929041, Average Time: 0.017166364192962646s
+Client_id:2, Average D_cost: -1.561718258758386, Average G_cost: 3.8844767139603693, Average Wasserstein_D: 1.703641486664613, Average Time: 0.017699108521143595s
+Train G Loss: 3.011206226495819, Train D Loss: -1.5384625226259232
+Client_id:3, Average D_cost: -1.543726709485054, Average G_cost: 3.3843496034891967, Average Wasserstein_D: 1.6878216991821924, Average Time: 0.01773396134376526s
+Client_id:4, Average D_cost: -1.5403710409998894, Average G_cost: 2.275476673276474, Average Wasserstein_D: 1.6832954665025075, Average Time: 0.017767667770385742s
+Client_id:5, Average D_cost: -1.5767783428231874, Average G_cost: 3.4787735434249045, Average Wasserstein_D: 1.7173371881246566, Average Time: 0.0171392023563385s
+Train G Loss: 3.046199940063525, Train D Loss: -1.5536253644360436
+Client_id:6, Average D_cost: -1.5186743934949238, Average G_cost: 3.307668869259457, Average Wasserstein_D: 1.649298403163751, Average Time: 0.01755554477373759s
+Client_id:7, Average D_cost: -1.5633915175994237, Average G_cost: 2.082489134122928, Average Wasserstein_D: 1.7117775479952495, Average Time: 0.017276271184285482s
+Client_id:8, Average D_cost: -1.5566595767935116, Average G_cost: 3.143114799261093, Average Wasserstein_D: 1.6975234389305114, Average Time: 0.017438409725824992s
+Train G Loss: 2.844424267547826, Train D Loss: -1.546241829295953
+Train G Loss: 2.967276811369057, Train D Loss: -1.5461099054526397
+Test G_cost: 4.11718753973643, Test D_cost: -1.9515667339166005, Test Wasserstein_D: 1.9515667339166005
+Epoch 65:
+Client_id:0, Average D_cost: -1.580596101284027, Average G_cost: -2.289028026831026, Average Wasserstein_D: 1.7305258030692736, Average Time: 0.017912518978118897s
+Client_id:1, Average D_cost: -1.5368383074800174, Average G_cost: -1.539629333652556, Average Wasserstein_D: 1.6901649415493012, Average Time: 0.013658581177393596s
+Client_id:2, Average D_cost: -1.5583540971080463, Average G_cost: -1.782664494899412, Average Wasserstein_D: 1.714037108918031, Average Time: 0.012046058972676596s
+Train G Loss: -1.870440618460998, Train D Loss: -1.5585961686240302
+Client_id:3, Average D_cost: -1.535061204433441, Average G_cost: -1.641454335511662, Average Wasserstein_D: 1.6910484423240026, Average Time: 0.01682998538017273s
+Client_id:4, Average D_cost: -1.5583955214669307, Average G_cost: -1.864958625069509, Average Wasserstein_D: 1.7156329572200775, Average Time: 0.0174567441145579s
+Client_id:5, Average D_cost: -1.542387544736266, Average G_cost: -2.00859060647587, Average Wasserstein_D: 1.7100388348102569, Average Time: 0.01769857406616211s
+Train G Loss: -1.838334522352347, Train D Loss: -1.5452814235455457
+Client_id:6, Average D_cost: -1.5234102065364519, Average G_cost: -1.326358017201225, Average Wasserstein_D: 1.6727627590298653, Average Time: 0.018059339125951132s
+Client_id:7, Average D_cost: -1.5617372975995143, Average G_cost: -1.7047757152467966, Average Wasserstein_D: 1.7195218284924825, Average Time: 0.017768494288126626s
+Client_id:8, Average D_cost: -1.5573952163259188, Average G_cost: -1.9058078441768884, Average Wasserstein_D: 1.7150335719188055, Average Time: 0.01757662494977315s
+Train G Loss: -1.6456471922083036, Train D Loss: -1.5475142401539614
+Train G Loss: -1.7848074443405497, Train D Loss: -1.5504639441078458
+Test G_cost: 2.1778648018836977, Test D_cost: -2.607983359694481, Test Wasserstein_D: 2.607983359694481
+Epoch 66:
+Client_id:0, Average D_cost: -1.4895715236663818, Average G_cost: -0.36472686597456533, Average Wasserstein_D: 1.6503530606627463, Average Time: 0.0183557132879893s
+Client_id:1, Average D_cost: -1.4981943706671397, Average G_cost: 0.04197728560927014, Average Wasserstein_D: 1.6523866385221482, Average Time: 0.01736071308453878s
+Client_id:2, Average D_cost: -1.488166488831242, Average G_cost: 0.46548388929416734, Average Wasserstein_D: 1.649526985983054, Average Time: 0.017570078372955322s
+Train G Loss: 0.047578102976290705, Train D Loss: -1.491977461054921
+Client_id:3, Average D_cost: -1.5405051226417223, Average G_cost: 0.7031921598749856, Average Wasserstein_D: 1.7000721792380016, Average Time: 0.016128971179326376s
+Client_id:4, Average D_cost: -1.507382071763277, Average G_cost: 0.7311114917198817, Average Wasserstein_D: 1.666174287100633, Average Time: 0.014315968751907349s
+Client_id:5, Average D_cost: -1.459476617972056, Average G_cost: -0.42756576255584755, Average Wasserstein_D: 1.607498628894488, Average Time: 0.01400587558746338s
+Train G Loss: 0.33557929634633993, Train D Loss: -1.502454604125685
+Client_id:6, Average D_cost: -1.520773503681024, Average G_cost: 0.9992913974565454, Average Wasserstein_D: 1.6761302386720975, Average Time: 0.0172835111618042s
+Client_id:7, Average D_cost: -1.4574906932810943, Average G_cost: 0.5827371283744772, Average Wasserstein_D: 1.6156591047843298, Average Time: 0.017687819401423135s
+Client_id:8, Average D_cost: -1.5163861433664958, Average G_cost: 0.7574353645555675, Average Wasserstein_D: 1.6707822188735009, Average Time: 0.017147340377171836s
+Train G Loss: 0.77982129679553, Train D Loss: -1.4982167801095378
+Train G Loss: 0.3876595653727202, Train D Loss: -1.4975496150967145
+Test G_cost: 10.033129318555195, Test D_cost: -1.2597309589385985, Test Wasserstein_D: 1.2597309589385985
+Epoch 67:
+Client_id:0, Average D_cost: -1.4067310713852446, Average G_cost: -2.2429408626630902, Average Wasserstein_D: 1.5482272456089656, Average Time: 0.017954317728678386s
+Client_id:1, Average D_cost: -1.3538827526693542, Average G_cost: -1.631965143357714, Average Wasserstein_D: 1.4868604362010955, Average Time: 0.017800372838974s
+Client_id:2, Average D_cost: -1.3816209576403102, Average G_cost: -2.1907681088894604, Average Wasserstein_D: 1.5243362123767534, Average Time: 0.017834113041559855s
+Train G Loss: -2.021891371636755, Train D Loss: -1.3807449272316363
+Client_id:3, Average D_cost: -1.3916931961973509, Average G_cost: -2.1405618463953338, Average Wasserstein_D: 1.5249268541733423, Average Time: 0.01746180256207784s
+Client_id:4, Average D_cost: -1.3825651913881303, Average G_cost: -2.0305834465349712, Average Wasserstein_D: 1.5129470388094584, Average Time: 0.01673311988512675s
+Client_id:5, Average D_cost: -1.4014046197136243, Average G_cost: -1.2950023230010024, Average Wasserstein_D: 1.5278970142205557, Average Time: 0.01744252641995748s
+Train G Loss: -1.8220492053104358, Train D Loss: -1.3918876690997017
+Client_id:6, Average D_cost: -1.3748215613265833, Average G_cost: -1.517460202856455, Average Wasserstein_D: 1.5065709938605627, Average Time: 0.0132514754931132s
+Client_id:7, Average D_cost: -1.368288873694837, Average G_cost: -2.0215777918696403, Average Wasserstein_D: 1.5028833766778311, Average Time: 0.012745841344197591s
+Client_id:8, Average D_cost: -1.4057105292876562, Average G_cost: -1.8355631425976753, Average Wasserstein_D: 1.5426280856132508, Average Time: 0.01580150524775187s
+Train G Loss: -1.7915337124412567, Train D Loss: -1.382940321436359
+Train G Loss: -1.878491429796149, Train D Loss: -1.3851909725892322
+Test G_cost: -2.0963969846566517, Test D_cost: -0.6009633203347524, Test Wasserstein_D: 0.6009633203347524
+Epoch 68:
+Client_id:0, Average D_cost: -1.6568159088492393, Average G_cost: 2.9300276977941393, Average Wasserstein_D: 1.8400850757956504, Average Time: 0.017916882038116456s
+Client_id:1, Average D_cost: -1.57228438804547, Average G_cost: 2.9712479703632804, Average Wasserstein_D: 1.7411873032649359, Average Time: 0.017492236693700154s
+Client_id:2, Average D_cost: -1.6275144318739574, Average G_cost: 3.4073331841578085, Average Wasserstein_D: 1.8027158409357071, Average Time: 0.01725193460782369s
+Train G Loss: 3.1028696174384094, Train D Loss: -1.6188715762562225
+Client_id:3, Average D_cost: -1.6033370738228163, Average G_cost: 3.4586124540384238, Average Wasserstein_D: 1.7903999850153922, Average Time: 0.017733625570933022s
+Client_id:4, Average D_cost: -1.6341387793421744, Average G_cost: 2.8958777404079834, Average Wasserstein_D: 1.8206628372271856, Average Time: 0.017239717642466228s
+Client_id:5, Average D_cost: -1.6308472399910292, Average G_cost: 2.937133754269841, Average Wasserstein_D: 1.8110980014006297, Average Time: 0.017779743671417235s
+Train G Loss: 3.097207982905416, Train D Loss: -1.62277436438534
+Client_id:6, Average D_cost: -1.6203571421404679, Average G_cost: 3.026228417828679, Average Wasserstein_D: 1.8027412429451943, Average Time: 0.017947796980539957s
+Client_id:7, Average D_cost: -1.6235647949079672, Average G_cost: 3.389141787417854, Average Wasserstein_D: 1.8058608641227087, Average Time: 0.01791484554608663s
+Client_id:8, Average D_cost: -1.624665809671084, Average G_cost: 2.998363461221258, Average Wasserstein_D: 1.8052410289645195, Average Time: 0.015499232212702434s
+Train G Loss: 3.1379112221559304, Train D Loss: -1.6228625822398397
+Train G Loss: 3.112662940833252, Train D Loss: -1.6215028409604673
+Test G_cost: -3.07173406680425, Test D_cost: -1.6163160900274913, Test Wasserstein_D: 1.6163160900274913
+Epoch 69:
+Client_id:0, Average D_cost: -1.3728227332234382, Average G_cost: -3.4471052474031847, Average Wasserstein_D: 1.491901942094167, Average Time: 0.011947588125864664s
+Client_id:1, Average D_cost: -1.3870847389101981, Average G_cost: -3.885002681333572, Average Wasserstein_D: 1.5067145327727, Average Time: 0.013735459248224894s
+Client_id:2, Average D_cost: -1.4235659667601188, Average G_cost: -3.4397180589536824, Average Wasserstein_D: 1.5444971879323324, Average Time: 0.01706107457478841s
+Train G Loss: -3.5906086625634797, Train D Loss: -1.3944911462979184
+Client_id:3, Average D_cost: -1.417223220070203, Average G_cost: -4.454249209864065, Average Wasserstein_D: 1.5376288334528605, Average Time: 0.017415138085683186s
+Client_id:4, Average D_cost: -1.373374277477463, Average G_cost: -2.900399219462027, Average Wasserstein_D: 1.4878616988658906, Average Time: 0.01715198755264282s
+Client_id:5, Average D_cost: -1.3951015755534173, Average G_cost: -4.651724343871077, Average Wasserstein_D: 1.5193338096141815, Average Time: 0.017666248480478923s
+Train G Loss: -4.0021242577323894, Train D Loss: -1.395233024367028
+Client_id:6, Average D_cost: -1.3642939537763596, Average G_cost: -3.8506459423263246, Average Wasserstein_D: 1.481923762957255, Average Time: 0.0171576460202535s
+Client_id:7, Average D_cost: -1.41823173686862, Average G_cost: -3.163242887208859, Average Wasserstein_D: 1.539614854256312, Average Time: 0.017692726850509644s
+Client_id:8, Average D_cost: -1.3952519468963147, Average G_cost: -3.4420432139808934, Average Wasserstein_D: 1.5116128911574682, Average Time: 0.01785296599070231s
+Train G Loss: -3.4853106811720256, Train D Loss: -1.392592545847098
+Train G Loss: -3.6926812004892984, Train D Loss: -1.3941055721706814
+Test G_cost: -7.460725390911103, Test D_cost: -1.342134674390157, Test Wasserstein_D: 1.342134674390157
+Epoch 70:
+Client_id:0, Average D_cost: -1.3276275595029194, Average G_cost: 1.160223301127553, Average Wasserstein_D: 1.4402356778581937, Average Time: 0.017362338304519654s
+Client_id:1, Average D_cost: -1.366946458319823, Average G_cost: 2.0177687409954768, Average Wasserstein_D: 1.4817882835865022, Average Time: 0.01713365117708842s
+Client_id:2, Average D_cost: -1.3367906247576078, Average G_cost: 1.5052191691065673, Average Wasserstein_D: 1.459424319366614, Average Time: 0.011488882700602214s
+Train G Loss: 1.561070403743199, Train D Loss: -1.3437882141934503
+Client_id:3, Average D_cost: -1.3194196472565334, Average G_cost: 1.830310589587316, Average Wasserstein_D: 1.4348335966467858, Average Time: 0.012392296393712362s
+Client_id:4, Average D_cost: -1.3307372870544592, Average G_cost: 1.3034246105467902, Average Wasserstein_D: 1.4509895379344622, Average Time: 0.01543760895729065s
+Client_id:5, Average D_cost: -1.3443133011460304, Average G_cost: 1.3349013864217947, Average Wasserstein_D: 1.4614775945742926, Average Time: 0.01685137947400411s
+Train G Loss: 1.489545528851967, Train D Loss: -1.3314900784856742
+Client_id:6, Average D_cost: -1.3755273565649986, Average G_cost: 1.5987801760435105, Average Wasserstein_D: 1.4956754460930823, Average Time: 0.01760370135307312s
+Client_id:7, Average D_cost: -1.3700264806548754, Average G_cost: 2.2142209372793635, Average Wasserstein_D: 1.4854349136352538, Average Time: 0.01810059944788615s
+Client_id:8, Average D_cost: -1.3932877319554489, Average G_cost: 2.4058322071408234, Average Wasserstein_D: 1.5192802732189497, Average Time: 0.01738302707672119s
+Train G Loss: 2.072944440154566, Train D Loss: -1.3796138563917744
+Train G Loss: 1.707853457583244, Train D Loss: -1.351630716356966
+Test G_cost: 0.6867228417346875, Test D_cost: -1.711213685075442, Test Wasserstein_D: 1.711213685075442
+Epoch 70, FID: 177.923560073393
+Epoch 71:
+Client_id:0, Average D_cost: -1.3903381690382957, Average G_cost: -2.011459094006568, Average Wasserstein_D: 1.5221449360251427, Average Time: 0.01786734859148661s
+Client_id:1, Average D_cost: -1.511468673000733, Average G_cost: -2.5038562353700398, Average Wasserstein_D: 1.6614870980381966, Average Time: 0.017527848482131958s
+Client_id:2, Average D_cost: -1.4641865886747838, Average G_cost: -2.0601521119164925, Average Wasserstein_D: 1.6061524366339048, Average Time: 0.01460032065709432s
+Train G Loss: -2.1918224804310333, Train D Loss: -1.4553311435712708
+Client_id:3, Average D_cost: -1.4334145034352939, Average G_cost: -2.2411710413172843, Average Wasserstein_D: 1.5755587870875993, Average Time: 0.012091100215911865s
+Client_id:4, Average D_cost: -1.4395845433076222, Average G_cost: -3.247426260790477, Average Wasserstein_D: 1.578193976978461, Average Time: 0.01369853417078654s
+Client_id:5, Average D_cost: -1.411837367216746, Average G_cost: -2.7540454655885696, Average Wasserstein_D: 1.5496833910544714, Average Time: 0.01760010321935018s
+Train G Loss: -2.7475475892321106, Train D Loss: -1.4282788046532209
+Client_id:6, Average D_cost: -1.451662512868643, Average G_cost: -2.7232592980687818, Average Wasserstein_D: 1.5938545723756155, Average Time: 0.017717520395914715s
+Client_id:7, Average D_cost: -1.4260895629723866, Average G_cost: -2.0080768912435207, Average Wasserstein_D: 1.56063315620025, Average Time: 0.01763351559638977s
+Client_id:8, Average D_cost: -1.4238595788677533, Average G_cost: -2.9717185234030086, Average Wasserstein_D: 1.5636269281307855, Average Time: 0.017568049828211467s
+Train G Loss: -2.567684904238437, Train D Loss: -1.4338705515695942
+Train G Loss: -2.5023516579671936, Train D Loss: -1.4391601665980287
+Test G_cost: 9.933657828966776, Test D_cost: -1.1714449326197307, Test Wasserstein_D: 1.1714449326197307
+Epoch 72:
+Client_id:0, Average D_cost: -1.3298003415266673, Average G_cost: 6.125672964255015, Average Wasserstein_D: 1.4449354390303293, Average Time: 0.018218316634496055s
+Client_id:1, Average D_cost: -1.2893081093827883, Average G_cost: 6.337442463636398, Average Wasserstein_D: 1.398276725411415, Average Time: 0.017661398649215697s
+Client_id:2, Average D_cost: -1.318179322530826, Average G_cost: 5.932931107282639, Average Wasserstein_D: 1.4338468978802363, Average Time: 0.016974119345347087s
+Train G Loss: 6.132015511724684, Train D Loss: -1.3124292578134271
+Client_id:3, Average D_cost: -1.3278419981400171, Average G_cost: 6.388441650072734, Average Wasserstein_D: 1.4403894275426865, Average Time: 0.017515426874160765s
+Client_id:4, Average D_cost: -1.334320676761369, Average G_cost: 6.31531085173289, Average Wasserstein_D: 1.451634074250857, Average Time: 0.018111046155293783s
+Client_id:5, Average D_cost: -1.3114402363697688, Average G_cost: 6.670975744724274, Average Wasserstein_D: 1.4176052739222844, Average Time: 0.012332950035730999s
+Train G Loss: 6.4582427488433, Train D Loss: -1.3245343037570516
+Client_id:6, Average D_cost: -1.2819094091653824, Average G_cost: 6.781856608390808, Average Wasserstein_D: 1.3858285148938496, Average Time: 0.012192261219024659s
+Client_id:7, Average D_cost: -1.2611663622160754, Average G_cost: 5.892466175556183, Average Wasserstein_D: 1.3719614326953888, Average Time: 0.015915064016977946s
+Client_id:8, Average D_cost: -1.325043108810981, Average G_cost: 6.693324323495229, Average Wasserstein_D: 1.4374538828929266, Average Time: 0.017744439840316772s
+Train G Loss: 6.455882369147407, Train D Loss: -1.2893729600641464
+Train G Loss: 6.348713543238463, Train D Loss: -1.308778840544875
+Test G_cost: 4.286231044928233, Test D_cost: -0.9261359373728434, Test Wasserstein_D: 0.9261359373728434
+Epoch 73:
+Client_id:0, Average D_cost: -1.1948303394019604, Average G_cost: -2.701277220932146, Average Wasserstein_D: 1.3012490073839824, Average Time: 0.01785724957784017s
+Client_id:1, Average D_cost: -1.2536513765652975, Average G_cost: -2.974232523702085, Average Wasserstein_D: 1.3644551711777846, Average Time: 0.01753361225128174s
+Client_id:2, Average D_cost: -1.2494292589525382, Average G_cost: -3.015753041250476, Average Wasserstein_D: 1.3612825602293015, Average Time: 0.017675383885701498s
+Train G Loss: -2.8970875952949022, Train D Loss: -1.232636991639932
+Client_id:3, Average D_cost: -1.2415284655988217, Average G_cost: -2.7155261694279034, Average Wasserstein_D: 1.348825625081857, Average Time: 0.017877515157063803s
+Client_id:4, Average D_cost: -1.265004130701224, Average G_cost: -2.782548215612769, Average Wasserstein_D: 1.3792853236198426, Average Time: 0.017995544274648032s
+Client_id:5, Average D_cost: -1.2473646166423957, Average G_cost: -2.3499881154547135, Average Wasserstein_D: 1.3527918388446172, Average Time: 0.01721551815668742s
+Train G Loss: -2.616020833498462, Train D Loss: -1.2512990709808138
+Client_id:6, Average D_cost: -1.2473559307555357, Average G_cost: -2.477246926476558, Average Wasserstein_D: 1.3573227107524872, Average Time: 0.01733833154042562s
+Client_id:7, Average D_cost: -1.2236942638953527, Average G_cost: -2.638772494594256, Average Wasserstein_D: 1.3314994116624197, Average Time: 0.01715552608172099s
+Client_id:8, Average D_cost: -1.206264850248893, Average G_cost: -2.877425663297375, Average Wasserstein_D: 1.3162756765882173, Average Time: 0.01214145024617513s
+Train G Loss: -2.6644816947893966, Train D Loss: -1.2257716816332604
+Train G Loss: -2.7258633745275866, Train D Loss: -1.2365692480846688
+Test G_cost: 1.4204833726088206, Test D_cost: -0.9759546751777332, Test Wasserstein_D: 0.9759546751777332
+Epoch 74:
+Client_id:0, Average D_cost: -1.4167235419154167, Average G_cost: 4.282960365215938, Average Wasserstein_D: 1.5494688048958778, Average Time: 0.013500523567199708s
+Client_id:1, Average D_cost: -1.4126682793100676, Average G_cost: 4.793854066357016, Average Wasserstein_D: 1.5409522742033004, Average Time: 0.017437116305033366s
+Client_id:2, Average D_cost: -1.4373443300525348, Average G_cost: 4.601343635469675, Average Wasserstein_D: 1.5561824609835944, Average Time: 0.017842326561609903s
+Train G Loss: 4.559386022347543, Train D Loss: -1.4222453837593398
+Client_id:3, Average D_cost: -1.4334827641646066, Average G_cost: 4.980642245461543, Average Wasserstein_D: 1.5579449901978175, Average Time: 0.01767024795214335s
+Client_id:4, Average D_cost: -1.3510341254373393, Average G_cost: 4.545357455561558, Average Wasserstein_D: 1.4696381320556005, Average Time: 0.018078909317652384s
+Client_id:5, Average D_cost: -1.4020661181459824, Average G_cost: 4.007218489795923, Average Wasserstein_D: 1.5318729475140571, Average Time: 0.017017966508865355s
+Train G Loss: 4.511072730273008, Train D Loss: -1.3955276692493095
+Client_id:6, Average D_cost: -1.4113208860158921, Average G_cost: 5.047479434559743, Average Wasserstein_D: 1.5329495534300803, Average Time: 0.01711968978246053s
+Client_id:7, Average D_cost: -1.3777487104137738, Average G_cost: 4.821537241836389, Average Wasserstein_D: 1.4998618985215824, Average Time: 0.017285881439844768s
+Client_id:8, Average D_cost: -1.3900250082214674, Average G_cost: 4.19276755352815, Average Wasserstein_D: 1.516273672382037, Average Time: 0.017818518479665122s
+Train G Loss: 4.68726140997476, Train D Loss: -1.3930315348837112
+Train G Loss: 4.585906720865104, Train D Loss: -1.4036015292974533
+Test G_cost: -10.648875904083251, Test D_cost: -2.032122770945231, Test Wasserstein_D: 2.032122770945231
+Epoch 75:
+Client_id:0, Average D_cost: -1.4024537007013957, Average G_cost: -3.969155308852593, Average Wasserstein_D: 1.518505080540975, Average Time: 0.017150235176086426s
+Client_id:1, Average D_cost: -1.462732167293628, Average G_cost: -4.371593454480172, Average Wasserstein_D: 1.5862553521990777, Average Time: 0.013129210472106934s
+Client_id:2, Average D_cost: -1.3962745100259781, Average G_cost: -5.127415118614833, Average Wasserstein_D: 1.5178737978140513, Average Time: 0.011636622746785482s
+Train G Loss: -4.489387960649199, Train D Loss: -1.4204867926736673
+Client_id:3, Average D_cost: -1.3669873828689256, Average G_cost: -4.069599160552025, Average Wasserstein_D: 1.4779320945342382, Average Time: 0.013589199384053547s
+Client_id:4, Average D_cost: -1.3721585154533387, Average G_cost: -5.145816642294327, Average Wasserstein_D: 1.4871398230393729, Average Time: 0.017401744922002155s
+Client_id:5, Average D_cost: -1.4058183491230012, Average G_cost: -3.5664098908620265, Average Wasserstein_D: 1.5183679143587747, Average Time: 0.01681715448697408s
+Train G Loss: -4.260608564569459, Train D Loss: -1.381654749148422
+Client_id:6, Average D_cost: -1.4052741572260856, Average G_cost: -5.140706040958563, Average Wasserstein_D: 1.525493218501409, Average Time: 0.01747123201688131s
+Client_id:7, Average D_cost: -1.371409909427166, Average G_cost: -4.146693381434306, Average Wasserstein_D: 1.4880360821882883, Average Time: 0.017142210404078165s
+Client_id:8, Average D_cost: -1.4372266724705696, Average G_cost: -4.289547177004473, Average Wasserstein_D: 1.5703898300727208, Average Time: 0.017469573020935058s
+Train G Loss: -4.52564886646578, Train D Loss: -1.4046369130412737
+Train G Loss: -4.4252151305614795, Train D Loss: -1.4022594849544543
+Test G_cost: -3.8262749195098875, Test D_cost: -1.1929588973522187, Test Wasserstein_D: 1.1929588973522187
+Epoch 76:
+Client_id:0, Average D_cost: -1.2207466865579286, Average G_cost: 3.341030857587854, Average Wasserstein_D: 1.3305046687523523, Average Time: 0.017441099882125853s
+Client_id:1, Average D_cost: -1.2266699294249217, Average G_cost: 3.1218723961462578, Average Wasserstein_D: 1.3330491145451864, Average Time: 0.018461612860361735s
+Client_id:2, Average D_cost: -1.2563666353623073, Average G_cost: 3.4816484982458253, Average Wasserstein_D: 1.3743735447525978, Average Time: 0.017300913731257122s
+Train G Loss: 3.3148505839933122, Train D Loss: -1.2345944171150525
+Client_id:3, Average D_cost: -1.1961759055654209, Average G_cost: 2.957385959972938, Average Wasserstein_D: 1.3068497051795325, Average Time: 0.01750035087267558s
+Client_id:4, Average D_cost: -1.2298785515129567, Average G_cost: 3.287900909471015, Average Wasserstein_D: 1.3345139195521674, Average Time: 0.01174789269765218s
+Client_id:5, Average D_cost: -1.2278161273958783, Average G_cost: 3.5384233950947723, Average Wasserstein_D: 1.3406292850772539, Average Time: 0.01159205436706543s
+Train G Loss: 3.261236754846242, Train D Loss: -1.2179568614914187
+Client_id:6, Average D_cost: -1.2353799986342588, Average G_cost: 3.1634337941805524, Average Wasserstein_D: 1.353936594724655, Average Time: 0.015530755122502645s
+Client_id:7, Average D_cost: -1.170646304016312, Average G_cost: 3.0645857894172273, Average Wasserstein_D: 1.274143867691358, Average Time: 0.017745707432428995s
+Client_id:8, Average D_cost: -1.191401787971457, Average G_cost: 3.4323714377668995, Average Wasserstein_D: 1.2962232212225595, Average Time: 0.018107054630915324s
+Train G Loss: 3.2201303404548933, Train D Loss: -1.1991426968740093
+Train G Loss: 3.2654058930981495, Train D Loss: -1.21723132516016
+Test G_cost: -2.663684413830439, Test D_cost: -0.7739092946052551, Test Wasserstein_D: 0.7739092946052551
+Epoch 77:
+Client_id:0, Average D_cost: -1.3211567791799703, Average G_cost: -2.183436654508114, Average Wasserstein_D: 1.4393904859821, Average Time: 0.01773581306139628s
+Client_id:1, Average D_cost: -1.3560478866100312, Average G_cost: -1.7258251418670019, Average Wasserstein_D: 1.4852187730371953, Average Time: 0.01765338977177938s
+Client_id:2, Average D_cost: -1.3211221925914287, Average G_cost: -1.444283915311098, Average Wasserstein_D: 1.4434922993183137, Average Time: 0.017198532819747925s
+Train G Loss: -1.784515237228738, Train D Loss: -1.3327756194604767
+Client_id:3, Average D_cost: -1.3076346211135388, Average G_cost: -2.0677333010981482, Average Wasserstein_D: 1.4221374208728472, Average Time: 0.017083658774693807s
+Client_id:4, Average D_cost: -1.2552981976419688, Average G_cost: -1.2626225893075267, Average Wasserstein_D: 1.3638229466974736, Average Time: 0.017081389824549358s
+Client_id:5, Average D_cost: -1.2668561063706876, Average G_cost: -1.7765037909538175, Average Wasserstein_D: 1.3789775893092155, Average Time: 0.017492222785949706s
+Train G Loss: -1.702286560453164, Train D Loss: -1.2765963083753984
+Client_id:6, Average D_cost: -1.32234311675032, Average G_cost: -1.8275523976733288, Average Wasserstein_D: 1.4370351965228716, Average Time: 0.015833810965220133s
+Client_id:7, Average D_cost: -1.3184903177122276, Average G_cost: -1.5198773963066439, Average Wasserstein_D: 1.4404082112014294, Average Time: 0.012350612878799438s
+Client_id:8, Average D_cost: -1.3190272177569569, Average G_cost: -2.1281257907859983, Average Wasserstein_D: 1.4403831395010154, Average Time: 0.013321930170059204s
+Train G Loss: -1.8251851949219902, Train D Loss: -1.3199535507398348
+Train G Loss: -1.770662330867964, Train D Loss: -1.3097751595252367
+Test G_cost: -1.9919457107782363, Test D_cost: -1.3280583242575328, Test Wasserstein_D: 1.3280583242575328
+Epoch 78:
+Client_id:0, Average D_cost: -1.2797789119184018, Average G_cost: 3.2037207714592415, Average Wasserstein_D: 1.3923352286219597, Average Time: 0.018078015247980753s
+Client_id:1, Average D_cost: -1.295185701549053, Average G_cost: 2.970016302416722, Average Wasserstein_D: 1.4042155489325523, Average Time: 0.017669256528218588s
+Client_id:2, Average D_cost: -1.277497409284115, Average G_cost: 3.1797889371402563, Average Wasserstein_D: 1.384472997734944, Average Time: 0.01773485740025838s
+Train G Loss: 3.1178420036720738, Train D Loss: -1.2841540075838567
+Client_id:3, Average D_cost: -1.2709613477190336, Average G_cost: 3.0490924269271393, Average Wasserstein_D: 1.375942478577296, Average Time: 0.01735981504122416s
+Client_id:4, Average D_cost: -1.2822847495476404, Average G_cost: 2.911610693926923, Average Wasserstein_D: 1.3897676760951678, Average Time: 0.01790511210759481s
+Client_id:5, Average D_cost: -1.2677837545673052, Average G_cost: 2.6653987280714015, Average Wasserstein_D: 1.3724323744575182, Average Time: 0.016867609818776448s
+Train G Loss: 2.8753672829751546, Train D Loss: -1.273676617277993
+Client_id:6, Average D_cost: -1.2983221122374138, Average G_cost: 3.403463921385507, Average Wasserstein_D: 1.4093973656495413, Average Time: 0.017776445547739664s
+Client_id:7, Average D_cost: -1.2728449851895371, Average G_cost: 3.005295142632288, Average Wasserstein_D: 1.377130241692066, Average Time: 0.017229392131169637s
+Client_id:8, Average D_cost: -1.2806993126869202, Average G_cost: 3.3696555670971673, Average Wasserstein_D: 1.3867061634858449, Average Time: 0.017814602454503378s
+Train G Loss: 3.2594715437049877, Train D Loss: -1.283955470037957
+Train G Loss: 3.084226943450739, Train D Loss: -1.280595364966602
+Test G_cost: 2.444053526719411, Test D_cost: -1.1138608704010646, Test Wasserstein_D: 1.1138608704010646
+Epoch 79:
+Client_id:0, Average D_cost: -1.297717964152495, Average G_cost: -0.21939660583933193, Average Wasserstein_D: 1.3987773567438126, Average Time: 0.012662392854690552s
+Client_id:1, Average D_cost: -1.2323553000887235, Average G_cost: -0.1625130295753479, Average Wasserstein_D: 1.3277043412129084, Average Time: 0.011467025677363078s
+Client_id:2, Average D_cost: -1.2669845129052797, Average G_cost: -0.034704324478904404, Average Wasserstein_D: 1.3598043471574783, Average Time: 0.014778657754262289s
+Train G Loss: -0.1388713199645281, Train D Loss: -1.2656859257154993
+Client_id:3, Average D_cost: -1.2386949002742766, Average G_cost: 0.056173630493382615, Average Wasserstein_D: 1.3367170160015425, Average Time: 0.01720847487449646s
+Client_id:4, Average D_cost: -1.2662498570978642, Average G_cost: -0.17412779852747917, Average Wasserstein_D: 1.3604868724942207, Average Time: 0.01795785625775655s
+Client_id:5, Average D_cost: -1.2622992403805255, Average G_cost: -0.2185730876866728, Average Wasserstein_D: 1.3611463030179343, Average Time: 0.01750767429669698s
+Train G Loss: -0.11217575190692312, Train D Loss: -1.2557479992508889
+Client_id:6, Average D_cost: -1.2530532628297806, Average G_cost: -0.12943354916448394, Average Wasserstein_D: 1.3484434361259143, Average Time: 0.0180549681186676s
+Client_id:7, Average D_cost: -1.270891435444355, Average G_cost: -0.6054635482529799, Average Wasserstein_D: 1.3714017445842426, Average Time: 0.017843514680862427s
+Client_id:8, Average D_cost: -1.2562015041708947, Average G_cost: -0.35644987002015116, Average Wasserstein_D: 1.3589810172716776, Average Time: 0.017607688903808594s
+Train G Loss: -0.363782322479205, Train D Loss: -1.2600487341483435
+Train G Loss: -0.20494313145021872, Train D Loss: -1.2604942197049105
+Test G_cost: 6.789139608542125, Test D_cost: -1.4962636351585388, Test Wasserstein_D: 1.4962636351585388
+Epoch 80:
+Client_id:0, Average D_cost: -1.265734039992094, Average G_cost: 7.189274803797404, Average Wasserstein_D: 1.3768023371696472, Average Time: 0.017314555247624715s
+Client_id:1, Average D_cost: -1.2440350828071436, Average G_cost: 7.474078744649887, Average Wasserstein_D: 1.346055805683136, Average Time: 0.017558538913726808s
+Client_id:2, Average D_cost: -1.2159602110584578, Average G_cost: 7.594807077447573, Average Wasserstein_D: 1.3185452659924826, Average Time: 0.016471445560455322s
+Train G Loss: 7.419386875298287, Train D Loss: -1.2419097779525652
+Client_id:3, Average D_cost: -1.2496927027901015, Average G_cost: 8.131452870368957, Average Wasserstein_D: 1.3593566487232844, Average Time: 0.012035185098648071s
+Client_id:4, Average D_cost: -1.226043496777614, Average G_cost: 7.482267554601034, Average Wasserstein_D: 1.3296660363674164, Average Time: 0.012870099147160847s
+Client_id:5, Average D_cost: -1.2446554765105247, Average G_cost: 8.01761378645897, Average Wasserstein_D: 1.3457602510849636, Average Time: 0.017772221565246583s
+Train G Loss: 7.8771114038096535, Train D Loss: -1.2401305586927467
+Client_id:6, Average D_cost: -1.247497337218374, Average G_cost: 8.516080490748088, Average Wasserstein_D: 1.3573074340820312, Average Time: 0.017658416430155435s
+Client_id:7, Average D_cost: -1.3067932267983755, Average G_cost: 7.621722608804703, Average Wasserstein_D: 1.4216033548116684, Average Time: 0.017935699224472045s
+Client_id:8, Average D_cost: -1.242955414329966, Average G_cost: 7.898030877113342, Average Wasserstein_D: 1.3487266689538955, Average Time: 0.017731666564941406s
+Train G Loss: 8.01194465888871, Train D Loss: -1.2657486594489054
+Train G Loss: 7.769480979332218, Train D Loss: -1.2492629986980726
+Test G_cost: 11.912273303667705, Test D_cost: -1.1067051649093629, Test Wasserstein_D: 1.1067051649093629
+Epoch 80, FID: 131.14246942253712
+Epoch 81:
+Client_id:0, Average D_cost: -1.2364989700416724, Average G_cost: -1.6790588941114644, Average Wasserstein_D: 1.3453387359778086, Average Time: 0.01738222042719523s
+Client_id:1, Average D_cost: -1.2593672807017962, Average G_cost: -1.554701661155559, Average Wasserstein_D: 1.371078430612882, Average Time: 0.017722856998443604s
+Client_id:2, Average D_cost: -1.1805292187879484, Average G_cost: -0.8206846967649957, Average Wasserstein_D: 1.2820858498414358, Average Time: 0.016726003090540568s
+Train G Loss: -1.3514817506773398, Train D Loss: -1.2254651565104722
+Client_id:3, Average D_cost: -1.2377474588652453, Average G_cost: -0.8973325164988637, Average Wasserstein_D: 1.343072204788526, Average Time: 0.0123196542263031s
+Client_id:4, Average D_cost: -1.2075161489347617, Average G_cost: -1.3330684359030178, Average Wasserstein_D: 1.3143922463059425, Average Time: 0.01223014791806539s
+Client_id:5, Average D_cost: -1.2085921590526898, Average G_cost: -0.8294301138569912, Average Wasserstein_D: 1.3120591923594476, Average Time: 0.016977552572886148s
+Train G Loss: -1.0199436887529576, Train D Loss: -1.2179519222842323
+Client_id:6, Average D_cost: -1.190158296873172, Average G_cost: -1.1571695204203327, Average Wasserstein_D: 1.2920603101452193, Average Time: 0.01822946866353353s
+Client_id:7, Average D_cost: -1.2180628349383673, Average G_cost: -1.4987903837425014, Average Wasserstein_D: 1.3247087895870209, Average Time: 0.017678407828013103s
+Client_id:8, Average D_cost: -1.1840224953989187, Average G_cost: -0.6689112823728162, Average Wasserstein_D: 1.2907057851552963, Average Time: 0.016981093088785808s
+Train G Loss: -1.1082903955118835, Train D Loss: -1.197414542403486
+Train G Loss: -1.1599052783140602, Train D Loss: -1.2136105403993966
+Test G_cost: 0.5997297088305156, Test D_cost: -1.3548325404524804, Test Wasserstein_D: 1.3548325404524804
+Epoch 82:
+Client_id:0, Average D_cost: -1.1731114586194356, Average G_cost: 3.464023859302203, Average Wasserstein_D: 1.272744393348694, Average Time: 0.01760281721750895s
+Client_id:1, Average D_cost: -1.1291978904356559, Average G_cost: 3.5502480702474712, Average Wasserstein_D: 1.2139403065045675, Average Time: 0.017306633790334067s
+Client_id:2, Average D_cost: -1.1162492143611114, Average G_cost: 2.6007298597755533, Average Wasserstein_D: 1.2025264208515485, Average Time: 0.017912677923838296s
+Train G Loss: 3.2050005964417423, Train D Loss: -1.1395195211387343
+Client_id:3, Average D_cost: -1.1296096452822288, Average G_cost: 4.269718325572709, Average Wasserstein_D: 1.2201081583897273, Average Time: 0.018304695685704548s
+Client_id:4, Average D_cost: -1.1106064361830552, Average G_cost: 2.941130270871023, Average Wasserstein_D: 1.193025927245617, Average Time: 0.01741307179133097s
+Client_id:5, Average D_cost: -1.1888603267570337, Average G_cost: 3.7114973022292057, Average Wasserstein_D: 1.2860226064920426, Average Time: 0.014393730958302816s
+Train G Loss: 3.640781966224312, Train D Loss: -1.143025469407439
+Client_id:6, Average D_cost: -1.1530072515209515, Average G_cost: 3.4031869584384062, Average Wasserstein_D: 1.2399870033065479, Average Time: 0.011642265319824218s
+Client_id:7, Average D_cost: -1.1613170911868413, Average G_cost: 3.1985388535695773, Average Wasserstein_D: 1.2486000865697862, Average Time: 0.01397159496943156s
+Client_id:8, Average D_cost: -1.1028488006442785, Average G_cost: 3.755745975797375, Average Wasserstein_D: 1.187413889169693, Average Time: 0.017408819993336995s
+Train G Loss: 3.4524905959351195, Train D Loss: -1.1390577144506906
+Train G Loss: 3.432757719533724, Train D Loss: -1.140534234998955
+Test G_cost: 4.494374326864878, Test D_cost: -0.7903121272722881, Test Wasserstein_D: 0.7903121272722881
+Epoch 83:
+Client_id:0, Average D_cost: -1.2075293717284998, Average G_cost: -3.265441444485138, Average Wasserstein_D: 1.305125074585279, Average Time: 0.01718458334604899s
+Client_id:1, Average D_cost: -1.2290568988770247, Average G_cost: -3.15697973202914, Average Wasserstein_D: 1.3357148483395576, Average Time: 0.01722203493118286s
+Client_id:2, Average D_cost: -1.1607874589661757, Average G_cost: -2.70871824529022, Average Wasserstein_D: 1.2532283768057824, Average Time: 0.01786172389984131s
+Train G Loss: -3.0437131406014992, Train D Loss: -1.1991245765239003
+Client_id:3, Average D_cost: -1.2455183704694113, Average G_cost: -3.2754110882679623, Average Wasserstein_D: 1.348492306470871, Average Time: 0.01739679972330729s
+Client_id:4, Average D_cost: -1.1677780106663704, Average G_cost: -2.700220190982024, Average Wasserstein_D: 1.2587235738833746, Average Time: 0.0182197372118632s
+Client_id:5, Average D_cost: -1.2123236492276193, Average G_cost: -2.6683387889216346, Average Wasserstein_D: 1.3123201683163643, Average Time: 0.017252830664316814s
+Train G Loss: -2.881323356057207, Train D Loss: -1.2085400101211337
+Client_id:6, Average D_cost: -1.1776295434683561, Average G_cost: -2.9097116769601903, Average Wasserstein_D: 1.2780075619618099, Average Time: 0.017396479845046997s
+Client_id:7, Average D_cost: -1.1827856361865998, Average G_cost: -3.2459162270029385, Average Wasserstein_D: 1.2783093079924583, Average Time: 0.01798354387283325s
+Client_id:8, Average D_cost: -1.2161087696750958, Average G_cost: -2.7334140489498773, Average Wasserstein_D: 1.3184059749046961, Average Time: 0.01350478728612264s
+Train G Loss: -2.9630139843043355, Train D Loss: -1.1921746497766839
+Train G Loss: -2.9626834936543474, Train D Loss: -1.1999464121405727
+Test G_cost: -6.18191648721695, Test D_cost: -1.565384022394816, Test Wasserstein_D: 1.565384022394816
+Epoch 84:
+Client_id:0, Average D_cost: -1.2759735569357873, Average G_cost: 3.8408956037213406, Average Wasserstein_D: 1.3734968284765878, Average Time: 0.012378724416097005s
+Client_id:1, Average D_cost: -1.252136667072773, Average G_cost: 3.756280522397719, Average Wasserstein_D: 1.344217955072721, Average Time: 0.017841796080271404s
+Client_id:2, Average D_cost: -1.2656988978385926, Average G_cost: 3.833893444140752, Average Wasserstein_D: 1.3600592295328775, Average Time: 0.017320150136947633s
+Train G Loss: 3.8103565234199372, Train D Loss: -1.2646030406157174
+Client_id:3, Average D_cost: -1.2205118477344512, Average G_cost: 4.170911195377509, Average Wasserstein_D: 1.3094452361265818, Average Time: 0.017764182885487874s
+Client_id:4, Average D_cost: -1.2186384337643783, Average G_cost: 3.3277300698061785, Average Wasserstein_D: 1.3131035765012105, Average Time: 0.017681326468785605s
+Client_id:5, Average D_cost: -1.2757850547631582, Average G_cost: 3.5272582966213424, Average Wasserstein_D: 1.3732350264986357, Average Time: 0.01701700290044149s
+Train G Loss: 3.67529985393501, Train D Loss: -1.238311778753996
+Client_id:6, Average D_cost: -1.2550466577212016, Average G_cost: 3.871789073726783, Average Wasserstein_D: 1.3495729347070058, Average Time: 0.01720659335454305s
+Client_id:7, Average D_cost: -1.2281337892015776, Average G_cost: 3.041162214676539, Average Wasserstein_D: 1.3215888783335685, Average Time: 0.01767933170000712s
+Client_id:8, Average D_cost: -1.2644957557320595, Average G_cost: 3.790684803761542, Average Wasserstein_D: 1.361677632232507, Average Time: 0.017492522795995075s
+Train G Loss: 3.567878697388288, Train D Loss: -1.2492254008849464
+Train G Loss: 3.6845116915810787, Train D Loss: -1.2507134067515533
+Test G_cost: -0.03388630043579421, Test D_cost: -1.0872735845545927, Test Wasserstein_D: 1.0872735845545927
+Epoch 85:
+Client_id:0, Average D_cost: -1.1023895179231962, Average G_cost: -0.34292590188172956, Average Wasserstein_D: 1.200004418939352, Average Time: 0.017569061120351157s
+Client_id:1, Average D_cost: -1.1649095311760902, Average G_cost: -0.2048352791927755, Average Wasserstein_D: 1.2724314654866855, Average Time: 0.013242975870768229s
+Client_id:2, Average D_cost: -1.192904814084371, Average G_cost: -0.8474756570532918, Average Wasserstein_D: 1.3292064152657985, Average Time: 0.011774917443593344s
+Train G Loss: -0.465078946042599, Train D Loss: -1.1534012877278859
+Client_id:3, Average D_cost: -1.1239226214587688, Average G_cost: -0.09692557056744894, Average Wasserstein_D: 1.2231666391094527, Average Time: 0.014588260650634765s
+Client_id:4, Average D_cost: -1.134659969806671, Average G_cost: -0.3745791009006401, Average Wasserstein_D: 1.23306182573239, Average Time: 0.018154040972391764s
+Client_id:5, Average D_cost: -1.1770843058824538, Average G_cost: -0.38744286256308746, Average Wasserstein_D: 1.2993435790141423, Average Time: 0.01791248321533203s
+Train G Loss: -0.28631584467705884, Train D Loss: -1.145222299049298
+Client_id:6, Average D_cost: -1.1117722754677137, Average G_cost: 0.46257747029837143, Average Wasserstein_D: 1.2092838421463967, Average Time: 0.018014140923817954s
+Client_id:7, Average D_cost: -1.1354440095523992, Average G_cost: -0.07453852747178948, Average Wasserstein_D: 1.2404233552515507, Average Time: 0.017573849360148112s
+Client_id:8, Average D_cost: -1.1183565206825734, Average G_cost: 0.25142439020176727, Average Wasserstein_D: 1.2174517080187797, Average Time: 0.01794957121213277s
+Train G Loss: 0.21315444434278308, Train D Loss: -1.1218576019008955
+Train G Loss: -0.1794134487922916, Train D Loss: -1.1401603962260263
+Test G_cost: -10.508980560302735, Test D_cost: -0.9618895530700684, Test Wasserstein_D: 0.9618895530700684
+Epoch 86:
+Client_id:0, Average D_cost: -1.163409660415103, Average G_cost: 2.904536661847184, Average Wasserstein_D: 1.2723526666561762, Average Time: 0.01792456309000651s
+Client_id:1, Average D_cost: -1.0971541648730636, Average G_cost: 2.9981306353894372, Average Wasserstein_D: 1.1931090861558915, Average Time: 0.01758080323537191s
+Client_id:2, Average D_cost: -1.103441750879089, Average G_cost: 2.490701707514624, Average Wasserstein_D: 1.2028814946611723, Average Time: 0.017614672581354778s
+Train G Loss: 2.797789668250415, Train D Loss: -1.121335192055752
+Client_id:3, Average D_cost: -1.1045100213338932, Average G_cost: 3.4143673463414115, Average Wasserstein_D: 1.1981506367524466, Average Time: 0.017283620436986287s
+Client_id:4, Average D_cost: -1.1197058252990246, Average G_cost: 3.386875659103195, Average Wasserstein_D: 1.2188261369864146, Average Time: 0.012238752841949464s
+Client_id:5, Average D_cost: -1.0855180328090985, Average G_cost: 3.562259928831675, Average Wasserstein_D: 1.1799393261472384, Average Time: 0.012868624925613404s
+Train G Loss: 3.454500978092094, Train D Loss: -1.1032446264806721
+Client_id:6, Average D_cost: -1.1024199368121723, Average G_cost: 2.71796646527946, Average Wasserstein_D: 1.1993254174788792, Average Time: 0.017493991057078044s
+Client_id:7, Average D_cost: -1.1375306576490403, Average G_cost: 3.1716697636991737, Average Wasserstein_D: 1.2379520416259766, Average Time: 0.01682372490564982s
+Client_id:8, Average D_cost: -1.0924720813830693, Average G_cost: 2.7618267430613437, Average Wasserstein_D: 1.1898537755012513, Average Time: 0.01803775628407796s
+Train G Loss: 2.8838209906799928, Train D Loss: -1.1108075586147608
+Train G Loss: 3.0453705456741673, Train D Loss: -1.1117957923837283
+Test G_cost: 3.3805208881696065, Test D_cost: -1.3409510602553685, Test Wasserstein_D: 1.3409510602553685
+Epoch 87:
+Client_id:0, Average D_cost: -1.0374342947266997, Average G_cost: -0.6380277932931979, Average Wasserstein_D: 1.1375108808279037, Average Time: 0.01806137760480245s
+Client_id:1, Average D_cost: -1.0663885017236074, Average G_cost: -0.5865488315622012, Average Wasserstein_D: 1.166249298552672, Average Time: 0.01796912948290507s
+Client_id:2, Average D_cost: -1.0423565655946732, Average G_cost: -0.6209184098988771, Average Wasserstein_D: 1.1390942787130673, Average Time: 0.017565898100535073s
+Train G Loss: -0.6151650115847588, Train D Loss: -1.0487264540149934
+Client_id:3, Average D_cost: -1.0909284519652525, Average G_cost: -0.7915508759518465, Average Wasserstein_D: 1.1974746117989221, Average Time: 0.01736340522766113s
+Client_id:4, Average D_cost: -1.062186989436547, Average G_cost: -1.0041611611843109, Average Wasserstein_D: 1.1649594885607562, Average Time: 0.01847434639930725s
+Client_id:5, Average D_cost: -1.0857524541517098, Average G_cost: -0.6697728514671326, Average Wasserstein_D: 1.183302214741707, Average Time: 0.01790720025698344s
+Train G Loss: -0.8218282962010965, Train D Loss: -1.0796226318511697
+Client_id:6, Average D_cost: -1.0541868276894093, Average G_cost: -1.1979228583474955, Average Wasserstein_D: 1.1571775515874227, Average Time: 0.01425395409266154s
+Client_id:7, Average D_cost: -1.0849275273581347, Average G_cost: -0.3608824507643779, Average Wasserstein_D: 1.1856202766299249, Average Time: 0.012814086675643922s
+Client_id:8, Average D_cost: -1.1034245669841767, Average G_cost: -0.7116003443176547, Average Wasserstein_D: 1.2056222394108773, Average Time: 0.014015849431355793s
+Train G Loss: -0.7568018844765093, Train D Loss: -1.080846307343907
+Train G Loss: -0.7312650640874548, Train D Loss: -1.06973179773669
+Test G_cost: -10.004019331932067, Test D_cost: -0.6026893456776937, Test Wasserstein_D: 0.6026893456776937
+Epoch 88:
+Client_id:0, Average D_cost: -1.065155168622732, Average G_cost: 0.13314606519415975, Average Wasserstein_D: 1.157357008755207, Average Time: 0.01735990842183431s
+Client_id:1, Average D_cost: -1.0661798164869347, Average G_cost: 0.17878198542942603, Average Wasserstein_D: 1.1542809665203095, Average Time: 0.017916540304819744s
+Client_id:2, Average D_cost: -1.049761225655675, Average G_cost: 0.02969712426614327, Average Wasserstein_D: 1.1380836005012194, Average Time: 0.017832094430923463s
+Train G Loss: 0.11387505829657635, Train D Loss: -1.060365403588447
+Client_id:3, Average D_cost: -1.0150970950722695, Average G_cost: 0.1959724587077896, Average Wasserstein_D: 1.1070220022151867, Average Time: 0.01766057014465332s
+Client_id:4, Average D_cost: -1.0222211023171743, Average G_cost: 0.16069997008889914, Average Wasserstein_D: 1.1083950325846672, Average Time: 0.017520225048065184s
+Client_id:5, Average D_cost: -1.051292681445678, Average G_cost: 0.36225595269352195, Average Wasserstein_D: 1.1407995174328487, Average Time: 0.017963661750157674s
+Train G Loss: 0.23964279383007023, Train D Loss: -1.0295369596117074
+Client_id:6, Average D_cost: -1.0607566646921138, Average G_cost: 0.5372792861734828, Average Wasserstein_D: 1.1515850697954495, Average Time: 0.01707345445950826s
+Client_id:7, Average D_cost: -0.9971324558680256, Average G_cost: -0.09039494950945179, Average Wasserstein_D: 1.0827162625888984, Average Time: 0.018374774853388467s
+Client_id:8, Average D_cost: -0.9865191407501698, Average G_cost: 0.03953569298998142, Average Wasserstein_D: 1.0696115292608739, Average Time: 0.016877768437067668s
+Train G Loss: 0.16214000988467078, Train D Loss: -1.014802753770103
+Train G Loss: 0.17188595400377246, Train D Loss: -1.0349017056567524
+Test G_cost: 1.1033658544222513, Test D_cost: -0.7389813375969728, Test Wasserstein_D: 0.7389813375969728
+Epoch 89:
+Client_id:0, Average D_cost: -1.091290364911159, Average G_cost: -2.1873532560964426, Average Wasserstein_D: 1.1885795883834362, Average Time: 0.011987626552581787s
+Client_id:1, Average D_cost: -1.069198553202053, Average G_cost: -1.9695266012723247, Average Wasserstein_D: 1.171442237496376, Average Time: 0.012395429611206054s
+Client_id:2, Average D_cost: -1.1248619418591261, Average G_cost: -2.3813845470547674, Average Wasserstein_D: 1.2236548376580079, Average Time: 0.017723053693771362s
+Train G Loss: -2.1794214681411783, Train D Loss: -1.0951169533241127
+Client_id:3, Average D_cost: -1.1243230284812549, Average G_cost: -2.550424580400189, Average Wasserstein_D: 1.2217613190412522, Average Time: 0.01781518856684367s
+Client_id:4, Average D_cost: -1.0642105372001727, Average G_cost: -2.5779622939104834, Average Wasserstein_D: 1.1612591862678527, Average Time: 0.017852417627970376s
+Client_id:5, Average D_cost: -1.0715542043248811, Average G_cost: -2.2485700983554127, Average Wasserstein_D: 1.1672978301843007, Average Time: 0.01777718464533488s
+Train G Loss: -2.458985657555362, Train D Loss: -1.0866959233354363
+Client_id:6, Average D_cost: -1.075644395314157, Average G_cost: -1.7883447612946233, Average Wasserstein_D: 1.174704954524835, Average Time: 0.017600170771280923s
+Client_id:7, Average D_cost: -1.057997621720036, Average G_cost: -1.9358433769394954, Average Wasserstein_D: 1.1629030220210552, Average Time: 0.01752671202023824s
+Client_id:8, Average D_cost: -1.0881813892163337, Average G_cost: -2.2054566527406374, Average Wasserstein_D: 1.1800785859425862, Average Time: 0.017875099182128908s
+Train G Loss: -1.9765482636582519, Train D Loss: -1.073941135416842
+Train G Loss: -2.2049851297849306, Train D Loss: -1.085251337358797
+Test G_cost: -4.198986695210139, Test D_cost: -1.2971472481886546, Test Wasserstein_D: 1.2971472481886546
+Epoch 90:
+Client_id:0, Average D_cost: -1.1029719844460488, Average G_cost: -0.034805308530728024, Average Wasserstein_D: 1.1963370596369107, Average Time: 0.017635613679885864s
+Client_id:1, Average D_cost: -1.0882403194904327, Average G_cost: 0.5811494882334955, Average Wasserstein_D: 1.181584926446279, Average Time: 0.017315290371576943s
+Client_id:2, Average D_cost: -1.067065097639958, Average G_cost: 0.6089938284674038, Average Wasserstein_D: 1.1584063107768694, Average Time: 0.014243348439534505s
+Train G Loss: 0.38511266939005706, Train D Loss: -1.0860924671921464
+Client_id:3, Average D_cost: -1.1156912467132012, Average G_cost: 0.7376101527207841, Average Wasserstein_D: 1.210232234497865, Average Time: 0.011286715666453043s
+Client_id:4, Average D_cost: -1.1361970872307816, Average G_cost: 0.971779611116896, Average Wasserstein_D: 1.233435432612896, Average Time: 0.015907243887583414s
+Client_id:5, Average D_cost: -1.1173975102603435, Average G_cost: 0.4092668656259775, Average Wasserstein_D: 1.213213956852754, Average Time: 0.017605104049046836s
+Train G Loss: 0.706218876487886, Train D Loss: -1.123095281401442
+Client_id:6, Average D_cost: -1.1285763351867597, Average G_cost: 0.5196804599836469, Average Wasserstein_D: 1.2229759742816289, Average Time: 0.017447012662887573s
+Client_id:7, Average D_cost: -1.0743360442419847, Average G_cost: 0.6659078607956569, Average Wasserstein_D: 1.1642588476339977, Average Time: 0.017950783173243206s
+Client_id:8, Average D_cost: -1.142229368040959, Average G_cost: 0.6061552319908514, Average Wasserstein_D: 1.2398295094569525, Average Time: 0.017896952231725057s
+Train G Loss: 0.5972478509233851, Train D Loss: -1.1150472491565677
+Train G Loss: 0.562859798933776, Train D Loss: -1.1080783325833854
+Test G_cost: 6.980997816721598, Test D_cost: -1.162053402264913, Test Wasserstein_D: 1.162053402264913
+Epoch 90, FID: 136.5240463363208
+Epoch 91:
+Client_id:0, Average D_cost: -0.9818057597925266, Average G_cost: -1.0363190008948246, Average Wasserstein_D: 1.0525158325831094, Average Time: 0.01731666922569275s
+Client_id:1, Average D_cost: -0.9846767666439216, Average G_cost: -0.6233266568703887, Average Wasserstein_D: 1.0566873287161191, Average Time: 0.01766802668571472s
+Client_id:2, Average D_cost: -0.957839463899533, Average G_cost: -1.0496730816356528, Average Wasserstein_D: 1.027761526654164, Average Time: 0.013473385572433471s
+Train G Loss: -0.9031062464669554, Train D Loss: -0.9747739967786604
+Client_id:3, Average D_cost: -1.0276685513556003, Average G_cost: -0.8535486403076599, Average Wasserstein_D: 1.0969797184069952, Average Time: 0.011890753110249837s
+Client_id:4, Average D_cost: -0.9570726731481651, Average G_cost: -1.08219879521057, Average Wasserstein_D: 1.0266764044761658, Average Time: 0.014422353108723958s
+Client_id:5, Average D_cost: -0.9837002413968245, Average G_cost: -0.3570638777377705, Average Wasserstein_D: 1.0533876816431682, Average Time: 0.01747207244237264s
+Train G Loss: -0.7642704377520002, Train D Loss: -0.98948048863353
+Client_id:6, Average D_cost: -0.9833428248763084, Average G_cost: -0.9097774194475884, Average Wasserstein_D: 1.0541577202578385, Average Time: 0.01754567821820577s
+Client_id:7, Average D_cost: -0.9694245903442303, Average G_cost: -0.9263151485472918, Average Wasserstein_D: 1.039064468195041, Average Time: 0.01781872312227885s
+Client_id:8, Average D_cost: -0.9470028929412365, Average G_cost: -0.7622510191848657, Average Wasserstein_D: 1.0118787656227748, Average Time: 0.0170660932858785s
+Train G Loss: -0.8661145290599154, Train D Loss: -0.9665901027205918
+Train G Loss: -0.844497071092957, Train D Loss: -0.9769481960442606
+Test G_cost: -0.8887713303168615, Test D_cost: -0.8567711854974429, Test Wasserstein_D: 0.8567711854974429
+Epoch 92:
+Client_id:0, Average D_cost: -0.9977855792889992, Average G_cost: 3.5154064616731677, Average Wasserstein_D: 1.077445348103841, Average Time: 0.01773184339205424s
+Client_id:1, Average D_cost: -1.034639097750187, Average G_cost: 3.4028603547563154, Average Wasserstein_D: 1.1117158750693004, Average Time: 0.017349356412887575s
+Client_id:2, Average D_cost: -1.0072626273458203, Average G_cost: 3.598073962330818, Average Wasserstein_D: 1.0864187101523082, Average Time: 0.017743470271428426s
+Train G Loss: 3.505446926253434, Train D Loss: -1.013229101461669
+Client_id:3, Average D_cost: -0.9490517748519778, Average G_cost: 3.782854943194737, Average Wasserstein_D: 1.0305770009756088, Average Time: 0.01838590105374654s
+Client_id:4, Average D_cost: -1.0015387683485946, Average G_cost: 2.964244549224774, Average Wasserstein_D: 1.0801476856072745, Average Time: 0.015964841842651366s
+Client_id:5, Average D_cost: -1.0343490719795227, Average G_cost: 3.4815652643640838, Average Wasserstein_D: 1.1099897896250088, Average Time: 0.012390877803166707s
+Train G Loss: 3.409554918927865, Train D Loss: -0.9949798717266983
+Client_id:6, Average D_cost: -1.0049173598488172, Average G_cost: 3.7658062494398714, Average Wasserstein_D: 1.0847109590967496, Average Time: 0.011743686596552531s
+Client_id:7, Average D_cost: -1.0034828723718723, Average G_cost: 3.434400986507535, Average Wasserstein_D: 1.0790968676408133, Average Time: 0.01724805434544881s
+Client_id:8, Average D_cost: -1.0171717497209707, Average G_cost: 3.656778411567211, Average Wasserstein_D: 1.0977711006999016, Average Time: 0.01716917157173157s
+Train G Loss: 3.618995215838206, Train D Loss: -1.0085239939805535
+Train G Loss: 3.5113323536731684, Train D Loss: -1.0055776557229736
+Test G_cost: -0.7991955210765203, Test D_cost: -1.5207124104102452, Test Wasserstein_D: 1.5207124104102452
+Epoch 93:
+Client_id:0, Average D_cost: -1.0619886907438436, Average G_cost: -1.535861602301399, Average Wasserstein_D: 1.1578902224699656, Average Time: 0.01802463928858439s
+Client_id:1, Average D_cost: -1.0707926989843448, Average G_cost: -2.2632448993468035, Average Wasserstein_D: 1.1642771442731221, Average Time: 0.01763319174448649s
+Client_id:2, Average D_cost: -1.0338161304593085, Average G_cost: -1.6671871165012513, Average Wasserstein_D: 1.1276504541436831, Average Time: 0.018190828959147136s
+Train G Loss: -1.8220978727164845, Train D Loss: -1.0555325067291657
+Client_id:3, Average D_cost: -0.9971861630678177, Average G_cost: -0.9748465961466233, Average Wasserstein_D: 1.0905958165725071, Average Time: 0.017578436930974325s
+Client_id:4, Average D_cost: -1.0073040631910166, Average G_cost: -0.6556715952465311, Average Wasserstein_D: 1.0933575396736464, Average Time: 0.017947425444920857s
+Client_id:5, Average D_cost: -1.0206641589601835, Average G_cost: -1.3878048453480005, Average Wasserstein_D: 1.1083581690986952, Average Time: 0.017664825916290282s
+Train G Loss: -1.0061076789137182, Train D Loss: -1.008384795073006
+Client_id:6, Average D_cost: -1.0462334831555684, Average G_cost: -1.7264805369079113, Average Wasserstein_D: 1.1404594058791797, Average Time: 0.01764724651972453s
+Client_id:7, Average D_cost: -1.0616430509835482, Average G_cost: -1.383111811755225, Average Wasserstein_D: 1.1563338950276374, Average Time: 0.01445004145304362s
+Client_id:8, Average D_cost: -1.0359477969507376, Average G_cost: -1.2826951592539748, Average Wasserstein_D: 1.119165620704492, Average Time: 0.01219335397084554s
+Train G Loss: -1.4640958359723701, Train D Loss: -1.0479414436966181
+Train G Loss: -1.4307671292008575, Train D Loss: -1.0372862484995966
+Test G_cost: -5.69173131386439, Test D_cost: -1.2319965521494547, Test Wasserstein_D: 1.2319965521494547
+Epoch 94:
+Client_id:0, Average D_cost: -0.9968274229206144, Average G_cost: 1.8790656675895054, Average Wasserstein_D: 1.0821229919791222, Average Time: 0.01742071509361267s
+Client_id:1, Average D_cost: -0.9723169092709819, Average G_cost: 2.147079211395855, Average Wasserstein_D: 1.0613245169321697, Average Time: 0.01737858255704244s
+Client_id:2, Average D_cost: -1.0479781089971463, Average G_cost: 1.79893749486655, Average Wasserstein_D: 1.1400770395994186, Average Time: 0.017897212505340578s
+Train G Loss: 1.9416941246173034, Train D Loss: -1.0057074803962476
+Client_id:3, Average D_cost: -1.028585563848416, Average G_cost: 2.054602329681317, Average Wasserstein_D: 1.1136705150206885, Average Time: 0.018168896436691284s
+Client_id:4, Average D_cost: -1.0185398676432669, Average G_cost: 2.252020758142074, Average Wasserstein_D: 1.1146547496318817, Average Time: 0.017716068029403686s
+Client_id:5, Average D_cost: -1.0421842623502016, Average G_cost: 2.2219825204772254, Average Wasserstein_D: 1.1308249185482662, Average Time: 0.017501890659332275s
+Train G Loss: 2.1762018694335388, Train D Loss: -1.029769897947295
+Client_id:6, Average D_cost: -1.0162126480291287, Average G_cost: 1.8809326704591514, Average Wasserstein_D: 1.1036611497402191, Average Time: 0.017884639898935954s
+Client_id:7, Average D_cost: -1.0346005532890559, Average G_cost: 2.003610273512701, Average Wasserstein_D: 1.117566821972529, Average Time: 0.017989712953567504s
+Client_id:8, Average D_cost: -1.0071195889885227, Average G_cost: 2.2760571447511513, Average Wasserstein_D: 1.0897998174031576, Average Time: 0.0170453409353892s
+Train G Loss: 2.0535333629076677, Train D Loss: -1.0193109301022358
+Train G Loss: 2.05714311898617, Train D Loss: -1.0182627694819262
+Test G_cost: -1.549974395831426, Test D_cost: -1.7358084251483281, Test Wasserstein_D: 1.7358084251483281
+Epoch 95:
+Client_id:0, Average D_cost: -1.0439575934161742, Average G_cost: -0.6841624262277037, Average Wasserstein_D: 1.1438125029206276, Average Time: 0.014398366212844849s
+Client_id:1, Average D_cost: -1.037733273456494, Average G_cost: -1.3798500440393886, Average Wasserstein_D: 1.1341727810601394, Average Time: 0.012272910277048747s
+Client_id:2, Average D_cost: -1.0237434153755507, Average G_cost: -1.2195324401215961, Average Wasserstein_D: 1.121169147764643, Average Time: 0.015471639235814412s
+Train G Loss: -1.094514970129563, Train D Loss: -1.0351447607494062
+Client_id:3, Average D_cost: -1.0625341102480887, Average G_cost: -1.0870540565190216, Average Wasserstein_D: 1.1612889666110278, Average Time: 0.017558582623799644s
+Client_id:4, Average D_cost: -0.9893741079295675, Average G_cost: -1.4650275171579172, Average Wasserstein_D: 1.0771977946162223, Average Time: 0.018046738704045613s
+Client_id:5, Average D_cost: -1.0236170657599966, Average G_cost: -0.8537410780632247, Average Wasserstein_D: 1.1168349946538607, Average Time: 0.018047769864400227s
+Train G Loss: -1.1352742172467212, Train D Loss: -1.0251750946458842
+Client_id:6, Average D_cost: -1.019295226285855, Average G_cost: -0.9975079947461685, Average Wasserstein_D: 1.1149812812606494, Average Time: 0.017307082811991375s
+Client_id:7, Average D_cost: -1.040694056606541, Average G_cost: -1.341167681198567, Average Wasserstein_D: 1.1388387208183606, Average Time: 0.01770316163698832s
+Client_id:8, Average D_cost: -1.0274907896916072, Average G_cost: -1.951737171644345, Average Wasserstein_D: 1.124258832881848, Average Time: 0.018093170722325642s
+Train G Loss: -1.4301376158630268, Train D Loss: -1.0291600241946677
+Train G Loss: -1.2199756010797704, Train D Loss: -1.029826626529986
+Test G_cost: -10.94434220790863, Test D_cost: -1.1986756483713785, Test Wasserstein_D: 1.1986756483713785
+Epoch 96:
+Client_id:0, Average D_cost: -0.9759857943902414, Average G_cost: 2.5796405479932827, Average Wasserstein_D: 1.0712922513484955, Average Time: 0.01721598704655965s
+Client_id:1, Average D_cost: -1.0019114463279644, Average G_cost: 2.237584230536595, Average Wasserstein_D: 1.1024041523536046, Average Time: 0.017191402117411294s
+Client_id:2, Average D_cost: -0.9656851813197136, Average G_cost: 2.0009738156106325, Average Wasserstein_D: 1.0642779812216758, Average Time: 0.016702280441919962s
+Train G Loss: 2.2727328647135034, Train D Loss: -0.9811941406793064
+Client_id:3, Average D_cost: -0.958573333422343, Average G_cost: 2.3065566437318923, Average Wasserstein_D: 1.0546090451379617, Average Time: 0.011726029713948568s
+Client_id:4, Average D_cost: -0.9876547226061424, Average G_cost: 2.4189145245899755, Average Wasserstein_D: 1.0815975740551949, Average Time: 0.01240428884824117s
+Client_id:5, Average D_cost: -0.9364533403888344, Average G_cost: 2.1003890707467994, Average Wasserstein_D: 1.030386121571064, Average Time: 0.0170860230922699s
+Train G Loss: 2.275286746356222, Train D Loss: -0.9608937988057734
+Client_id:6, Average D_cost: -0.9498511939464758, Average G_cost: 2.2199789588650067, Average Wasserstein_D: 1.0418841344614824, Average Time: 0.01773695945739746s
+Client_id:7, Average D_cost: -0.9400583044936259, Average G_cost: 2.2320764019309234, Average Wasserstein_D: 1.031954398751259, Average Time: 0.017944725354512532s
+Client_id:8, Average D_cost: -0.9464300026496252, Average G_cost: 2.0682359298380715, Average Wasserstein_D: 1.0396888189017772, Average Time: 0.01715901494026184s
+Train G Loss: 2.1734304302113334, Train D Loss: -0.9454465003632423
+Train G Loss: 2.2404833470936865, Train D Loss: -0.9625114799494408
+Test G_cost: -1.9454665978749592, Test D_cost: -1.3065297295649847, Test Wasserstein_D: 1.3065297295649847
+Epoch 97:
+Client_id:0, Average D_cost: -0.9762323456505935, Average G_cost: 0.28708565993001683, Average Wasserstein_D: 1.0687220926086107, Average Time: 0.017386120557785035s
+Client_id:1, Average D_cost: -0.9909898428867261, Average G_cost: -0.1949980904037754, Average Wasserstein_D: 1.081255184362332, Average Time: 0.017805848519007364s
+Client_id:2, Average D_cost: -0.9963329145684838, Average G_cost: -0.7385346489492803, Average Wasserstein_D: 1.0944721400737762, Average Time: 0.01774662733078003s
+Train G Loss: -0.21548235980767963, Train D Loss: -0.9878517010352678
+Client_id:3, Average D_cost: -1.0445716619491576, Average G_cost: 1.1813242364053924, Average Wasserstein_D: 1.1430583998560906, Average Time: 0.01777050495147705s
+Client_id:4, Average D_cost: -0.9431797136863073, Average G_cost: -0.6291764857868354, Average Wasserstein_D: 1.035438100496928, Average Time: 0.01733930706977844s
+Client_id:5, Average D_cost: -1.0080988126496473, Average G_cost: -0.034498867288736315, Average Wasserstein_D: 1.1024168347318968, Average Time: 0.015051390727361042s
+Train G Loss: 0.1725496277766069, Train D Loss: -0.9986167294283707
+Client_id:6, Average D_cost: -0.9661137776449322, Average G_cost: 0.003964955414024492, Average Wasserstein_D: 1.064720851679643, Average Time: 0.012082473436991373s
+Client_id:7, Average D_cost: -1.050266149888436, Average G_cost: -0.14780704686418175, Average Wasserstein_D: 1.1476177513599395, Average Time: 0.015946616729100544s
+Client_id:8, Average D_cost: -1.0238489804168542, Average G_cost: 0.6247277722810395, Average Wasserstein_D: 1.1161386013031005, Average Time: 0.017834782600402832s
+Train G Loss: 0.1602952269436274, Train D Loss: -1.0134096359834075
+Train G Loss: 0.03912083163751823, Train D Loss: -0.9999593554823486
+Test G_cost: -10.468769137064616, Test D_cost: -1.130748494466146, Test Wasserstein_D: 1.130748494466146
+Epoch 98:
+Client_id:0, Average D_cost: -0.9473288874452312, Average G_cost: -0.5733356299499671, Average Wasserstein_D: 1.0399766951799392, Average Time: 0.01853798230489095s
+Client_id:1, Average D_cost: -0.9363262827508152, Average G_cost: -0.17949513842662176, Average Wasserstein_D: 1.0342945486307145, Average Time: 0.018281118075052897s
+Client_id:2, Average D_cost: -0.9579380727373064, Average G_cost: -0.2026005361850063, Average Wasserstein_D: 1.0537064626812935, Average Time: 0.017986130714416505s
+Train G Loss: -0.3184771015205317, Train D Loss: -0.947197747644451
+Client_id:3, Average D_cost: -0.9033779149875045, Average G_cost: -0.5137156961485744, Average Wasserstein_D: 0.9941447844107946, Average Time: 0.0173947274684906s
+Client_id:4, Average D_cost: -0.9282671489131947, Average G_cost: -0.1655638021727403, Average Wasserstein_D: 1.026348998149236, Average Time: 0.01772276759147644s
+Client_id:5, Average D_cost: -0.9489160282537341, Average G_cost: -0.2030786876877149, Average Wasserstein_D: 1.0428792834281921, Average Time: 0.017625091473261516s
+Train G Loss: -0.2941193953363432, Train D Loss: -0.9268536973848112
+Client_id:6, Average D_cost: -0.931153267994523, Average G_cost: 0.2308404916121314, Average Wasserstein_D: 1.0205417841672897, Average Time: 0.01774036089579264s
+Client_id:7, Average D_cost: -0.8887775554942589, Average G_cost: -0.4368012299140294, Average Wasserstein_D: 0.9786252578099569, Average Time: 0.017343962192535402s
+Client_id:8, Average D_cost: -0.9210417841561138, Average G_cost: -1.0085442597667376, Average Wasserstein_D: 1.009749836474657, Average Time: 0.012910238901774089s
+Train G Loss: -0.40483499935621187, Train D Loss: -0.9136575358816318
+Train G Loss: -0.33914383207102894, Train D Loss: -0.9292363269702979
+Test G_cost: 3.2704600155353547, Test D_cost: -1.5584532459576925, Test Wasserstein_D: 1.5584532459576925
+Epoch 99:
+Client_id:0, Average D_cost: -0.9996377817044656, Average G_cost: 2.411328839107106, Average Wasserstein_D: 1.079565840214491, Average Time: 0.012468673785527547s
+Client_id:1, Average D_cost: -1.0225101299583912, Average G_cost: 3.3277743741869927, Average Wasserstein_D: 1.1047261993090312, Average Time: 0.018000139792760213s
+Client_id:2, Average D_cost: -1.0049834492305914, Average G_cost: 3.0267191402614118, Average Wasserstein_D: 1.087186532219251, Average Time: 0.017051655054092407s
+Train G Loss: 2.9219407845185033, Train D Loss: -1.0090437869644828
+Client_id:3, Average D_cost: -1.004580751185616, Average G_cost: 2.6859982930434247, Average Wasserstein_D: 1.0893921852111816, Average Time: 0.017593942085901895s
+Client_id:4, Average D_cost: -1.0066788647323848, Average G_cost: 3.5220344381717346, Average Wasserstein_D: 1.0826275065541267, Average Time: 0.018392503261566162s
+Client_id:5, Average D_cost: -0.9846743017435073, Average G_cost: 3.5172709382061536, Average Wasserstein_D: 1.068655996521314, Average Time: 0.0173775315284729s
+Train G Loss: 3.241767889807104, Train D Loss: -0.9986446392205028
+Client_id:6, Average D_cost: -1.0543494602044423, Average G_cost: 3.1215499265740316, Average Wasserstein_D: 1.1465636511643729, Average Time: 0.017366892099380492s
+Client_id:7, Average D_cost: -1.0400527339428662, Average G_cost: 2.2260175781945386, Average Wasserstein_D: 1.1255271206299464, Average Time: 0.018079600731531777s
+Client_id:8, Average D_cost: -0.9944558504348, Average G_cost: 4.0999846834689375, Average Wasserstein_D: 1.0801647409796715, Average Time: 0.01693525513013204s
+Train G Loss: 3.1491840627458356, Train D Loss: -1.0296193481940363
+Train G Loss: 3.104297579023814, Train D Loss: -1.0124359247930075
+Test G_cost: -12.396682222684225, Test D_cost: -0.8394858360290527, Test Wasserstein_D: 0.8394858360290527
+Running time: 2383.3958008289337 seconds

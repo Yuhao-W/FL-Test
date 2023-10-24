@@ -13,7 +13,9 @@ def allocate_data(dataset, n_clients):
 
 # 设置超参数
 n_epoch = 100
-n_client = 3 #number of clients
+n_client = 5 #number of clients
+save_filename = "fl_wgan_mnist.txt"
+save_dir = "../star_models"
 
 # 设置设备
 use_cuda = torch.cuda.is_available()
@@ -32,21 +34,24 @@ client_train_loaders = [DataLoader(dataset, batch_size=50, shuffle=True) for dat
 clients = [Client(client_id=i, train_loader=loader, epochs=n_epoch, device=device) for i, loader in enumerate(client_train_loaders)]
 server = Server(test_loader = test_loader,device=device)
 
+print("*****************")
+
 for epoch in range(n_epoch):
     print(f"Epoch {epoch}:")
     client_models_and_losses = []
 
     for client in clients:
-        losses = client.train_epoch()
+        losses = client.train_epoch(epoch, save_filename)
         models = client.get_model_params()
         client_models_and_losses.append((models, losses))
 
     # Server aggregates the models and losses
     server.aggregate_models_and_losses(client_models_and_losses)
-    server.test_model()  # Test the aggregated model
-    server.save_models(epoch)
+    server.test_model(epoch, save_filename)  # Test the aggregated model
+    server.save_models(epoch, save_dir)
 
     # (Optional) You can send the aggregated model back to the clients if needed
     aggregated_gen, aggregated_dis = server.get_model_params()
     for client in clients:
         client.load_model_params(aggregated_gen, aggregated_dis)
+
